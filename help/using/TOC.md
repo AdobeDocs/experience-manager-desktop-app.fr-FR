@@ -8,10 +8,10 @@ user-guide-description: Découvrez comment utiliser l’application de bureau Ex
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 + [Présentation](introduction.md)
 + [Notes de mise à jour](release-notes.md)
 + [Installation ou mise à niveau](install-upgrade.md)
-+ [Utilisation de l’appli](using.md)
++ [Utilisation de l’application](using.md)
 + [Résolution des problèmes](troubleshoot.md)
 + Aide de la version précédente {#archive}
    + [Notes de mise à jour v1](release-notes-of-v1.md)
