@@ -6,9 +6,9 @@ mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.fr-FR
 index: y
 recommendations: noDisplay
-source-git-commit: 55b50485e965a7d94d3f5a1296fec16b0ad1eba9
-workflow-type: ht
-source-wordcount: '132'
+source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
+workflow-type: tm+mt
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
@@ -22,10 +22,10 @@ Le fichier metadata.md comprend des métadonnées de niveau référentiel qui tr
 |--- |--- |
 | solution-title | Utilisé dans l’en-tête de l’article en tant que lien. |
 | solution-hub-url | Ouvre la page hub Formation et assistance. |
-| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté. |
+| solution-icon | Affiche une icône de solution à côté du titre de la solution. Pas encore implémenté. |
 | getting-started-url | Lien vers la page de prise en main. |
 | tutorials-url | Lien vers des tutoriels vidéo. |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. La valeur par défaut est 2. |
+| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le volet de droite. La valeur par défaut est 2. |
 | git-repo | Spécifie l’emplacement du référentiel principal pour une utilisation interne. |
 
 Dans le fichier TOC.md
