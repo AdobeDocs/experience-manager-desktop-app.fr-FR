@@ -13,13 +13,13 @@ ht-degree: 68%
 
 # Utilisation de l’appli de bureau [!DNL Adobe Experience Manager] {#use-aem-desktop-app-v2}
 
-Utilisez la variable [!DNL Adobe Experience Manager] Application de bureau pour accéder aux ressources numériques stockées dans une [!DNL Adobe Experience Manager] Référentiel DAM sur votre bureau local. Vous pouvez ensuite utiliser ces ressources dans n’importe quelle application de bureau. Vous pouvez ouvrir et modifier les ressources localement dans les applications de bureau. Une fois les modifications effectuées, chargez-les à nouveau dans [!DNL Experience Manager] avec contrôle de version pour partager des mises à jour avec d’autres utilisateurs. Vous pouvez également charger de nouveaux fichiers et des hiérarchies de dossiers vers [!DNL Experience Manager], créer des dossiers et supprimer des ressources ou des dossiers dans le DAM d’[!DNL Experience Manager].
+Utilisez l’appli de bureau [!DNL Adobe Experience Manager] pour accéder aux ressources numériques stockées dans un référentiel DAM [!DNL Adobe Experience Manager] de votre bureau local. Vous pouvez ensuite utiliser ces ressources dans n’importe quelle application de bureau. Vous pouvez ouvrir et modifier les ressources localement dans les applications de bureau. Après avoir apporté des modifications, rechargez-les vers [!DNL Experience Manager] avec contrôle de version pour partager les mises à jour avec d’autres utilisateurs. Vous pouvez également charger de nouveaux fichiers et des hiérarchies de dossiers vers [!DNL Experience Manager], créer des dossiers et supprimer des ressources ou des dossiers dans le DAM d’[!DNL Experience Manager].
 
-L’intégration permet à différents rôles de l’organisation de gérer les ressources de manière centralisée dans [!DNL Experience Manager Assets] et pour accéder aux ressources sur un bureau local dans les applications natives sous Windows ou macOS.
+L’intégration permet à différents rôles de l’organisation de gérer les ressources de manière centralisée dans [!DNL Experience Manager Assets] et d’accéder aux ressources sur un poste de travail local dans les applications natives sous Windows ou macOS.
 
 Lorsque vous ouvrez l’application après vous être déconnecté ou lorsque vous vous connectez pour la première fois, fournissez l’URL de votre serveur [!DNL Experience Manager] au format `https://[aem-server-url]:[port]/`. Sélectionnez ensuite l’option [!UICONTROL Connect]. Indiquez vos informations d’identification pour connecter l’application au serveur.
 
-Les tâches clés que vous effectuez à l’aide de la fonction [!DNL Adobe Experience Manager] L’appli de bureau est :
+Les tâches clés que vous effectuez à l’aide de l’appli de bureau [!DNL Adobe Experience Manager] sont les suivantes :
 
 ![Workflows et tâches pouvant être effectués avec les workflows de l’application de bureau [!DNL Experience Manager]](assets/aem_desktop_app_usecases_v2.png "Workflows et tâches pouvant être effectués avec l’appli de bureau  [!DNL Adobe Experience Manager] ")
 
@@ -27,9 +27,9 @@ Télécharger [ce](assets/aem_desktop_app_usecases_print.pdf) fichier PDF prêt 
 
 ## Fonctionnement de l’appli de bureau {#how-app-works2}
 
-Avant de commencer à utiliser l’application, vous devez comprendre [fonctionnement de l’application](release-notes.md#how-app-works). Familiarisez-vous également avec les termes suivants :
+Avant de commencer à utiliser l’application, comprenez [comment l’application fonctionne](release-notes.md#how-app-works). Familiarisez-vous également avec les termes suivants :
 
-* **[!UICONTROL Desktop Actions]**: depuis l’interface web d’Assets, dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir la ressource pour la modifier dans votre application de bureau native. Ces actions sont disponibles à partir de l’interface web d’ et utilisent la fonctionnalité de l’appli de bureau . Voir [Comment activer les actions de bureau](using.md#desktopactions-v2).
+* **[!UICONTROL Desktop Actions]** : à partir de l’interface web d’Assets, dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir la ressource pour la modifier dans votre application de bureau native. Ces actions sont disponibles à partir de l’interface web d’ et utilisent la fonctionnalité de l’appli de bureau . Voir [Comment activer les actions de bureau](using.md#desktopactions-v2).
 
 * Le statut du fichier est **[!UICONTROL Cloud Only]** : ces ressources ne sont pas téléchargées sur l’ordinateur local et ne sont disponibles que sur le serveur [!DNL Experience Manager].
 
@@ -37,29 +37,29 @@ Avant de commencer à utiliser l’application, vous devez comprendre [fonctionn
 
 * Le statut du fichier est **[!UICONTROL Edited locally]** : ces ressources sont modifiées localement et les modifications restent à charger vers le serveur [!DNL Experience Manager]. Après le chargement, le statut passe à [!UICONTROL Available locally]. Voir [Modification de ressources](using.md#edit-assets-upload-updated-assets).
 
-* Le statut du fichier est **[!UICONTROL Editing conflict]**: si vous et d’autres modifiez une ressource simultanément, l’application indique qu’un conflit de modification s’est produit. L’application propose également des options pour conserver ou ignorer vos modifications. Découvrez [comment éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
+* Le statut du fichier est **[!UICONTROL Editing conflict]** : si vous et d’autres modifiez une ressource simultanément, l’application indique qu’un conflit de modification s’est produit. L’application propose également des options pour conserver ou ignorer vos modifications. Découvrez [comment éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
 * Le statut du fichier est **[!UICONTROL Modified remotely]** : l’application indique si une ressource que vous avez téléchargée est modifiée sur le serveur [!DNL Experience Manager]. L’application permet également de télécharger la dernière version et de mettre à jour votre copie locale. Découvrez [comment éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **[!UICONTROL Check-out]** : si vous modifiez un fichier ou envisagez de le modifier, faites-le passer au statut d’extraction. Une icône de verrouillage apparaît sur la ressource dans l’application et [!DNL Experience Manager] Interface web. Cette icône indique aux autres utilisateurs d’éviter de modifier simultanément la même ressource, car cela entraînerait un conflit de modification.
+* **[!UICONTROL Check-out]** : si vous modifiez un fichier ou envisagez de le modifier, faites-le passer au statut d’extraction. Il ajoute une icône de verrouillage sur la ressource dans l’application et dans l’interface web [!DNL Experience Manager]. Cette icône indique aux autres utilisateurs d’éviter de modifier simultanément la même ressource, car cela entraînerait un conflit de modification.
 
 * **[!UICONTROL Check-in]** : marquez la ressource comme étant sécurisée pour que d’autres utilisateurs puissent la modifier sans provoquer de conflit de modification. Lorsque vous chargez vos modifications, l’icône de verrouillage disparaît automatiquement. Si vous activez l’état d’archivage, l’icône de verrouillage est également supprimée, bien qu’Adobe vous recommande d’éviter l’archivage manuel sans charger les modifications. Si vous annulez vos modifications, activez manuellement le statut d’archivage.
 
 * Action **[!UICONTROL Open]** : ouvrez simplement la ressource pour la prévisualiser dans l’application native. Adobe recommande d’éviter de modifier la ressource à l’aide de cette action. Cela est dû au fait qu’il n’extrait pas la ressource. En attendant, d’autres utilisateurs peuvent apporter des modifications qui entraînent des conflits de modification.
 
-* Action **[!UICONTROL Edit]** : utilisez l’action pour modifier l’image. Cliquer [!UICONTROL Edit] extrait la ressource et ajoute une icône de verrouillage à la ressource. Après avoir cliqué sur Edit (Modifier), si vous ne souhaitez pas modifier la ressource, cliquez sur [!UICONTROL Toggle check-in]. Pour supprimer, renommer ou déplacer des ressources dans le [!DNL Experience Manager] Hiérarchie des dossiers DAM, utilisez [!DNL Experience Manager] Actions de l’interface web et non l’action de modification.
+* Action **[!UICONTROL Edit]** : utilisez l’action pour modifier l’image. Cliquez sur [!UICONTROL Edit] pour extraire la ressource et ajouter une icône de verrouillage à la ressource. Après avoir cliqué sur Edit (Modifier), si vous ne souhaitez pas modifier la ressource, cliquez sur [!UICONTROL Toggle check-in]. Pour supprimer, renommer ou déplacer des ressources dans la hiérarchie de dossiers DAM [!DNL Experience Manager], utilisez les actions de l’interface Web [!DNL Experience Manager] et non l’action de modification.
 
 * Action **[!UICONTROL Download]** : téléchargez la ressource sur votre ordinateur local. Vous pouvez télécharger les ressources maintenant et les modifier ultérieurement et travailler hors ligne et charger les modifications ultérieurement. Les fichiers sont téléchargés dans un dossier de cache sur votre système de fichiers.
 
-* **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** Action : lorsque les ressources sont téléchargées dans un dossier de cache local, l’application imite un lecteur réseau local. Il fournit un chemin d’accès local pour chaque ressource. Pour découvrir ce chemin d’accès, utilisez l’option d’affichage appropriée dans l’application. Une action d’affichage est requise pour placer des ressources dans l’application Creative Cloud. Voir [Placement de ressources](using.md#place-assets-in-native-documents).
+* Action **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** : lorsque les ressources sont téléchargées dans un dossier de cache local, l’application imite un lecteur réseau local. Il fournit un chemin d’accès local pour chaque ressource. Pour découvrir ce chemin d’accès, utilisez l’option d’affichage appropriée dans l’application. Une action d’affichage est requise pour placer des ressources dans l’application Creative Cloud. Voir [Placement de ressources](using.md#place-assets-in-native-documents).
 
-* **[!UICONTROL Open In Web]** Action : pour afficher la ressource dans la variable [!DNL Experience Manager] Interface Web, ouvrez-la sur le Web. Vous pouvez lancer d’autres workflows à partir de la [!DNL Experience Manager] comme la mise à jour de métadonnées ou la découverte de ressources.
+* Action **[!UICONTROL Open In Web]** : pour afficher la ressource dans l’interface Web [!DNL Experience Manager], ouvrez-la sur le Web. Vous pouvez initier d’autres processus à partir de l’interface [!DNL Experience Manager], tels que la mise à jour de métadonnées ou la découverte de ressources.
 
-* Action **[!UICONTROL Delete]** : supprimez la ressource du référentiel DAM d’[!DNL Experience Manager]. L’action supprime la copie d’origine de la ressource sur le serveur Experience Manager. Si vous souhaitez uniquement ignorer les modifications apportées à la ressource locale, voir [ignorer les modifications](using.md#edit-assets-upload-updated-assets).
+* Action **[!UICONTROL Delete]** : supprimez la ressource du référentiel DAM d’[!DNL Experience Manager]. L’action supprime la copie d’origine de la ressource sur le serveur Experience Manager. Si vous souhaitez uniquement ignorer les modifications apportées à la ressource locale, reportez-vous à la section [Ignorer les modifications](using.md#edit-assets-upload-updated-assets).
 
-* **[!UICONTROL Upload Changes]**: l’appli de bureau ne charge la ressource mise à jour que si vous la chargez explicitement dans la variable [!DNL Experience Manager] serveur. Lorsque vous enregistrez vos modifications, celles-ci ne sont enregistrées que sur votre ordinateur local. Lorsque vous chargez la ressource, elle est automatiquement archivée et l’icône de verrouillage est supprimée. Voir [Modification de ressources](using.md#edit-assets-upload-updated-assets).
+* **[!UICONTROL Upload Changes]** : l’appli de bureau ne charge la ressource mise à jour que si vous la chargez explicitement sur le serveur [!DNL Experience Manager]. Lorsque vous enregistrez vos modifications, celles-ci ne sont enregistrées que sur votre ordinateur local. Lorsque vous chargez la ressource, elle est automatiquement archivée et l’icône de verrouillage est supprimée. Voir [Modification de ressources](using.md#edit-assets-upload-updated-assets).
 
-## Activation des actions de bureau dans [!DNL Experience Manager] Interface web {#desktopactions-v2}
+## Activation des actions de bureau dans l’interface web de [!DNL Experience Manager] {#desktopactions-v2}
 
 À partir de l’interface utilisateur d’[!DNL Assets] ouverte dans un navigateur, vous pouvez explorer l’emplacement des ressources ou extraire et ouvrir une ressource pour la modifier dans votre appli de bureau. Ces options, qui sont appelées [!UICONTROL Desktop Actions], ne sont pas activées par défaut. Pour les activer, procédez comme suit.
 
@@ -70,7 +70,7 @@ Avant de commencer à utiliser l’application, vous devez comprendre [fonctionn
 
    ![Sélectionnez Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/enable_desktop_actions.png)
 
-   *Figure : Select [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau.*
+   *Figure : Sélectionnez [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau.*
 
 ## Parcourir, rechercher et prévisualiser des ressources {#browse-search-preview-assets}
 
@@ -97,7 +97,7 @@ Vous pouvez parcourir, rechercher et prévisualiser les ressources disponibles d
 
 ## Téléchargement de ressources {#download-assets}
 
-Vous pouvez télécharger les ressources sur votre système de fichiers local. L’application récupère les ressources de la fonction [!DNL Experience Manager] et enregistre la même copie sur votre système de fichiers local.
+Vous pouvez télécharger les ressources sur votre système de fichiers local. L’application récupère les ressources du serveur [!DNL Experience Manager] et enregistre la même copie sur votre système de fichiers local.
 
 Cliquez sur ![Icône More options](assets/do-not-localize/more2_da2.png) pour afficher les options, puis sur ![Icône Download](assets/do-not-localize/download_cloud_da2.png) pour télécharger.
 
@@ -134,9 +134,9 @@ Dans certains cas (par exemple, lorsque vous importez un fichier dans un documen
 
 ![Action Afficher le fichier pour une ressource](assets/revealfile_action_da2.png "Action Afficher le fichier pour une ressource")
 
-Cliquez sur **[!UICONTROL Reveal File]**, ou **[!UICONTROL Reveal Folder]** sur un dossier, pour ouvrir l’Explorateur Windows ou le Finder Mac avec le fichier ou le dossier présélectionné sur votre ordinateur local. Par exemple, cette option est utile pour placer la variable [!DNL Experience Manager] dans les applications natives qui prennent en charge le placement ou la liaison de fichiers locaux. Pour savoir comment placer des fichiers dans Adobe InDesign, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
+Cliquez sur **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** sur un dossier pour ouvrir l’Explorateur Windows ou le Finder Mac avec le fichier ou le dossier présélectionné sur votre ordinateur local. Par exemple, cette option est utile pour placer les fichiers [!DNL Experience Manager] dans les applications natives qui prennent en charge le placement ou la liaison de fichiers locaux. Pour savoir comment placer des fichiers dans Adobe InDesign, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
 
-La variable **[!UICONTROL Reveal File]** ouvre un partage réseau local. Elle affiche uniquement les ressources disponibles localement. En d’autres termes, il affiche les ressources qui ont été affichées, téléchargées ou ouvertes/modifiées à l’aide de l’application. Le partage réseau local ne charge aucune modification dans [!DNL Experience Manager]. Pour charger les modifications, utilisez explicitement la variable **[!UICONTROL Upload Changes]** ou **[!UICONTROL Upload]** actions dans l’application.
+L’action **[!UICONTROL Reveal File]** ouvre un partage réseau local. Elle affiche uniquement les ressources disponibles localement. En d’autres termes, il affiche les ressources qui ont été affichées, téléchargées ou ouvertes/modifiées à l’aide de l’application. Le partage réseau local ne charge aucune modification dans [!DNL Experience Manager]. Pour charger les modifications, utilisez explicitement les actions **[!UICONTROL Upload Changes]** ou **[!UICONTROL Upload]** dans l’application.
 
 >[!NOTE]
 >
@@ -144,11 +144,11 @@ La variable **[!UICONTROL Reveal File]** ouvre un partage réseau local. Elle af
 
 >[!CAUTION]
 >
->N’utilisez pas la variable **[!UICONTROL Reveal File]** pour modifier des ressources dans des applications natives. Utilisez plutôt les actions **[!UICONTROL Edit]**. Pour en savoir plus, voir [Processus avancé : collaborer sur les mêmes fichiers et éviter les conflits de modification](#adv-workflow-collaborate-avoid-conflicts).
+>N’utilisez pas l’option **[!UICONTROL Reveal File]** pour modifier des ressources dans des applications natives. Utilisez plutôt les actions **[!UICONTROL Edit]**. Pour en savoir plus, voir [Processus avancé : collaborer sur les mêmes fichiers et éviter les conflits de modification](#adv-workflow-collaborate-avoid-conflicts).
 
 ## Modifier des ressources et charger des ressources mises à jour dans [!DNL Experience Manager] {#edit-assets-upload-updated-assets}
 
-Ouvrez les ressources à modifier lorsque vous souhaitez apporter des modifications et chargez les ressources mises à jour dans le [!DNL Experience Manager] serveur. Pour éviter tout conflit avec les modifications d’autres utilisateurs, utilisez l’application pour ouvrir une session de modification. Avant de commencer la modification, assurez-vous que la ressource ne comporte pas d’icône de verrouillage indiquant qu’un autre utilisateur est en train de la modifier.
+Ouvrez les ressources à modifier lorsque vous souhaitez apporter des modifications et chargez les ressources mises à jour sur le serveur [!DNL Experience Manager]. Pour éviter tout conflit avec les modifications d’autres utilisateurs, utilisez l’application pour ouvrir une session de modification. Avant de commencer la modification, assurez-vous que la ressource ne comporte pas d’icône de verrouillage indiquant qu’un autre utilisateur est en train de la modifier.
 
 Pour modifier une ressource, recherchez-la ou accédez à son emplacement. Cliquez sur ![Icône Plus](assets/do-not-localize/more2_da2.png) puis sur **[!UICONTROL Edit]**.
 
@@ -157,13 +157,13 @@ Utilisez **[!UICONTROL Toggle Check-out]** pour verrouiller la ressource afin d�
 * Vous avez commencé à modifier une ressource sans d’abord l’extraire (vous l’avez simplement ouverte).
 * Vous vous préparez à modifier une ressource et ne souhaitez pas que d’autres personnes le fassent.
 
-Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. Utilisation de l’interface Web d’ [!DNL Assets], l’historique des ressources s’affiche dans la variable [Mode Chronologie](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
+Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. À l’aide de l’interface web de [!DNL Assets], vous pouvez afficher l’historique des ressources dans la [vue de la chronologie](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Option de chargement des modifications dans l’appli](assets/upload_changes_single1_da2.png "Option de chargement des modifications dans l’appli")
 
 ![Option de chargement des modifications lors de l’affichage d’un grand aperçu d’une ressource](assets/upload_changes_single2_da2.png "Option de chargement des modifications lors de l’affichage d’un grand aperçu d’une ressource")
 
-Pour consulter les bonnes pratiques relatives à l’édition collaborative, voir [Processus avancé : collaborer sur les mêmes fichiers et éviter les conflits de modification](#adv-workflow-collaborate-avoid-conflicts).
+Pour connaître les bonnes pratiques en matière d&#39;édition collaborative, voir [Processus avancé : collaborer sur les mêmes fichiers et éviter les conflits de modification](#adv-workflow-collaborate-avoid-conflicts).
 
 Dans les cas suivants, vous souhaiterez peut-être ignorer vos modifications apportées à la ressource locale. Cliquez sur **[!UICONTROL Discard Changes]**.
 
@@ -216,7 +216,7 @@ Dans l’application héritée, les noms de nœuds créés dans le référentiel
 
 | Caractères* | Préférence héritée dans l’application | Pour les noms de fichier | Pour les noms de dossier | Exemple |
 |---|---|---|---|---|
-| `. / : [ ] \| *` | Activé ou désactivé | Remplacé par `-` (trait d’union). Un `.` (point) dans l’extension du nom de fichier est conservé tel quel. | Remplacé par `-` (trait d’union). | `myimage.jpg` reste en l’état et `my.image.jpg` change dans `my-image.jpg`. |
+| `. / : [ ] \| *` | Activé ou désactivé | Remplacé par `-` (trait d’union). Un `.` (point) dans l’extension du nom de fichier est conservé tel quel. | Remplacé par `-` (trait d’union). | `myimage.jpg` reste en l’état et `my.image.jpg` se transforme en `my-image.jpg`. |
 | `% ; # , + ? ^ { } "` et espaces blancs | ![Icône Désélectionné](assets/do-not-localize/deselect-icon.png) Désactivé | Les espaces sont conservés | Remplacé par `-` (trait d’union). | `My Folder.` remplacé par `my-folder-`. |
 | `# % { } ? & .` | ![Icône Désélectionné](assets/do-not-localize/deselect-icon.png) Désactivé | Remplacé par `-` (trait d’union). | NA. | `#My New File.` remplacé par `-My New File-`. |
 | Caractères en majuscule | ![Icône Désélectionné](assets/do-not-localize/deselect-icon.png) Désactivé | La casse est conservée telle quelle. | Remplacé par des caractères minuscules. | `My New Folder` remplacé par `my-new-folder`. |
@@ -275,9 +275,9 @@ Lorsque vous utilisez des dossiers contenant de nombreuses ressources, faites d�
 
 Cliquez sur la vignette de quelques ressources pour sélectionner ces ressources. Pour sélectionner toutes les ressources, cochez la case située dans la barre supérieure de l’application. L’ensemble des actions applicables à l’ensemble des ressources sélectionnées s’affiche dans une barre d’outils au bas de l’application.
 
-![La barre d’outils située en bas affiche les actions pertinentes pour les ressources sélectionnées.](assets/actions_bottom_toolbar1_da2.png "La barre d’outils située en bas affiche les actions courantes des ressources sélectionnées.")
+![La barre d’outils en bas affiche les actions pertinentes pour les ressources sélectionnées](assets/actions_bottom_toolbar1_da2.png "La barre d’outils en bas affiche les actions courantes pour les ressources sélectionnées")
 
-![Aucune action dans la barre d’outils si aucune action commune pour la sélection](assets/actions_bottom_toolbar2_da2.png "La barre d’outils n’affiche aucune action lorsque des actions communes ne sont pas disponibles pour la sélection.")
+![Aucune action dans la barre d’outils si aucune action commune pour la sélection n’est affichée](assets/actions_bottom_toolbar2_da2.png "La barre d’outils n’affiche aucune action lorsque des actions communes ne sont pas disponibles pour la sélection.")
 
 Les actions disponibles dans la barre d’outils située en bas dépendent du statut des fichiers sélectionnés. Par exemple, si vous ne sélectionnez que des fichiers **[!UICONTROL Edited Locally]**, une icône **[!UICONTROL Upload Changes]** s’affiche. Si vous sélectionnez une combinaison de fichiers **[!UICONTROL Edited locally]** et **[!UICONTROL Cloud only]**, l’action **[!UICONTROL Upload Changes]** n’est pas disponible.
 
@@ -285,7 +285,7 @@ Les actions disponibles dans la barre d’outils située en bas dépendent du st
 
 L’application fournit une vue, appelée **[!UICONTROL Edited locally]**, qui vous permet d’accéder rapidement à tous les fichiers que vous avez téléchargés localement (par le biais d’actions [!UICONTROL Open] ou [!UICONTROL Edit]) puis modifiés. L’application vous permet de sélectionner toutes les ressources modifiées localement et de charger les modifications en quelques clics. Cette vue affiche également les ressources modifiées localement qui présentent un conflit de modification.
 
-![Filtrer pour afficher toutes les ressources modifiées localement](assets/edited_locally_filter_da2.png "Par exemple, filtrez pour afficher toutes les ressources modifiées localement pour un chargement en masse de modifications.")
+![Filtrer pour afficher toutes les ressources modifiées localement](assets/edited_locally_filter_da2.png "Par exemple, filtrer pour afficher toutes les ressources modifiées localement pour un chargement en masse de modifications")
 
 ### Chargement massif de ressources {#bulk-upload-assets}
 
@@ -303,21 +303,21 @@ Après le chargement, si les modifications attendues ne sont pas répercutées d
 
 Pour afficher la liste des ressources transférées au cours d’une session donnée, consultez [Chargement de ressources dans [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem).
 
-## Processus avancé : démarrez à partir du [!DNL Assets] Interface web {#adv-workflow-start-from-aem-ui}
+## Processus avancé : démarrez à partir de l’interface web [!DNL Assets] {#adv-workflow-start-from-aem-ui}
 
 Si nécessaire, lancez votre workflow à partir de l’interface web d’Assets. L’appli de bureau s’intègre à [!DNL Experience Manager] pour prendre le relais si nécessaire à l’aide des actions de bureau.
 
-La découverte de ressources constitue un cas particulier de démarrage d’un workflow à partir de l’interface Web. La barre Omni-recherche de l’interface utilisateur d’Assets offre une expérience de recherche riche et avancée. Vous souhaiterez peut-être d’abord localiser une ressource souhaitée sur le Web, puis lancer le processus dans l’application, en utilisant [!UICONTROL Desktop Actions]. Certains exemples incluent le filtrage des résultats de recherche à l’aide de facettes, la localisation d’une ressource spécifique sous licence à partir d’Adobe Stock ou une personnalisation implémentée par votre organisation qui vous permet de mieux découvrir l’interface web.
+La découverte de ressources constitue un cas particulier de démarrage d’un workflow à partir de l’interface Web. La barre Omni-recherche de l’interface utilisateur d’Assets offre une expérience de recherche riche et avancée. Vous pouvez d’abord localiser une ressource souhaitée sur le Web, puis lancer le processus dans l’application, à l’aide de [!UICONTROL Desktop Actions]. Certains exemples incluent le filtrage des résultats de recherche à l’aide de facettes, la localisation d’une ressource spécifique sous licence à partir d’Adobe Stock ou une personnalisation implémentée par votre organisation qui vous permet de mieux découvrir l’interface web.
 
 La fonctionnalité de l’appli de bureau est utilisée lorsque vous tentez les actions suivantes dans l’interface web d’Assets :
 
-* La variable [!UICONTROL Desktop Actions] that allow [!UICONTROL Open], [!UICONTROL Edit], et [!UICONTROL Reveal]
+* [!UICONTROL Desktop Actions] autorisant [!UICONTROL Open], [!UICONTROL Edit] et [!UICONTROL Reveal]
 * [!UICONTROL Upload folder]
 * [!UICONTROL Check-out] ou [!UICONTROL check-in]
 
-Par exemple, les actions de l’interface Web disponibles pour une ressource extraite dans l’application sont [!UICONTROL Open], [!UICONTROL Reveal], et [!UICONTROL Check in].
+Par exemple, les actions disponibles dans l’interface web pour une ressource extraite dans l’application sont [!UICONTROL Open], [!UICONTROL Reveal] et [!UICONTROL Check in].
 
-![Actions du bureau dans [!DNL Experience Manager] Interface web](assets/assets_web_actions_da2.png "Actions du bureau dans l’interface web Experience Manager")
+![Actions du bureau dans l’interface web [!DNL Experience Manager]](assets/assets_web_actions_da2.png "Actions du bureau dans l’interface web Experience Manager")
 
 >[!NOTE]
 >
@@ -330,7 +330,7 @@ Les informations ou le workflow suivants sont introuvables à l’aide de l’in
 * Chargement des modifications locales dans [!DNL Experience Manager].
 * Différents statuts des fichiers disponibles localement.
 
-Au contraire, vous pouvez ouvrir la ressource dans l’interface Web à partir de l’appli de bureau à l’aide de la fonction **[!UICONTROL Open In Web]** action.
+Au contraire, vous pouvez ouvrir la ressource dans l’interface web à partir de l’appli de bureau à l’aide de l’action **[!UICONTROL Open In Web]**.
 
 ## Processus avancé : collaborer sur les mêmes fichiers et éviter les conflits de modification {#adv-workflow-collaborate-avoid-conflicts}
 
@@ -354,9 +354,9 @@ Si une ressource que vous modifiez localement est également mise à jour sur le
 
 ## Processus avancé : placer et lier des ressources dans un fichier InDesign {#adv-workflow-place-assets-indesign}
 
-Lorsque vous utilisez la variable [!DNL Experience Manager] pour ouvrir des fichiers liés à des ressources de l’appli de bureau . Ces ressources sont pré-téléchargées et apparaissent placées dans les applications natives. Pour que ce processus fonctionne, votre application native doit prendre en charge le placement de liens dans des ressources locales et [!DNL Experience Manager] doit prendre en charge la résolution de ces liens dans les fichiers binaires vers des références côté serveur.
+Lorsque vous utilisez l’appli de bureau [!DNL Experience Manager] pour ouvrir des fichiers avec des ressources liées, les ressources sont pré-téléchargées et apparaissent placées dans les applications natives. Pour que ce processus fonctionne, votre application native doit prendre en charge le placement de liens dans des ressources locales et [!DNL Experience Manager] doit prendre en charge la résolution de ces liens dans les fichiers binaires vers des références côté serveur.
 
-L’appli de bureau [!DNL Experience Manager] prend en charge ce processus avec quelques applications de bureau et formats de fichier Adobe Creative Cloud (Adobe InDesign, Adobe Illustrator et Adobe Photoshop). Le processus vous permet d’utiliser efficacement les fichiers Creative Cloud pris en charge. Si l’utilisateur A ajoute des ressources à un fichier d’InDesign et les extrait dans [!DNL Experience Manager], l’utilisateur B peut voir les ressources dans le fichier même s’ils n’en font pas partie. Les ressources sont téléchargées localement sur l’ordinateur de l’utilisateur B.
+L’appli de bureau [!DNL Experience Manager] prend en charge ce processus avec quelques applications de bureau et formats de fichier Adobe Creative Cloud (Adobe InDesign, Adobe Illustrator et Adobe Photoshop). Le processus vous permet d’utiliser efficacement les fichiers Creative Cloud pris en charge. Si l’utilisateur A ajoute des ressources à un fichier d’InDesign et les extrait dans [!DNL Experience Manager], l’utilisateur B peut voir les ressources du fichier même si elles ne font pas partie du fichier. Les ressources sont téléchargées localement sur l’ordinateur de l’utilisateur B.
 
 >[!NOTE]
 >
@@ -367,15 +367,15 @@ Pour connaître les limites de ce processus, voir la [configuration requise et l
 Pour tester ce processus avec une ressource d’image et InDesign, procédez comme suit :
 
 1. Conservez à portée de main un fichier INDD avec des ressources placées dans [!DNL Experience Manager]. Pour savoir comment créer un tel fichier INDD, voir [Placement de graphiques](https://helpx.adobe.com/fr/indesign/using/placing-graphics.html).
-1. Depuis l’appli de bureau , **[!UICONTROL Edit]** le fichier INDD avec les ressources placées dans [!DNL Experience Manager].
+1. Depuis l’appli de bureau, **[!UICONTROL Edit]** le fichier INDD avec les ressources placées dans [!DNL Experience Manager].
 1. L’application télécharge le fichier d’InDesign et les ressources liées. Lorsque InDesign ouvre le document, les liens sont résolus et les ressources sont téléchargées et s’affichent dans le document InDesign.
-1. Pour placer un nouveau graphique dans le fichier InDesign, utilisez le **[!UICONTROL Reveal File]** sur la ressource. L’action télécharge la ressource localement et ouvre l’emplacement du partage réseau local dans l’Explorateur Windows ou le Finder Mac.
+1. Pour placer un nouveau graphique dans le fichier InDesign, utilisez l’action **[!UICONTROL Reveal File]** sur la ressource. L’action télécharge la ressource localement et ouvre l’emplacement du partage réseau local dans l’Explorateur Windows ou le Finder Mac.
 1. Placez la ressource affichée dans le document InDesign. Cela permet de créer un lien dans le document.
 1. Une fois les modifications effectuées dans le document InDesign, enregistrez-les et chargez-les dans [!DNL Experience Manager] à l’aide de l’appli de bureau.
 
 ## Processus avancé : télécharger les ressources localement {#adv-workflow-download-assets-locally}
 
-L’application télécharge fréquemment des ressources à partir de [!DNL Experience Manager] vers votre système de fichiers local. Les téléchargements consomment de la bande passante et de l’espace disque. Connaître les scénarios peut vous aider à optimiser le temps d’attente pour que les téléchargements se terminent.
+L’application télécharge fréquemment des ressources du serveur [!DNL Experience Manager] vers votre système de fichiers local. Les téléchargements consomment de la bande passante et de l’espace disque. Connaître les scénarios peut vous aider à optimiser le temps d’attente pour que les téléchargements se terminent.
 
 Vous pouvez télécharger les ressources dans l’application à la demande. Voir [Téléchargement de ressources](#download-assets).
 
@@ -385,4 +385,4 @@ Lorsque vous affichez l’emplacement d’une ressource ou d’un dossier depuis
 
 Lorsque vous utilisez l’action [!UICONTROL Edit] pour modifier une ressource dans une application de bureau native, la ressource est téléchargée localement si elle n’est pas déjà disponible localement. Reportez-vous à [Modification de ressources et chargement de ressources mises à jour dans [!DNL Experience Manager]](#edit-assets-upload-updated-assets).
 
-Si l’application est installée et autorisée à le faire, elle effectue les actions lorsque vous utilisez [!UICONTROL Desktop Actions] de [!DNL Experience Manager] Interface web. L’application télécharge d’abord la ressource, puis termine l’action.
+Si l’application est installée et autorisée à le faire, elle effectue les actions lorsque vous utilisez [!UICONTROL Desktop Actions] à partir de l’interface web [!DNL Experience Manager]. L’application télécharge d’abord la ressource, puis termine l’action.

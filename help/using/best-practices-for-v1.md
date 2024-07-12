@@ -13,7 +13,7 @@ ht-degree: 49%
 
 ## Présentation {#overview}
 
-[!DNL Adobe Experience Manager] L’appli de bureau associe votre solution de gestion des actifs numériques (DAM) à votre bureau afin que vous puissiez ouvrir les fichiers disponibles dans l’interface utilisateur web d’AEM directement sur le bureau. Si vous avez enregistré une ressource à partir du bureau, elle est téléchargée vers AEM à l’emplacement approprié.
+L’appli de bureau [!DNL Adobe Experience Manager] associe votre solution de gestion des actifs numériques (DAM) à votre bureau afin que vous puissiez ouvrir les fichiers disponibles dans l’interface utilisateur web d’AEM directement sur le bureau. Si vous avez enregistré une ressource à partir du bureau, elle est téléchargée vers AEM à l’emplacement approprié.
 
 AEM’appli de bureau élimine les risques de mettre à jour des copies locales incorrectes ou de mettre à jour une ressource incorrecte dans AEM. Le workflow convivial de l’appli de bureau est activé à l’aide de la technologie de partage réseau fournie par les systèmes d’exploitation de bureau.
 
@@ -39,7 +39,7 @@ Les fonctionnalités clés de l’appli de bureau AEM incluent :
 
 * **Ouverture de fichiers à partir de l’interface utilisateur web d’AEM Assets sur le bureau**. Dans l’interface utilisateur web, vous pouvez afficher des ressources sur le bureau (dans le Finder, l’Explorateur) ou ouvrir une ressource à l’aide d’une application de bureau.
 
-* **Extraction et archivage**. Assets peut être extrait pour modification. Ils sont marqués comme verrouillés pour l’utilisateur dans AEM Assets. Après la modification, la ressource peut être archivée pour la déverrouiller.
+* **Extraire et archiver**. Assets peut être extrait pour modification. Ils sont marqués comme verrouillés pour l’utilisateur dans AEM Assets. Après la modification, la ressource peut être archivée pour la déverrouiller.
 
 * **Enregistrement des modifications apportées aux fichiers**. Toute modification que vous enregistrez dans le fichier du partage réseau est automatiquement chargée dans AEM et une nouvelle version est créée.
 
@@ -47,9 +47,9 @@ Les fonctionnalités clés de l’appli de bureau AEM incluent :
 
 * **Résolution des références dans AEM**. Si les fichiers placés et les fichiers principaux avec lien sont stockés dans AEM, il peut automatiquement fournir des informations côté serveur sur les références de ressources.
 
-* **Accès à la ressource à partir du bureau**. Dans le partage réseau monté, un menu contextuel fournit une [!UICONTROL More Info] Boîte de dialogue (aperçu plus grand, métadonnées principales) et possibilité d’ouvrir une ressource dans l’interface utilisateur d’AEM.
+* **Accédez à la ressource à partir du bureau**. Dans le partage réseau monté, un menu contextuel fournit une boîte de dialogue [!UICONTROL More Info] (aperçu plus grand, métadonnées clés) et permet d’ouvrir une ressource dans l’interface utilisateur d’AEM.
 
-* **Chargement en masse de dossiers hiérarchiques volumineux**. Si vous utilisez la variable **Créer** > **Chargement de dossier** dans l’interface utilisateur d’AEM pour charger des ressources, l’appli de bureau AEM charge la hiérarchie de dossiers sélectionnée sur l’emplacement d’devant de la scène. La progression du chargement est surveillée par une interface utilisateur dédiée dans l’appli de bureau.
+* **Chargement en masse de dossiers hiérarchiques volumineux**. Si vous utilisez l’option **Créer** > **Chargement de dossiers** dans l’interface utilisateur d’AEM pour charger des ressources, l’appli de bureau AEM charge la hiérarchie de dossiers sélectionnée sur l’ en arrière-plan. La progression du chargement est surveillée par une interface utilisateur dédiée dans l’appli de bureau.
 
 ## Utilisation inappropriée de l’application de bureau AEM {#inappropriate-use-of-aem-desktop-app}
 
@@ -63,7 +63,7 @@ Les fonctionnalités clés de l’appli de bureau AEM incluent :
 
 * N’utilisez pas les lecteurs réseau de l’appli de bureau AEM pour enregistrer fréquemment les ressources. Toutes les opérations de sauvegarde sont transmises à AEM Assets. Par conséquent, il n’est pas pratique d’effectuer des opérations de modification intensives directement dans le référentiel AEM Assets monté. La modification d’une ressource directement dans le référentiel monté encombre la chronologie de la ressource avec des versions non pertinentes et impose des surcharges supplémentaires sur le serveur.
 
-* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) pour planifier et exécuter des migrations de ressources. En revanche, l’appli de bureau [prend en charge le chargement en masse.](use-app-v1.md#bulkupload) grand nombre de ressources pour la première fois dans [!DNL Adobe Experience Manager].
+* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) pour planifier et exécuter des migrations de ressources. En revanche, l’appli de bureau [ prend en charge le chargement en masse ](use-app-v1.md#bulkupload) d’un grand nombre de ressources pour la première fois dans [!DNL Adobe Experience Manager].
 
 ## Recommandations pour des cas d’utilisation spécifiques {#recommendations-for-selected-use-cases}
 
@@ -119,20 +119,20 @@ Une bonne expérience utilisateur avec l’appli de bureau AEM repose sur une co
 
 ### Remarques relatives au réseau {#network-considerations}
 
-Pour connaître les bonnes pratiques relatives à la configuration réseau d’AEM Assets, accédez à [Comment migrer des ressources en masse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) document. Voici quelques aspects importants qui permettent d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
+Pour comprendre les bonnes pratiques relatives à la configuration réseau d’AEM Assets, consultez le document [Comment migrer en masse des ressources](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) . Voici quelques aspects importants qui permettent d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
 
-* **Utilisation d’un Dispatcher correctement configuré**. Utilisez Dispatcher AEM pour plus de sécurité et assurez-vous qu’il est configuré pour [AEM connexion de l’appli de bureau à AEM derrière Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
+* **Utilisez un Dispatcher correctement configuré**. Utilisez AEM Dispatcher pour plus de sécurité et assurez-vous qu’il est configuré pour la connexion de l’appli de bureau [AEM à l’instance d’exécution d’un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
-* **Enregistrer la bande passante**. Envisagez de désactiver l’aperçu des icônes dans le Finder sur Mac lorsque vous parcourez le référentiel monté à l’aide du Finder. Le Finder demande à chaque fichier de générer un aperçu et oblige l’appli de bureau à télécharger et à mettre en cache la ressource localement. Tout en économisant de la bande passante, cette opération réduit également l’expérience utilisateur pour les utilisateurs sur le bureau. Elle doit donc être effectuée lorsque vous travaillez sur des référentiels avec des ressources volumineuses ou une bande passante limitée.
+* **Économisez la bande passante**. Envisagez de désactiver l’aperçu des icônes dans le Finder sur Mac lorsque vous parcourez le référentiel monté à l’aide du Finder. Le Finder demande à chaque fichier de générer un aperçu et oblige l’appli de bureau à télécharger et à mettre en cache la ressource localement. Tout en économisant de la bande passante, cette opération réduit également l’expérience utilisateur pour les utilisateurs sur le bureau. Elle doit donc être effectuée lorsque vous travaillez sur des référentiels avec des ressources volumineuses ou une bande passante limitée.
 
 >[!NOTE]
 >
->Pour désactiver les aperçus d’icônes, dans le Finder, accédez à [!UICONTROL View], sélectionnez [!UICONTROL View Options], puis décochez la case [!UICONTROL Show icon preview] . Cette opération ne fonctionne que pour le dossier actuel. Pour en faire une option par défaut, cliquez sur l’option [!UICONTROL Use as default] dans la même boîte de dialogue.
+>Pour désactiver les aperçus d’icônes, dans le Finder, accédez à [!UICONTROL View], sélectionnez [!UICONTROL View Options], puis désélectionnez l’option [!UICONTROL Show icon preview]. Cette opération ne fonctionne que pour le dossier actuel. Pour en faire une option par défaut, cliquez sur l’option [!UICONTROL Use as default] dans la même boîte de dialogue.
 
 ### Optimisation des performances du serveur {#optimizing-server-performance}
 
-Pour comprendre comment le serveur AEM Assets doit être optimisé en termes de performances, accédez à [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
+Pour comprendre comment le serveur AEM Assets doit être optimisé pour les performances, consultez le [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
 
-* **Chargement de ressources plus performant**. Configurez la variable [AEM le modèle de workflow de mise à jour des ressources doit être transitoire](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
+* **Chargement de ressources plus performant**. Configurez le modèle de workflow de mise à jour des ressources [AEM pour qu’il soit transitoire](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
 
-* **Limitation du processeur du serveur pour les chargements**. Assurez-vous que le nombre maximal de tâches de workflow parallèles est défini correctement, de sorte que les chargements ne consomment pas toutes les capacités du processeur.
+* **Limiter le processeur du serveur pour les chargements**. Assurez-vous que le nombre maximal de tâches de workflow parallèles est défini correctement, de sorte que les chargements ne consomment pas toutes les capacités du processeur.

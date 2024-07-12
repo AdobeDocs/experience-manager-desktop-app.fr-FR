@@ -12,7 +12,7 @@ ht-degree: 64%
 
 # Installation de l’appli de bureau [!DNL Adobe Experience Manager] {#install-app-v2}
 
-Grâce à l’appli de bureau [!DNL Adobe Experience Manager], les ressources dans [!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Assets peut être prévisualisé et ouvert dans les applications de bureau. Ils peuvent être affichés dans le Finder ou l’Explorateur pour être utilisés dans des documents et modifiés localement. Les modifications sont réenregistrées dans [!DNL Experience Manager], créant une nouvelle version au moment du téléchargement.
+Grâce à l’appli de bureau [!DNL Adobe Experience Manager], les ressources dans [!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Assets peut être prévisualisé et ouvert dans les applications de bureau. Ils peuvent être affichés dans le Finder ou l’Explorateur pour être utilisés dans des documents et modifiés localement. Les modifications sont réenregistrées dans [!DNL Experience Manager], créant une nouvelle version lors du téléchargement.
 
 Une telle intégration permet à divers rôles de l’organisation de :
 
@@ -20,9 +20,9 @@ Une telle intégration permet à divers rôles de l’organisation de :
 
 * et d’accéder aux ressources dans n’importe quelle application de bureau native, y compris les applications tierces, ainsi que dans Adobe Creative Cloud. Cela permet aux utilisateurs de se conformer facilement aux différentes normes, y compris au branding.
 
-Pour utiliser la variable [!DNL Experience Manager] application de bureau :
+Pour utiliser l’appli de bureau [!DNL Experience Manager] :
 
-* Assurez-vous que la variable [!DNL Experience Manager] est compatible avec la fonction [!DNL Experience Manager] application de bureau .
+* Assurez-vous que votre version [!DNL Experience Manager] est compatible avec l’appli de bureau [!DNL Experience Manager].
 
 * Téléchargez et installez l’application. Voir [Installation de l’application de bureau](#install-v2) ci-dessous.
 
@@ -34,7 +34,7 @@ Pour plus d’informations, voir les [[!DNL Experience Manager] Notes de mise à
 
 ## Mise à niveau depuis une version antérieure {#upgrade-from-previous-version}
 
-Si vous utilisez la version 1.x de l’appli de bureau, vous devez comprendre les différences et les similitudes entre la version précédente et la dernière version de l’application. Voir [nouveautés de l’appli de bureau](introduction.md#whats-new-v2) et [fonctionnement de l’application](release-notes.md#how-app-works).
+Si vous utilisez la version 1.x de l’appli de bureau, vous devez comprendre les différences et les similitudes entre la version précédente et la dernière version de l’application. Voir [Nouveautés de l’appli de bureau ](introduction.md#whats-new-v2) et [Fonctionnement de l’application](release-notes.md#how-app-works).
 
 >[!NOTE]
 >
@@ -76,13 +76,13 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
    *Figure : Écran de connexion pour saisir l’adresse du serveur.*
 
-   Sélectionner **[!UICONTROL Remember Connection]** pour éviter de saisir les détails de connexion à chaque connexion à l’appli de bureau .
+   Sélectionnez **[!UICONTROL Remember Connection]** pour éviter de saisir les détails de connexion chaque fois que vous vous connectez à l’appli de bureau .
 
    >[!CAUTION]
    >
-   >Assurez-vous qu’il n’existe aucun espace avant ou après l’adresse de la fonction [!DNL Experience Manager] serveur. Sinon, l’application ne peut pas se connecter à la variable [!DNL Experience Manager] serveur.
+   >Assurez-vous qu’il n’existe aucun espace avant ou après l’adresse du serveur [!DNL Experience Manager]. Dans le cas contraire, l’application ne peut pas se connecter au serveur [!DNL Experience Manager].
 
-1. [Facultatif] Cliquez sur **[!UICONTROL I want to connect a different way]** et cliquez sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide d’Adobe Identity Management Service (IMS). La connexion IMS permet à l’appli de bureau d’actualiser automatiquement le jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour ouvrir une session standard à la fonction [!DNL Experience Manager] à l’aide des informations d’identification de l’utilisateur.
+1. [Facultatif] Cliquez sur **[!UICONTROL I want to connect a different way]** et cliquez sur **[!UICONTROL Adobe login]** pour vous connecter au serveur Experience Manager Assets à l’aide d’Adobe Identity Management Service (IMS). La connexion IMS permet à l’appli de bureau d’actualiser automatiquement le jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum. Cliquez sur **[!UICONTROL Direct login]** pour établir la connexion standard au serveur [!DNL Experience Manager] à l’aide des informations d’identification de l’utilisateur.
 
    ![Connexion à Adobe](assets/adobe-login.png)
 
@@ -104,15 +104,15 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * [!UICONTROL Show a window when the application starts].
 
-* **[!UICONTROL Cache Directory]**: emplacement du cache local de l’application (il contient les ressources téléchargées localement).
+* **[!UICONTROL Cache Directory]** : emplacement du cache local de l’application (il contient les ressources téléchargées localement).
 
 * **[!UICONTROL Network Drive Letter]** : lettre de lecteur utilisée pour mapper l’application à la gestion des ressources numériques (DAM) [!DNL Experience Manager]. Ne modifiez pas cette lettre de lecteur réseau si vous n’en êtes pas sûr. L’application peut se mapper à n’importe quelle lettre de lecteur sous Windows. Si deux utilisateurs placent des ressources à partir de lettres de lecteur différentes, aucun ne pourra voir les ressources placées par l’autre. Le chemin d’accès des ressources change. Les ressources demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées. L’application répertorie toutes les lettres de lecteur disponibles et utilise par défaut la dernière lettre disponible, généralement `Z`.
 
-* **[!UICONTROL Maximum Cache Size]**: cache autorisé sur le disque dur (en Go) utilisé pour stocker les ressources téléchargées localement.
+* **[!UICONTROL Maximum Cache Size]** : cache autorisé sur le disque dur (en Go) utilisé pour stocker les ressources téléchargées localement.
 
 * **[!UICONTROL Current cache size]** : taille de stockage des ressources téléchargées en local. Les informations ne s’affichent qu’une fois les ressources téléchargées à l’aide de l’application.
 
-* **[!UICONTROL Automatically download linked assets]**: lorsque vous téléchargez le fichier d’origine, les ressources placées dans les applications de Creative Cloud natives prises en charge sont automatiquement récupérées.
+* **[!UICONTROL Automatically download linked assets]** : lorsque vous téléchargez le fichier d’origine, les ressources placées dans les applications de Creative Cloud natives prises en charge sont automatiquement récupérées.
 
 * **[!UICONTROL Maximum number of downloads]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou une autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. Augmenter la valeur peut entraîner des temps d’attente plus longs, tandis que la réduire peut vous empêcher de télécharger toutes les ressources ou tous les dossiers nécessaires en une seule tentative.
 
@@ -130,7 +130,7 @@ Pour mettre à jour les préférences non disponibles, déconnectez-vous du serv
 
 ### Prise en charge des proxys {#proxy-support}
 
-La variable [!DNL Experience Manager] L’appli de bureau utilise le proxy prédéfini du système pour se connecter à Internet via HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
+L’appli de bureau [!DNL Experience Manager] utilise le proxy prédéfini du système pour se connecter à Internet par HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
 
 Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez l’appli de bureau [!DNL Experience Manager] afin que les modifications soient prises en compte. La configuration du proxy s’applique lorsque vous lancez l’appli de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
 

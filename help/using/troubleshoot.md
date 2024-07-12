@@ -11,7 +11,7 @@ ht-degree: 55%
 
 # Résolution des problèmes liés à l’appli de bureau [!DNL Adobe Experience Manager] {#troubleshoot-v2}
 
-[!DNL Adobe Experience Manager] L’appli de bureau se connecte à un [!DNL Experience Manager] référentiel de gestion des ressources numériques (DAM) du déploiement. L’application récupère les informations du référentiel et les résultats de recherche sur votre ordinateur, télécharge et charge les fichiers et les dossiers, et inclut des fonctionnalités de gestion des conflits avec l’interface utilisateur d’Assets.
+L’appli de bureau [!DNL Adobe Experience Manager] se connecte à un référentiel de gestion des actifs numériques (DAM) d’un déploiement [!DNL Experience Manager]. L’application récupère les informations du référentiel et les résultats de recherche sur votre ordinateur, télécharge et charge les fichiers et les dossiers, et inclut des fonctionnalités de gestion des conflits avec l’interface utilisateur d’Assets.
 
 Lisez la suite de cette section pour résoudre les problèmes de l’application, découvrir les bonnes pratiques et connaître les limites.
 
@@ -19,23 +19,23 @@ Lisez la suite de cette section pour résoudre les problèmes de l’application
 
 Observez les bonnes pratiques suivantes pour éviter certains problèmes courants et relatifs au dépannage.
 
-* **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Connaître la liaison entre les [!DNL Experience Manager] l’interface web et le bureau, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local et le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
+* **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Découvrez comment fonctionne la liaison entre l’interface web [!DNL Experience Manager] et le bureau, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local et le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
-* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Les caractères non pris en charge dans le nom du dossier peuvent avoir une incidence sur certains [!DNL Experience Manager] cas d’utilisation.
+* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Les caractères non pris en charge dans le nom du dossier peuvent avoir une incidence sur certains cas d’utilisation de [!DNL Experience Manager].
 
-* **Bonnes pratiques pour éviter les conflits**: pour éviter des conflits potentiels lors de la collaboration sur plusieurs ressources, accédez à [éviter les conflits de modification ;](using.md#adv-workflow-collaborate-avoid-conflicts).
+* **Bonnes pratiques pour éviter les conflits** : pour éviter les conflits potentiels lors de la collaboration sur plusieurs ressources, accédez à [éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **Utiliser le chargement de dossiers pour les dossiers hiérarchiques volumineux**: au lieu d’utiliser l’interface web d’Assets ou d’autres méthodes, utilisez la méthode [!DNL Experience Manager] de l’appli de bureau pour charger des dossiers volumineux. L’application charge les ressources en arrière-plan avec journalisation et surveillance. Voir [Chargement en masse de ressources](using.md#bulk-upload-assets).
+* **Utiliser le chargement de dossiers pour les dossiers hiérarchiques volumineux** : au lieu d’utiliser l’interface web d’Assets ou d’autres méthodes, utilisez l’appli de bureau [!DNL Experience Manager] pour charger les dossiers volumineux. L’application charge les ressources en arrière-plan avec journalisation et surveillance. Voir [Chargement en masse de ressources](using.md#bulk-upload-assets).
 
-* **Utiliser la dernière version**: utilisez la dernière version de l’application. Vérifiez toujours la compatibilité avant d’installer une nouvelle version d’application ou avant de procéder à une mise à niveau vers une version plus récente. [!DNL Experience Manager] version. Voir les [notes de mise à jour](release-notes.md).
+* **Utiliser la dernière version** : utilisez la dernière version de l’application. Vérifiez toujours la compatibilité avant d’installer une nouvelle version de l’application ou avant de procéder à la mise à niveau vers une version [!DNL Experience Manager] plus récente. Voir les [notes de mise à jour](release-notes.md).
 
 * **Utiliser la même lettre de lecteur** : utilisez la même lettre de lecteur dans toute l’entreprise pour procéder à un mappage sur le DAM d’[!DNL Experience Manager]. Pour l’affichage des ressources placées par d’autres utilisateurs, les chemins d’accès doivent être identiques. L’utilisation de la même lettre de lecteur garantit un chemin constant vers les ressources DAM. Les ressources demeurent placées et ne sont pas supprimées même si des lettres de lecteur différentes sont utilisées par des utilisateurs différents.
 
 * **Penser au réseau** : les performances réseau sont essentielles aux performances de l’appli de bureau [!DNL Experience Manager]. Si vous rencontrez une réponse ralentie aux transferts de fichiers ou aux opérations en masse, désactivez les fonctionnalités ou les applications susceptibles d’entraîner un trafic réseau important.
 
-* **Cas d’utilisation non pris en charge par l’appli de bureau**: évitez d’utiliser l’application pour la migration des ressources, car elle nécessite une planification et des outils supplémentaires. Il n’est pas non plus adapté aux opérations de gestion des ressources numériques intensives, telles que le déplacement de dossiers volumineux, les chargements volumineux ou les recherches de métadonnées avancées. De plus, ne l’utilisez pas comme client de synchronisation, car ses principes de conception et ses schémas d’utilisation diffèrent des clients de synchronisation tels que Microsoft OneDrive ou la synchronisation de bureau Adobe Creative Cloud.
+* **Cas d’utilisation non pris en charge pour l’appli de bureau** : évitez d’utiliser l’application pour la migration des ressources, car elle nécessite des outils de planification et d’autres outils. Il n’est pas non plus adapté aux opérations de gestion des ressources numériques intensives, telles que le déplacement de dossiers volumineux, les chargements volumineux ou les recherches de métadonnées avancées. De plus, ne l’utilisez pas comme client de synchronisation, car ses principes de conception et ses schémas d’utilisation diffèrent des clients de synchronisation tels que Microsoft OneDrive ou la synchronisation de bureau Adobe Creative Cloud.
 
-* **Expiration**: actuellement, l’appli de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte la connexion entre [!DNL Experience Manager] serveur et application de bureau après un intervalle de temps fixe. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
+* **Délai d’expiration** : actuellement, l’appli de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte l’appli de bureau [!DNL Experience Manager] après un intervalle de temps fixe. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
 
 ## Comment résoudre les problèmes {#troubleshooting-prep}
 
@@ -43,7 +43,7 @@ Pour résoudre les problèmes liés à l’appli de bureau, tenez compte des inf
 
 ### Emplacement des fichiers journaux {#check-log-files-v2}
 
-La variable [!DNL Experience Manager] L’appli de bureau stocke ses fichiers journaux aux emplacements suivants en fonction du système d’exploitation :
+L’appli de bureau [!DNL Experience Manager] stocke ses fichiers journaux aux emplacements suivants en fonction du système d’exploitation :
 
 Sous Windows : `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
@@ -65,7 +65,7 @@ Pour modifier le niveau de détails dans les fichiers journaux :
 
    1. Ouvrez une fenêtre de commande.
 
-   1. Lancez le [!DNL Adobe Experience Manager] de l’appli de bureau en exécutant la commande :
+   1. Lancez l’appli de bureau [!DNL Adobe Experience Manager] en exécutant la commande :
 
    ```shell
    set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
@@ -75,7 +75,7 @@ Pour modifier le niveau de détails dans les fichiers journaux :
 
    1. Ouvrez une fenêtre de terminal.
 
-   1. Lancez le [!DNL Adobe Experience Manager] de l’appli de bureau en exécutant la commande :
+   1. Lancez l’appli de bureau [!DNL Adobe Experience Manager] en exécutant la commande :
 
    ```shell
    AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app
@@ -131,7 +131,7 @@ Pour effacer manuellement le cache, procédez comme suit :
 
 >[!CAUTION]
 >
->Ces étapes sont une opération potentiellement destructrice. Si des modifications de fichier locales ne sont pas chargées vers [!DNL Adobe Experience Manager], ces modifications sont perdues.
+>Ces étapes sont une opération potentiellement destructrice. Si des modifications de fichier locales ne sont pas téléchargées vers [!DNL Adobe Experience Manager], ces modifications sont perdues.
 
 Le cache est effacé lors de la suppression du répertoire de cache de l’application, qui peut être trouvé dans les préférences de celle-ci.
 
@@ -141,7 +141,7 @@ Le cache est effacé lors de la suppression du répertoire de cache de l’appli
 
 1. Notez la valeur [!UICONTROL Cache Directory].
 
-   Dans ce répertoire, il existe des sous-répertoires nommés d’après le code [!DNL Adobe Experience Manager] Points de fin. Les noms sont une version codée du fichier ciblé [!DNL Adobe Experience Manager] URL. Par exemple, si l’application cible `localhost:4502`, le nom du répertoire est `localhost_4502`.
+   Dans ce répertoire, il existe des sous-répertoires nommés d’après les points d’entrée [!DNL Adobe Experience Manager] codés. Les noms sont une version codée de l’URL [!DNL Adobe Experience Manager] ciblée. Par exemple, si l’application cible `localhost:4502`, le nom du répertoire est `localhost_4502`.
 
 Pour effacer le cache, supprimez le répertoire Point d’entrée [!DNL Adobe Experience Manager] codé. Sinon, la suppression de l’intégralité du répertoire spécifié dans les préférences efface le cache de toutes les instances utilisées par l’application.
 
@@ -159,15 +159,15 @@ Si vous ne pouvez pas voir les ressources que vous ou d’autres professionnels 
 
 * Autorisations. Pour vérifier que vous êtes autorisé à récupérer les ressources placées, contactez votre administrateur [!DNL Experience Manager].
 
-### Les modifications apportées aux fichiers dans l’interface utilisateur de l’appli de bureau ne sont pas répercutées dans [!DNL Adobe Experience Manager] immédiatement {#changes-on-da-not-visible-on-aem}
+### Les modifications apportées aux fichiers sur l’interface utilisateur de l’appli de bureau ne sont pas répercutées immédiatement dans [!DNL Adobe Experience Manager]. {#changes-on-da-not-visible-on-aem}
 
-L’appli de bureau [!DNL Adobe Experience Manager] laisse à l’utilisateur le soin de décider le moment où toutes les modifications apportées à un fichier sont terminées. En fonction de la taille et de la complexité d’un fichier, le transfert de la nouvelle version d’un fichier vers prend beaucoup de temps. [!DNL Adobe Experience Manager]. L’application est conçue pour minimiser le nombre de transferts de fichiers, plutôt que de charger automatiquement les fichiers en fonction de l’achèvement estimé des modifications. Il est conseillé à l’utilisateur de déclencher le transfert de retour du fichier vers [!DNL Adobe Experience Manager] en choisissant de télécharger les modifications d’un fichier.
+L’appli de bureau [!DNL Adobe Experience Manager] laisse à l’utilisateur le soin de décider le moment où toutes les modifications apportées à un fichier sont terminées. Selon la taille et la complexité d’un fichier, le transfert de la nouvelle version d’un fichier vers [!DNL Adobe Experience Manager] prend beaucoup de temps. L’application est conçue pour minimiser le nombre de transferts de fichiers, plutôt que de charger automatiquement les fichiers en fonction de l’achèvement estimé des modifications. Il est conseillé à l’utilisateur de déclencher le transfert de retour du fichier vers [!DNL Adobe Experience Manager] en choisissant de télécharger les modifications d’un fichier.
 
 ### Problèmes lors de la mise à niveau sous MacOS {#issues-when-upgrading-on-macos}
 
-Des problèmes peuvent parfois survenir lors de la mise à niveau de la variable [!DNL Experience Manager] application de bureau sur macOS. Dossiers système hérités pour la [!DNL Experience Manager] L’appli de bureau génère ces problèmes. Les dossiers empêchent la création de nouvelles versions de la fonction [!DNL Experience Manager] l’appli de bureau à charger correctement. Pour y remédier, les dossiers et fichiers suivants peuvent être supprimés manuellement.
+Des problèmes peuvent parfois survenir lors de la mise à niveau de l’appli de bureau [!DNL Experience Manager] sur macOS. Les dossiers système hérités de l’appli de bureau [!DNL Experience Manager] entraînent ces problèmes. Les dossiers empêchent le chargement correct des nouvelles versions de l’appli de bureau [!DNL Experience Manager]. Pour y remédier, les dossiers et fichiers suivants peuvent être supprimés manuellement.
 
-Avant d’exécuter les étapes suivantes, faites glisser le `Adobe Experience Manager Desktop` de l’application du dossier Applications de macOS vers la corbeille. Ouvrez ensuite le terminal, exécutez la commande suivante et saisissez votre mot de passe lorsque vous y êtes invité.
+Avant d’exécuter les étapes suivantes, faites glisser l’application `Adobe Experience Manager Desktop` du dossier Applications macOS vers la corbeille. Ouvrez ensuite le terminal, exécutez la commande suivante et saisissez votre mot de passe lorsque vous y êtes invité.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -180,19 +180,19 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## Chargement des fichiers impossible {#upload-fails}
 
-Si vous utilisez l’appli de bureau avec [!DNL Experience Manager] 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Il résout le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
+Si vous utilisez l’appli de bureau avec [!DNL Experience Manager] 6.5.1 ou version ultérieure, mettez à niveau le connecteur Azure ou S3 vers la version 1.10.4 ou ultérieure. Elle résout le problème d’échec de chargement de fichier lié à [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599). Voir [Instructions d’installation](install-upgrade.md#install-v2).
 
 ## Problèmes de connexion à l’appli de bureau [!DNL Experience Manager] {#connection-issues}
 
-Si vous rencontrez des problèmes généraux de connectivité, voici quelques moyens d’obtenir plus d’informations sur ce que la variable [!DNL Experience Manager] L’appli de bureau est en train de le faire.
+Si vous rencontrez des problèmes généraux de connectivité, voici quelques moyens d’obtenir plus d’informations sur ce que fait l’appli de bureau [!DNL Experience Manager].
 
 **Vérification du journal des requêtes**
 
-La variable [!DNL Experience Manager] L’appli de bureau consigne dans un fichier journal dédié toutes les requêtes qu’elle envoie, ainsi que le code de réponse de chaque requête.
+L’appli de bureau [!DNL Experience Manager] consigne dans un fichier journal dédié toutes les requêtes qu’elle envoie, ainsi que le code de réponse de chaque requête.
 
 1. Ouvrez le répertoire des journaux de l’application `request.log` pour afficher ces requêtes.
 
-1. Chaque ligne du journal représente une requête ou une réponse. Les requêtes contiennent une `>` suivi de l’URL demandée. Les réponses ont une `<` suivi du code de réponse et de l’URL demandée. Les demandes et les réponses peuvent être corrélées à l’aide de l’identifiant unique (GUID) de chaque ligne.
+1. Chaque ligne du journal représente une requête ou une réponse. Les requêtes comportent un caractère `>` suivi de l’URL demandée. Les réponses comportent un caractère `<` suivi du code de réponse et de l’URL demandée. Les demandes et les réponses peuvent être corrélées à l’aide de l’identifiant unique (GUID) de chaque ligne.
 
 **Vérifier les requêtes chargées par le navigateur intégré de l’application**
 
@@ -203,7 +203,7 @@ Consultez la [section SAML](#da-connection-issue-with-saml-aem) pour savoir comm
 
 L’appli de bureau [!DNL Experience Manager] peut ne pas se connecter à votre déploiement [!DNL Adobe Experience Manager] compatible SSO (SAML). La conception de l’application s’efforce de tenir compte des variations et des complexités des connexions et des processus d’authentification unique. Cependant, sa configuration peut nécessiter certaines mesures de dépannage supplémentaires.
 
-Parfois, le processus SAML ne redirige pas vers le chemin d’accès initialement demandé. Ou, la dernière redirection est effectuée vers un hôte différent de ce qui est configuré dans la variable [!DNL Adobe Experience Manager] application de bureau . Pour vérifier que ce problème n’est pas le cas, procédez comme suit :
+Parfois, le processus SAML ne redirige pas vers le chemin d’accès initialement demandé. Ou, la dernière redirection est vers un hôte différent de celui configuré dans l’appli de bureau [!DNL Adobe Experience Manager]. Pour vérifier que ce problème n’est pas le cas, procédez comme suit :
 
 1. Ouvrez un navigateur Web. Accédez à l’URL `https://[aem_server]:[port]/content/dam.json`.
 
@@ -213,9 +213,9 @@ Parfois, le processus SAML ne redirige pas vers le chemin d’accès initialemen
 
 1. Vérifiez également que tout ce qui précède `/content/dam.json` correspond à la valeur [!DNL Adobe Experience Manager] cible configurée dans les paramètres de l’appli de bureau [!DNL Adobe Experience Manager].
 
-**Le processus SAML de connexion fonctionne correctement, conformément aux étapes ci-dessus, mais les utilisateurs ne peuvent toujours pas se connecter.**
+**Le processus SAML de connexion fonctionne correctement selon les étapes ci-dessus, mais les utilisateurs ne peuvent toujours pas se connecter**
 
-La fenêtre dans la [!DNL Adobe Experience Manager] L’appli de bureau qui affiche le processus de connexion est simplement un navigateur web qui affiche la cible. [!DNL Adobe Experience Manager] interface utilisateur web de l’instance :
+La fenêtre de l’appli de bureau [!DNL Adobe Experience Manager] qui affiche le processus de connexion est simplement un navigateur web qui affiche l’interface utilisateur web de l’instance [!DNL Adobe Experience Manager] cible :
 
 * La version Mac utilise un composant [WebView](https://developer.apple.com/documentation/webkit/webview).
 
@@ -229,7 +229,7 @@ Pour résoudre d’autres problèmes, il est possible d’afficher les URL exact
 
 1. Reproduisez la tentative de connexion.
 
-1. Accédez au [répertoire des logs](#check-log-files-v2) de l’application.
+1. Accédez au [répertoire de log](#check-log-files-v2) de l’application.
 
 1. Pour Windows :
 
@@ -239,7 +239,7 @@ Pour résoudre d’autres problèmes, il est possible d’afficher les URL exact
 
    Pour Mac :
 
-   1. Dans `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, quels que soient les nombres figurant dans le nom de fichier le plus récent, remplacez **n**.
+   1. Dans `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, les numéros qui se trouvent dans le nom de fichier le plus récent remplacent **n**.
 
    1. Recherchez des messages commençant par &quot;cadre chargé&quot;. Ces entrées contiennent également l’URL chargée par l’application.
 
@@ -247,13 +247,13 @@ L’examen de la séquence d’URL en cours de chargement peut aider à résoudr
 
 ### Problème de configuration SSL {#ssl-config-v2}
 
-Les bibliothèques que la variable [!DNL Experience Manager] L’appli de bureau utilise pour la communication HTTP une application SSL stricte. Parfois, une connexion peut réussir en utilisant un navigateur, mais échouer lors de l’utilisation de la fonction [!DNL Experience Manager] application de bureau . Pour configurer SSL de manière appropriée, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
+Les bibliothèques utilisées par l’appli de bureau [!DNL Experience Manager] pour les communications HTTP appliquent le protocole SSL de manière stricte. Parfois, une connexion peut réussir en utilisant un navigateur, mais échouer lors de l’utilisation de l’appli de bureau [!DNL Experience Manager]. Pour configurer SSL de manière appropriée, installez le certificat intermédiaire manquant dans Apache. Voir [Comment installer un certificat d’autorité de certification intermédiaire dans Apache](https://access.redhat.com/solutions/43575).
 
-Les bibliothèques que la variable [!DNL Experience Manager] L’appli de bureau utilise une application SSL stricte pour les communications HTTP. Il peut donc y avoir des cas où les connexions SSL qui réussissent par le biais d’un navigateur échouent avec l’événement [!DNL Adobe Experience Manager] application de bureau . Ce résultat est positif, car il encourage une configuration correcte du protocole SSL et renforce la sécurité, mais peut s’avérer frustrant lorsque l’application ne parvient pas à se connecter.
+Les bibliothèques utilisées par l’appli de bureau [!DNL Experience Manager] pour les communications HTTP appliquent le protocole SSL de manière stricte. Il peut donc y avoir des cas où les connexions SSL réussies par le biais d’un navigateur échouent avec l’appli de bureau [!DNL Adobe Experience Manager]. Ce résultat est positif, car il encourage une configuration correcte du protocole SSL et renforce la sécurité, mais peut s’avérer frustrant lorsque l’application ne parvient pas à se connecter.
 
 Dans ce cas, l’approche recommandée consiste à utiliser un outil pour analyser le certificat SSL d’un serveur et identifier les problèmes afin de les corriger. Certains sites Web inspectent le certificat d’un serveur en fournissant son URL.
 
-À titre de mesure temporaire, il est possible de désactiver l’application stricte du protocole SSL dans la variable [!DNL Adobe Experience Manager] application de bureau . Cette approche n’est pas une solution recommandée à long terme, car elle réduit la sécurité en masquant la cause principale d’un protocole SSL mal configuré. Pour désactiver la mise en œuvre stricte :
+À titre de mesure temporaire, il est possible de désactiver l’application SSL stricte dans l’appli de bureau [!DNL Adobe Experience Manager]. Cette approche n’est pas une solution recommandée à long terme, car elle réduit la sécurité en masquant la cause principale d’un protocole SSL mal configuré. Pour désactiver la mise en œuvre stricte :
 
 1. Utilisez l’éditeur de votre choix pour modifier le fichier de configuration JavaScript de l’application, qui se trouve (par défaut) aux emplacements suivants (selon le système d’exploitation) :
 
@@ -280,7 +280,7 @@ Dans ce cas, l’approche recommandée consiste à utiliser un outil pour analys
    ...
    ```
 
-1. Enregistrez le fichier et redémarrez le [!DNL Adobe Experience Manager] application de bureau .
+1. Enregistrez le fichier et redémarrez l’appli de bureau [!DNL Adobe Experience Manager].
 
 ### Problèmes de connexion lors du passage à un autre serveur {#cannot-login-cookies-issue}
 
@@ -299,7 +299,7 @@ Dans les deux méthodes, l’application démarre au dossier DAM racine.
 
 ## Masquer les actifs parvenus à expiration {#hide-expired-assets}
 
-Lorsque vous parcourez des ressources à partir de la fonction [!DNL Experience Manager] , les ressources expirées ne s’affichent pas. Les administrateurs peuvent configurer des paramètres pour empêcher l’affichage, la recherche et la récupération des ressources expirées lors de l’accès à partir de l’appli de bureau et Asset Link. Cela permet de s’assurer que les ressources expirées ne sont pas accessibles pendant ces opérations. La configuration fonctionne pour tous les utilisateurs, quel que soit le privilège d’administrateur.
+Lors de l’exploration de ressources à partir de l’interface utilisateur de [!DNL Experience Manager], les ressources expirées ne s’affichent pas. Les administrateurs peuvent configurer des paramètres pour empêcher l’affichage, la recherche et la récupération des ressources expirées lors de l’accès à partir de l’appli de bureau et Asset Link. Cela permet de s’assurer que les ressources expirées ne sont pas accessibles pendant ces opérations. La configuration fonctionne pour tous les utilisateurs, quel que soit le privilège d’administrateur.
 
 * [Configuration dans Experience Manager 6.5 pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
 * [Configuration dans Experience Manager as a Cloud Service pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).

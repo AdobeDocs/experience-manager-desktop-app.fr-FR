@@ -70,7 +70,7 @@ Certains types de fichiers prennent en charge le placement de ressources liées 
 
 Cette fonctionnalité est prise en charge avec les versions 2018 d’[!DNL Adobe Creative Cloud] et 2019 d’[!DNL Adobe Creative Cloud] de l’application ci-dessus. L’application utilise une approche heuristique et de la meilleure correspondance pour mapper les chemins d’accès de bureau locaux des ressources liées aux URL sur le serveur [!DNL Experience Manager]. Elle se base sur quelques hypothèses :
 
-* Les chemins d’accès aux fichiers placés dans l’application native utilisent un chemin d’accès de bureau global (placé à partir du partage réseau local affiché avec l’ [!UICONTROL Reveal] ).
+* Les chemins d’accès aux fichiers placés dans l’application native utilisent un chemin d’accès de bureau global (placé à partir du partage réseau local affiché avec l’option [!UICONTROL Reveal] ).
 
 * Les chemins d’accès sont stockés dans l’enregistrement XMP du fichier par l’application native.
 
@@ -126,7 +126,7 @@ Cette version de l’application inclut un correctif de bogue.
 
 Le bogue corrigé dans cette version est le suivant :
 
-* Les vitesses de chargement et de téléchargement des ressources ont été améliorées, même pour les ressources volumineuses. Cette version corrige un problème en raison duquel les chargements de ressources avec la variable [!DNL desktop app] échouait parfois lorsque des fichiers très volumineux étaient chargés.
+* Les vitesses de chargement et de téléchargement des ressources ont été améliorées, même pour les ressources volumineuses. Cette version a corrigé un problème en raison duquel les chargements de ressources avec l’ [!DNL desktop app] échouaient parfois lorsque des fichiers très volumineux étaient chargés.
 
 **Mise à jour dans la version v2.1.2.0 de l’application**
 
@@ -134,7 +134,7 @@ Le bogue corrigé dans cette version est le suivant :
 
 * Une nouvelle option a été ajoutée qui, si elle est sélectionnée, permet à l’application de charger des dossiers et des fichiers avec des noms de noeud dans [!DNL Adobe Experience Manager] correspondant aux noms de fichiers et de dossiers locaux. Ce processus assure la cohérence entre les noms locaux et téléchargés.
 
-  Ce comportement est similaire au comportement par défaut dans la version 1 de l’appli de bureau. En revanche, dans la version actuelle, si l’option n’est pas activée, les espaces et les caractères `% ; # , + ? ^ { } "` dans les noms de dossier sont remplacés par des tirets dans les chemins d’accès aux dossiers. En outre, les caractères majuscules sont convertis en minuscules dans les chemins d’accès aux dossiers. Toutefois, dans les noms de fichier, les caractères `# % { } ? &` sont remplacés par un tiret ; les espaces et la casse sont conservés. Pour plus d’informations, consultez les [Préférences de l’application](/help/using/install-upgrade.md#set-preferences) et [Chargement et ajout de nouvelles ressources](/help/using/using.md#upload-and-add-new-assets-to-aem).
+  Ce comportement est similaire au comportement par défaut dans la version 1 de l’appli de bureau. En revanche, dans la version actuelle, si l’option n’est pas activée, les espaces et les caractères `% ; # , + ? ^ { } "` des noms de dossier sont remplacés par des tirets dans les chemins d’accès aux dossiers. En outre, les caractères majuscules sont convertis en minuscules dans les chemins d’accès aux dossiers. Cependant, dans les noms de fichiers, les caractères `# % { } ? &` sont remplacés par un tiret ; mais les espaces et la casse sont conservés. Pour plus d’informations, consultez les [Préférences de l’application](/help/using/install-upgrade.md#set-preferences) et [Chargement et ajout de nouvelles ressources](/help/using/using.md#upload-and-add-new-assets-to-aem).
 
 **Mise à jour dans la version v2.1.1.0 de l’application**
 
@@ -176,13 +176,13 @@ Les correctifs de bogues et mises à jour sont les suivants :
 
 Pour savoir comment installer et configurer l’application, voir [Installation [!DNL Experience Manager]  de l’appli de bureau](install-upgrade.md).
 
-Si vous effectuez une mise à niveau à partir d’un précédent [!DNL Experience Manager] sur l’appli de bureau , vous devez suivre les bonnes pratiques de transition répertoriées dans la section [mise à niveau à partir de la version précédente](install-upgrade.md#upgrade-from-previous-version).
+Si vous effectuez une mise à niveau à partir d’une version précédente de l’appli de bureau [!DNL Experience Manager], vous devez suivre les bonnes pratiques de transition répertoriées dans [mise à niveau à partir de la version précédente](install-upgrade.md#upgrade-from-previous-version).
 
 ## Remarques importantes sur le fonctionnement de l’application {#how-app-works}
 
 Il est important de comprendre ce qui suit à propos de l’application et de son fonctionnement.
 
-* L’application offre un contrôle total sur les opérations qui nécessitent un transfert complet des fichiers binaires depuis et vers . [!DNL Experience Manager] (**Ouvrir**, **Modifier**, **Chargement des modifications**, et **Chargement d’Assets**).
+* L’application offre un contrôle total sur les opérations qui nécessitent le transfert complet des fichiers binaires depuis et vers [!DNL Experience Manager] (**Ouvrir**, **Modifier**, **Télécharger les modifications** et **Télécharger Assets**).
 
    * Si vous souhaitez utiliser la ressource figurant sur le bureau, vous devez explicitement ouvrir, modifier ou télécharger sur votre bureau, que ce soit individuellement, dans un dossier ou par sélection multiple.
 
@@ -216,7 +216,7 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 * Après avoir appliqué et supprimé le filtre pour rechercher toutes les ressources modifiées localement, l’application n’amène pas l’utilisateur à ses résultats de recherche ou à la vue de dossiers par laquelle il a commencé. L’application affiche le dossier racine du référentiel DAM.
 
-* Parfois, lorsque vous vous connectez à une URL qui n’a pas de [!DNL Experience Manager] s’exécutant sur le serveur, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
+* Parfois, lorsque vous vous connectez à une URL pour laquelle un serveur [!DNL Experience Manager] n’est pas en cours d’exécution, l’écran de connexion ne répond plus. Quittez l’application et redémarrez-la.
 
 **Problèmes CRUD (Create, Read, Update et Delete) :**
 
@@ -231,7 +231,7 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >[!MORELIKETHIS]
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service)
->* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
+>* [[!DNL Experience Manager] en tant que  [!DNL Cloud Service] [!DNL Assets] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
 >* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)

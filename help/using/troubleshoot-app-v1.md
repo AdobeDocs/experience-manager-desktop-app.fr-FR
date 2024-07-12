@@ -13,7 +13,7 @@ ht-degree: 68%
 
 Cette section vous explique comment résoudre les problèmes occasionnels pouvant affecter, notamment, l’installation, la mise à niveau, la configuration de l’appli de bureau AEM.
 
-La variable [!DNL Adobe Experience Manager] L’appli de bureau comprend des utilitaires qui vous aident à mapper le référentiel AEM Assets en tant que partage réseau sur le bureau (partage SMB sur macOS). Le partage réseau est une technologie du système d’exploitation qui permet aux sources distantes d’être traitées comme si elles faisaient partie du système de fichiers local d’un ordinateur. Pour l’appli de bureau, la source de fichier distante est la structure de référentiel de gestion des ressources numériques (DAM) d’une instance d’AEM distante. Le schéma suivant décrit la topologie de l’appli de bureau AEM :
+L’appli de bureau [!DNL Adobe Experience Manager] comprend des utilitaires qui vous aident à mapper le référentiel AEM Assets en tant que partage réseau sur le bureau (partage SMB sur macOS). Le partage réseau est une technologie du système d’exploitation qui permet aux sources distantes d’être traitées comme si elles faisaient partie du système de fichiers local d’un ordinateur. Pour l’appli de bureau, la source de fichier distante est la structure de référentiel de gestion des ressources numériques (DAM) d’une instance d’AEM distante. Le schéma suivant décrit la topologie de l’appli de bureau AEM :
 
 ![schéma de l’appli de bureau](assets/aem-desktopapp-architecture.png)
 
@@ -23,8 +23,8 @@ Avec cette architecture, l’appli de bureau intercepte les appels du système d
 
 L’appli de bureau comprend les composants suivants :
 
-* **L’application de bureau**: l’application monte ou démonte DAM en tant que système de fichiers distant. Il convertit les appels du système de fichiers entre le partage réseau monté en local et l’instance AEM distante à laquelle il se connecte.
-* **Client WebDAV/SMB du système d’exploitation**: gère la communication entre l’Explorateur Windows/le Finder et l’appli de bureau. Si un fichier est récupéré, créé, modifié, supprimé, déplacé ou copié, le client WebDAV/SMB du système d’exploitation communique cette opération à l’appli de bureau . Après réception de la communication, l’appli de bureau la convertit en appels d’API distants AEM natifs. Par exemple, si un utilisateur crée un fichier dans le répertoire monté, le client WebDAV/SMB lance une requête que l’appli de bureau AEM convertit en requête HTTP qui crée le fichier dans DAM. Le client WebDAV/SMB est un composant intégré du système d’exploitation. Il n’est affilié, en aucune manière, à l’appli de bureau AEM, à AEM ou à Adobe.
+* **L’application de bureau** : l’application monte ou démonte DAM en tant que système de fichiers distant. Il convertit les appels du système de fichiers entre le partage réseau monté en local et l’instance AEM distante à laquelle il se connecte.
+* **Client WebDAV/SMB du système d’exploitation** : gère la communication entre l’Explorateur Windows/le Finder et l’appli de bureau. Si un fichier est récupéré, créé, modifié, supprimé, déplacé ou copié, le client WebDAV/SMB du système d’exploitation communique cette opération à l’appli de bureau . Après réception de la communication, l’appli de bureau la convertit en appels d’API distants AEM natifs. Par exemple, si un utilisateur crée un fichier dans le répertoire monté, le client WebDAV/SMB lance une requête que l’appli de bureau AEM convertit en requête HTTP qui crée le fichier dans DAM. Le client WebDAV/SMB est un composant intégré du système d’exploitation. Il n’est affilié, en aucune manière, à l’appli de bureau AEM, à AEM ou à Adobe.
 * **Instance Adobe Experience Manager** : permet d’accéder aux ressources stockées dans le référentiel DAM d’AEM Assets. En outre, elle exécute les actions demandées par l’appli de bureau pour le compte des applications de bureau locales qui interagissent avec le partage réseau monté. L’instance AEM cible doit exécuter AEM version 6.1 ou ultérieure. Les instances AEM exécutant les versions précédentes d’AEM peuvent nécessiter l’installation de Feature Packs et de correctifs logiciels supplémentaires pour devenir entièrement fonctionnelles.
 
 ## Cas d’utilisation prévus pour l’appli de bureau AEM {#intended-use-cases-for-aem-desktop-app}
@@ -62,7 +62,7 @@ L’appli de bureau AEM n’est pas adaptée aux manipulations intensives sur le
 
 En raison de restrictions au niveau du système d’exploitation, la taille de fichier est limitée à 4 294 967 295 octets (environ 4,29 Go) sous Windows. Cela est dû à un paramètre du Registre qui définit la taille maximale d’un fichier sur un partage réseau. La valeur du paramètre de Registre est un DWORD avec une taille maximale équivalant au nombre référencé.
 
-La variable [!DNL Experience Manager] L’appli de bureau ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte la connexion entre [!DNL Experience Manager] serveur et l’appli de bureau après un intervalle de temps fixe. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
+L’appli de bureau [!DNL Experience Manager] ne dispose pas d’une valeur de délai d’expiration configurable qui déconnecte l’appli de bureau [!DNL Experience Manager] après un intervalle de temps fixe. Lors du chargement de ressources volumineuses, si la connexion expire au bout d’un certain temps, l’application tente à nouveau de charger la ressource plusieurs fois en augmentant le délai d’expiration du chargement. Il n’existe aucun moyen recommandé de modifier les paramètres de délai d’expiration par défaut.
 
 ## Mise en cache et communication avec AEM {#caching-and-communication-with-aem}
 
@@ -88,7 +88,7 @@ Chaque opération n’est pas mise en cache localement. Les éléments suivants 
 
 ## Opérations distinctes {#individual-operations}
 
-Pour résoudre les problèmes de performances sous-optimisées pour les utilisateurs individuels, consultez d’abord [Limites de l’application](#limitations). Les sections suivantes contiennent des suggestions visant à améliorer les performances pour les utilisateurs.
+Lors de la résolution des problèmes de performances sous-optimisées pour les utilisateurs individuels, passez d’abord en revue les [limites de l’application](#limitations). Les sections suivantes contiennent des suggestions visant à améliorer les performances pour les utilisateurs.
 
 ## Recommandations en termes de bande passante {#bandwidth-recommendations}
 
@@ -130,7 +130,7 @@ En cas de dégradation significative des performances WebDAV/SMB lorsque plusieu
 Vous pouvez améliorer les performances AEM en activant les workflows transitoires pour le workflow Ressources de mise à jour de gestion des actifs numériques. L’activation de workflows transitoires réduit la puissance de traitement requise pour mettre à jour des ressources lors de leur création ou de leur modification dans AEM.
 
 1. Accédez à `/miscadmin` dans l’instance Experience Manager (`https://[aem_server]:[port]/miscadmin`).
-1. Dans l’arborescence de navigation, développez **Outils** > **Workflow** > **Modèles** > **Barrage**.
+1. Dans l’arborescence de navigation, développez **Outils** > **Workflow** > **Modèles** > **Dam**.
 1. Double-cliquez sur **Ressources de mise à jour de gestion des actifs numériques** (DAM).
 1. Depuis le panneau d’outils flottant, basculez vers l’onglet **Page**, puis cliquez sur **Propriétés de la page**.
 1. Sélectionnez la fenêtre **Workflow transitoire**, puis cliquez sur **OK**.
@@ -149,7 +149,7 @@ En raison des limitations de bande passante du réseau, les performances de WebD
 
 Cette mesure augmente spécifiquement la bande passante du réseau disponible pour le serveur. Voici quelques détails :
 
-* La quantité de bande passante réseau dédiée à une instance AWS augmente à mesure que la taille de l’instance augmente. Pour plus d’informations sur la bande passante disponible pour chaque taille d’instance, accédez à la [Documentation AWS](https://aws.amazon.com/ec2/instance-types/).
+* La quantité de bande passante réseau dédiée à une instance AWS augmente à mesure que la taille de l’instance augmente. Pour plus d’informations sur la bande passante disponible pour chaque taille d’instance, consultez la [documentation AWS](https://aws.amazon.com/ec2/instance-types/).
 * Lors de la résolution des problèmes d’un client volumineux, Adobe a configuré la taille de son instance AEM sur c4.8xlarge, principalement pour la bande passante dédiée de 4 000 Mbit/s dédiée.
 * S’il existe un Dispatcher devant l’instance AEM, assurez-vous qu’il a la taille appropriée. Si l’instance AEM fournit 4 000 Mbit/s, mais que Dispatcher ne fournit que 500 Mbit/s, la bande passante effective est de seulement 500 Mbit/s. C’est parce que Dispatcher crée un goulot d’étranglement du réseau.
 
@@ -285,7 +285,7 @@ Les bibliothèques utilisées par l’appli de bureau AEM pour les communication
 
 ## Utilisation de AEM Desktop avec Dispatcher {#using-aem-desktop-with-dispatcher}
 
-AEM Desktop App fonctionne avec les déploiements AEM derrière un Dispatcher, qui est une configuration par défaut recommandée pour les serveurs d’AEM. Les Dispatchers AEM situés devant les environnements de création d’AEM sont généralement configurés de sorte à ignorer la mise en cache des ressources DAM. Par conséquent, ils ne fournissent pas de mise en cache supplémentaire du point de vue de l’appli de bureau AEM. Assurez-vous que la configuration Dispatcher est adaptée pour fonctionner avec AEM Desktop. Pour plus d’informations, voir [Connexion à AEM avec Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+AEM Desktop App fonctionne avec les déploiements AEM derrière un Dispatcher, qui est une configuration par défaut recommandée pour les serveurs d’AEM. Les Dispatchers AEM situés devant les environnements de création d’AEM sont généralement configurés de sorte à ignorer la mise en cache des ressources DAM. Par conséquent, ils ne fournissent pas de mise en cache supplémentaire du point de vue de l’appli de bureau AEM. Assurez-vous que la configuration Dispatcher est adaptée pour fonctionner avec AEM Desktop. Pour plus d’informations, voir [Connexion à AEM avec un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Recherche des fichiers journaux {#checking-for-log-files}
 

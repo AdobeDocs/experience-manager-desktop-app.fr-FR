@@ -18,7 +18,7 @@ Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement
 | Version | 1.10 (1.10.0.6 sous Mac et 1.10.0.3 sous Windows) |
 | Type | Version mineure |
 | Date | 1.10.0.6 (Mac) : 15 avril 2020 ; 1.10.0.3 (Win) : 31 août 2018 |
-| URL de téléchargement | [macOS X 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| URL de téléchargement | [macOS X 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg) ; [Windows 32 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe) ; [Windows 64 bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibilité | AEM 6.5.x ; AEM 6.4.x ; AEM 6.3 SP2 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
@@ -35,7 +35,8 @@ L’appli de bureau [!DNL Adobe Experience Manager] est compatible avec les syst
 
 Adobe recommande d’utiliser la dernière version de l’appli de bureau AEM pour vous assurer que vous utilisez les dernières fonctionnalités, les correctifs de bogues les plus récents et les meilleures performances possible.
 
-La version de l’appli de bureau AEM que vous prévoyez d’installer sur votre ordinateur local nécessite une version spécifique AEM serveur / des composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Assurez-vous que le serveur AEM est correctement configuré avant de vous y connecter pour la première fois. Si vous avez besoin d’aide, contactez votre administrateur ou administratrice AEM.
+La version de l’appli de bureau AEM que vous prévoyez d’installer sur votre ordinateur local nécessite un serveur AEM spécifique.
+version/composants supplémentaires côté serveur (Service Packs, correctifs logiciels ou Feature Packs). Assurez-vous que le serveur AEM est correctement configuré avant de vous y connecter pour la première fois. Si vous avez besoin d’aide, contactez votre administrateur ou administratrice AEM.
 
 Consultez le [tableau de compatibilité détaillé](#compatibilitymatrix) à la fin de ce document pour évaluer les conditions préalables à la configuration.
 
@@ -49,7 +50,7 @@ L’appli de bureau AEM 1.10 vise à améliorer l’expérience utilisateur en 
 
 **Modification/extraction locale** : les chargements automatiques des modifications enregistrées dans les ressources peuvent être désactivés dans la fenêtre de statut. Ainsi, l’utilisateur ou l’utilisatrice peut continuer à travailler sur les fichiers et à enregistrer les modifications. Ensuite, lorsque tout est prêt, toutes les modifications peuvent être chargées.
 
-**Fenêtre simplifiée de statut des ressources**. la fenêtre de statut a été simplifiée. La variable [!UICONTROL Uploads] Cet onglet affiche désormais les ressources individuelles et les téléchargements de dossiers ou en masse. L’onglet Téléchargements en bloc précédent a été supprimé.
+**Fenêtre simplifiée de statut des ressources**. la fenêtre de statut a été simplifiée. L’onglet [!UICONTROL Uploads] affiche désormais les ressources individuelles et les téléchargements de dossiers ou en masse. L’onglet Téléchargements en bloc précédent a été supprimé.
 
 **Icône d’application indiquant les chargements en bloc**. l’icône d’application affichera une incrustation « transfert » pour indiquer qu’un téléchargement massif est en cours.
 
@@ -65,9 +66,9 @@ Pour obtenir des instructions détaillées, voir [Installation et configuration 
 
 Cette version étend et remplace les versions précédentes de l’appli de bureau [!DNL Experience Manager], qui fournissaient les améliorations principales suivantes :
 
-* **Version 1.9 / 1.9.1**: reprise des chargements, fenêtre de statut améliorée, icônes indiquant le statut de l’application/de la connexion, prérécupération des ressources liées pour les fichiers d’InDesign.
+* **Version 1.9 / 1.9.1** : reprise des chargements interrompus, fenêtre de statut améliorée, icônes indiquant l’état de l’application/de la connexion, prérécupération des ressources liées pour les fichiers d’InDesign.
 
-* **Version 1.8**: meilleur contrôle de la taille du cache pour l’utilisateur, expérience de connexion améliorée pour SAML/SSO sous Windows, prise en charge `.pac` proxy réseau sur Mac et problèmes signalés par le client.
+* **Version 1.8** : meilleur contrôle de la taille du cache pour l’utilisateur, expérience de connexion améliorée pour SAML/SSO sous Windows, prise en charge du proxy réseau `.pac` sur Mac et problèmes signalés par le client.
 
 * **Version 1.7** : améliorations sur le plan de la stabilité et de la logique de mise en mémoire cache, meilleure prise en charge du proxy réseau et possibilité de nettoyer les fichiers internes après la désinstallation.
 
@@ -81,7 +82,7 @@ Cette version étend et remplace les versions précédentes de l’appli de bure
 
 ### Améliorations disponibles depuis l’appli de bureau AEM 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-[!DNL Adobe Experience Manager] L’appli de bureau version 1.9.1 était une version de correctif. Il a été conçu pour résoudre les problèmes clés des clients avec l’extraction de ressources. Vous pouvez également gérer la copie de fichiers d’un partage réseau vers un répertoire local.
+L’appli de bureau [!DNL Adobe Experience Manager] version 1.9.1 était une version de correctif. Il a été conçu pour résoudre les problèmes clés des clients avec l’extraction de ressources. Vous pouvez également gérer la copie de fichiers d’un partage réseau vers un répertoire local.
 
 * Les ressources extraites par un utilisateur ne doivent pas être accessibles à d’autres utilisateurs en vue de la modification (CQ-4246009).
 
@@ -89,10 +90,10 @@ Cette version étend et remplace les versions précédentes de l’appli de bure
 
 L’appli de bureau AEM 1.9 mettait l’accent sur l’amélioration de l’expérience utilisateur en ce qui concerne les chargements volumineux, les informations relatives aux opérations en arrière-plan et une expérience optimisée lors de l’ouverture de ressources avec des fichiers liés (comme InDesign).
 
-**Chargements pouvant reprendre**
+**Téléchargements pouvant reprendre**
 Pour les chargements, notamment autour de fichiers volumineux, une option permet de les suspendre/reprendre dans la nouvelle fenêtre Asset Status (Statut de la ressource).
 
-**Amélioration de la fenêtre d’état des ressources**
+**Fenêtre d’état des ressources améliorée**
 Une fenêtre Asset Status améliorée fournit les informations suivantes sur les ressources.
 
 [!UICONTROL Changes]
@@ -123,13 +124,13 @@ Une fenêtre Asset Status améliorée fournit les informations suivantes sur les
 
 * Le pied de page affiche le nombre total de fichiers téléchargés et le taux de transfert moyen.
 
-* Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de la fonction [!DNL Experience Manager Assets] Interface web, elles sont regroupées. Par exemple, myasset.jpeg et 4 autres fichiers.
+* Si un utilisateur choisit d’ouvrir ou de modifier plusieurs fichiers à partir de l’interface Web [!DNL Experience Manager Assets], ils sont regroupés. Par exemple, myasset.jpeg et 4 autres fichiers.
 
 * Lors du téléchargement de documents InDesigns avec des ressources liées à partir d’AEM Assets, l’appli de bureau télécharge d’abord toutes les ressources liées avant d’ouvrir le document et d’indiquer l’état de téléchargement. Par exemple, 5 sur 24.
 
 [!UICONTROL Bulk Uploads]
 
-Chargement de hiérarchies de dossiers volumineuses via [!UICONTROL Create] > [!UICONTROL Upload Folder] dans l’interface utilisateur web d’AEM déclenche cette boîte de dialogue. Il en va de même lors de la copie et de la sélection de l’option &quot;Coller Assets&quot; dans le Finder ou l’Explorateur dans le menu contextuel de l’appli de bureau.
+Le téléchargement de hiérarchies de dossiers volumineuses via [!UICONTROL Create] > [!UICONTROL Upload Folder] dans l’interface utilisateur web d’AEM déclenche cette boîte de dialogue. Il en va de même lors de la copie et de la sélection de l’option &quot;Coller Assets&quot; dans le Finder ou l’Explorateur dans le menu contextuel de l’appli de bureau.
 
 * Affiche les chargements en cours, y compris une barre de progression et le nom du fichier en cours de transfert.
 
@@ -168,7 +169,7 @@ L’appli de bureau AEM 1.8.1 s’accompagnait d’améliorations au niveau de 
 
    * à l’expiration d’une session d’AEM, l’utilisateur en est maintenant informé et peut cliquer sur la notification pour se reconnecter (CQ-4202028).
 
-   * (Mac) Ajout de la prise en charge de la connexion à AEM à l’aide de la fonction `.pac` configuration du proxy (CQ-4233430).
+   * (Mac) Ajoutez la prise en charge de la connexion à AEM par le biais de la configuration de proxy `.pac` (CQ-4233430).
 
    * (Windows) Résolution de problèmes relatifs à la boîte de dialogue Advanced > Login URL (Avancé > URL de connexion) (CQ-4236061).
 
@@ -347,13 +348,13 @@ Depuis macOS 10.12 (Sierra), Apple a modifié les autorisations du dossier /Volu
 
 Le point de montage de l’appli de bureau AEM a changé dans les versions 1.4 et 1.5. Sous macOS, il a été remplacé par un sous-dossier DAM dans le dossier local de l’utilisateur, prenant en charge les utilisateurs non-administrateurs (CQ-104183).
 
-Parce que la variable `/Volumes` n’a plus besoin de droits d’administration. Cette modification a été annulée dans la version 1.5.1. Cette modification permet également de partager des documents d’InDesign qui ont placé des ressources d’AEM entre les utilisateurs macOS.
+Comme le dossier `/Volumes` ne nécessite plus de droits d’administration, cette modification a été annulée dans la version 1.5.1. Cette modification permet également de partager des documents d’InDesign qui ont placé des ressources d’AEM entre les utilisateurs macOS.
 
 ### Modification de protocoles (depuis la version 1.3) {#protocol-change-since}
 
 * MACOS X :
    * Le protocole du lecteur réseau local pour l’intégration de bureau OS X a été remplacé par SMB1, à la place de WebDAV.
-   * Le référentiel AEM monté avec l’appli de bureau est visible sous la forme d’une `smb` lecteur réseau dans le Finder, au lieu d’un lecteur WebDAV.
+   * Le référentiel AEM monté avec l’appli de bureau est visible sous la forme d’un lecteur réseau `smb` dans le Finder, au lieu d’un lecteur WebDAV.
 * Windows :
    * Le protocole du lecteur réseau local pour les intégrations de bureau Windows reste le même ; AEM est monté en tant que partage WebDAV.
 * Pour les deux plateformes (Windows et Mac) :
@@ -361,7 +362,7 @@ Parce que la variable `/Volumes` n’a plus besoin de droits d’administration.
 
 >[!NOTE]
 >
->Sur macOS X, le changement du protocole du lecteur réseau local de WebDAV à SMB1 entraîne un chemin d’accès local différent vers la même ressource du référentiel. Cette modification peut avoir une incidence sur les liens vers les fichiers placés dans les applications Adobe Creative Cloud au moyen de la commande &quot;Placer&quot;. Voir [Utilisation de l’appli de bureau AEM](use-app-v1.md) pour plus d’informations.
+>Sur macOS X, le changement du protocole du lecteur réseau local de WebDAV à SMB1 entraîne un chemin d’accès local différent vers la même ressource du référentiel. Cette modification peut avoir une incidence sur les liens vers les fichiers placés dans les applications Adobe Creative Cloud au moyen de la commande &quot;Placer&quot;. Pour plus d’informations, voir [Utilisation de l’appli de bureau AEM](use-app-v1.md) .
 
 ### Gestion des fichiers (depuis la version 1.3) {#file-handling-since}
 
@@ -395,7 +396,7 @@ Parce que la variable `/Volumes` n’a plus besoin de droits d’administration.
    * Les URL du serveur sont requises pour pointer vers le serveur sans chemin d’accès (par exemple, `http://server`, `https://server`, `http://server:port` ou `https://server:port`). Les chemins d’accès au contexte et les sous-dossiers de contexte autres que /content/dam ne sont pas pris en charge (CQ-89343, CQ-87272).
 * Noms de fichiers/localisation :
    * Les noms de fichiers et de dossiers comportant des caractères réservés ne sont pas gérés correctement. Veillez à utiliser les noms de fichiers et de dossiers qui correspondent AEM vos besoins. (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
-   * Certaines applications telles que Adobe Illustrator peuvent créer des fichiers dont les noms ne sont pas pris en charge dans AEM. Par exemple, ajouter `Converted` après la conversion d’un fichier, ce qui empêche son chargement. (CQ-4216985)
+   * Certaines applications telles que Adobe Illustrator peuvent créer des fichiers dont les noms ne sont pas pris en charge dans AEM. Par exemple, l&#39;ajout de `Converted` après la conversion d&#39;un fichier empêche son chargement. (CQ-4216985)
    * Assets avec des noms internationaux peut apparaître et disparaître toutes les quelques secondes.
 * Archivage et extraction :
    * Une ressource extraite par un utilisateur ne peut pas être ouverte pour un autre utilisateur, que ce soit par l’option Open (Ouvrir) de l’interface utilisateur tactile ou directement sur le bureau. Certaines applications peuvent la signaler comme verrouillée, mais aussi corrompue ou même bloquée lors d’une tentative d’ouverture. (CQ-4199234).
@@ -403,7 +404,7 @@ Parce que la variable `/Volumes` n’a plus besoin de droits d’administration.
    * Certaines applications ne prennent pas correctement en charge l’indicateur de lecture seule, ce qui permet à un utilisateur d’enregistrer un fichier extrait par un autre utilisateur. Le fichier modifié n’est pas transféré tant que l’autre personne n’a pas archivé le fichier. Les deux modifications sont disponibles dans AEM sous la forme de versions différentes de la ressource. (CQ-89551, CQ-87572, CQ-89615)
    * Les états extrait et en lecture seule sont signalés indépendamment dans le Finder. Cette approche génère deux icônes de verrouillage lorsqu’un utilisateur extrait une ressource. (CQ-89507)
 * Intégration du Finder :
-   * Lorsque vous faites glisser des fichiers volumineux, l’outil de recherche peut expirer pendant le transfert des fichiers en arrière-plan. Ce délai entraîne un événement `Error - 36`. La solution consiste à faire glisser ou à ouvrir à nouveau la ressource. (CQ-4219628)
+   * Lorsque vous faites glisser des fichiers volumineux, l’outil de recherche peut expirer pendant le transfert des fichiers en arrière-plan. Ce délai entraîne un `Error - 36`. La solution consiste à faire glisser ou à ouvrir à nouveau la ressource. (CQ-4219628)
    * Le rechargement manuel de dossier ne fonctionne pas toujours. Solution : attendez trente secondes pour que le dossier soit automatiquement mis à jour. (CQ-97389).
    * More Asset Info... est limité aux sélections de fichiers uniques. (CQ-89542, CQ-87656)
    * Ouvrir dans AEM Assets... est limité aux sélections de fichiers et de dossiers uniques. (CQ-83382)
@@ -412,7 +413,7 @@ Parce que la variable `/Volumes` n’a plus besoin de droits d’administration.
 * Windows :
    * Les fichiers avec des flux de données alternatifs (ADS, Alternate Data Streams) ne sont entièrement pris en charge que par NTFS. Lorsque vous copiez des fichiers dans le partage WebDAV par le biais de l’appli de bureau, une boîte de dialogue d’avertissement vous avertit que certaines propriétés de fichier ne peuvent pas être transférées vers le nouvel emplacement. Cet avertissement est généralement correct, car les propriétés ne sont pertinentes que pour une application spécifique du bureau de l’utilisateur et n’ont rien à voir avec le contenu réel du fichier. (CQ-103770) (Windows)
    * L’utilisateur qui utilise l’appli de bureau sous Windows doit être celui qui doit l’installer. (CQ-4216389) (Windows)
-   * L’application peut se bloquer lors de la sélection de la variable [!UICONTROL Retry] lors d’un chargement qui a échoué. Ce blocage peut se produire dans certains cas après avoir repris le transfert par lots lorsqu’il est déconnecté. (CQ-4251884) (Windows)
+   * L’application peut se bloquer lors de la sélection de l’option [!UICONTROL Retry] lors d’un chargement ayant échoué. Ce blocage peut se produire dans certains cas après avoir repris le transfert par lots lorsqu’il est déconnecté. (CQ-4251884) (Windows)
 
 ## Ressources utiles {#helpful-resources}
 

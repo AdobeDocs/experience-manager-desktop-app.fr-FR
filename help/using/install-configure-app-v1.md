@@ -11,13 +11,13 @@ ht-degree: 74%
 
 # Installer et configurer l’appli de bureau [!DNL Experience Manager] v1.10 {#install-and-configure-aem-desktop-app}
 
-Grâce à l’appli de bureau [!DNL Experience Manager], les ressources d’[!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Assets peut être affiché dans le Finder de Mac ou l’Explorateur Windows, modifié dans les applications de bureau et les modifications sont réenregistrées dans [!DNL Experience Manager], créant une nouvelle version au moment du téléchargement.
+Grâce à l’appli de bureau [!DNL Experience Manager], les ressources d’[!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Assets peut être affiché dans le Finder de Mac ou l’Explorateur Windows, modifié dans les applications de bureau et les modifications sont réenregistrées dans [!DNL Experience Manager], créant ainsi une nouvelle version au moment du téléchargement.
 
 Cette intégration permet à différents rôles de gérer les ressources de manière centralisée au sein de l’organisation dans Assets, d’y accéder dans Creative Cloud et d’autres applications, et de respecter facilement diverses normes, y compris le branding.
 
-Pour utiliser la variable [!DNL Experience Manager] application de bureau,
+Pour utiliser l’appli de bureau [!DNL Experience Manager],
 
-* Assurez-vous que la variable [!DNL Experience Manager] La version du serveur est compatible avec les [!DNL Experience Manager] application de bureau . Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
+* Assurez-vous que la version de votre serveur [!DNL Experience Manager] est compatible avec l’appli de bureau [!DNL Experience Manager]. Voir le [tableau de compatibilité](release-notes-of-v1.md#compatibilitymatrix).
 
 * Téléchargez et installez l’application.
 
@@ -39,7 +39,7 @@ Pour plus d’informations, voir [Installation et connexion de l’appli de bure
 
 Lorsque vous modifiez des fichiers à partir d’un partage réseau monté par l’appli de bureau AEM, les fichiers sont enregistrés à cet emplacement en deux phases. Dans la première phase, un fichier est enregistré localement. L’utilisateur ou l’utilisatrice peut enregistrer le fichier et continuer à travailler sur ce dernier, sans attendre que le transfert soit terminé.
 
-Lors de la deuxième phase, l’appli de bureau charge le fichier mis à jour dans la fonction [!DNL Experience Manager] après un délai prédéfini (par exemple, 30 s). Cette opération s’effectue en arrière-plan. Utilisez l’option View Asset Status (Afficher l’état des ressources) pour afficher l’état de l’opération de chargement.
+Dans la seconde phase, l’appli de bureau charge le fichier mis à jour sur le serveur [!DNL Experience Manager] après un délai prédéfini (par exemple, 30 s). Cette opération s’effectue en arrière-plan. Utilisez l’option View Asset Status (Afficher l’état des ressources) pour afficher l’état de l’opération de chargement.
 
 1. Téléchargez une ressource vers Assets.
 
@@ -53,7 +53,7 @@ Lors de la deuxième phase, l’appli de bureau charge le fichier mis à jour da
 >
 >L’appli de bureau [!DNL Experience Manager] peut gérer des ressources d’une taille de 40 Go.
 
-## Se connecter à un [!DNL Experience Manager] instance derrière un Dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
+## Connexion à une instance [!DNL Experience Manager] derrière un Dispatcher {#connect-to-an-aem-instance-behind-a-dispatcher}
 
 Les méthodes copy et move de l’API Assets nécessitent que les en-têtes supplémentaires suivants soient transmis à [!DNL Experience Manager] :
 
@@ -61,13 +61,13 @@ Les méthodes copy et move de l’API Assets nécessitent que les en-têtes supp
 * X-Depth
 * X-Overwrite
 
-L’appli de bureau [!DNL Experience Manager] se connecte à [!DNL Experience Manager] à l’aide d’une URL qui contient le port par défaut. Par conséquent, la variable `virtualhosts` dans la configuration de Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
+L’appli de bureau [!DNL Experience Manager] se connecte à [!DNL Experience Manager] à l’aide d’une URL qui contient le port par défaut. Par conséquent, le paramètre `virtualhosts` de la configuration Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
 Pour plus d’informations sur la configuration de Dispatcher pour transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Prise en charge des proxys {#proxy-support}
 
-La variable [!DNL Experience Manager] L’appli de bureau utilise le proxy prédéfini du système pour se connecter à Internet via HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
+L’appli de bureau [!DNL Experience Manager] utilise le proxy prédéfini du système pour se connecter à Internet par HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
 
 Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez l’appli de bureau [!DNL Experience Manager] afin que les modifications soient prises en compte.
 
@@ -81,7 +81,7 @@ Si votre proxy nécessite une authentification, l’équipe informatique peut au
 
 Vous pouvez personnaliser la boîte de dialogue Asset Info (Informations sur les ressources) en recouvrant l’un de ces composants, ou les deux :
 
-* La page de l’interface utilisateur Granite à l’adresse `/libs/dam/gui/content/assets/moreinfo`.
+* Page de l’interface utilisateur Granite à `/libs/dam/gui/content/assets/moreinfo`.
 
 * Le composant `/css/javascript` HTL, situé à l’adresse `/libs/dam/gui/components/admin/moreinfo`.
 
@@ -91,7 +91,7 @@ Le composant superposé dépend de la nature de la personnalisation. Pour modifi
 
 Sous Windows, le cache se situe à l’emplacement `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`, où il existe une version codée de l’hôte configuré dans l’appli de bureau [!DNL Experience Manager]. Par exemple, `http://localhost:4502` s’affiche comme suit : `http%3A%2F%2Flocalhost%3A4502%2F`
 
-Sous macOS X, un répertoire similaire se trouve à l’adresse `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
+Sur macOS X, un répertoire similaire se trouve à l’emplacement `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
 
 ### Option in-app pour gérer le cache {#in-app-option-to-manage-cache}
 
@@ -99,7 +99,7 @@ Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en
 
 >[!NOTE]
 >
->Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans la variable [!DNL Experience Manager] sont conservés et ne sont pas supprimés.
+>Lorsque vous effacez le cache, les modifications non enregistrées sont conservées. Toutes les ressources non archivées dans le serveur [!DNL Experience Manager] sont conservées et ne sont pas supprimées.
 
 ### Modification de l’emplacement du cache sous Windows {#change-location-of-cache-on-windows}
 
@@ -109,13 +109,13 @@ L’emplacement par défaut du cache de l’appli de bureau [!DNL Experience Man
 
 * Sous Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
-La variable `EncodedAEMEndpoint` est l’application configurée [!DNL Experience Manager] URL du point d’entrée. La valeur est une version codée de l’URL de ciblage du serveur [!DNL Experience Manager]. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502`. Le chemin d’accès Windows au répertoire du cache dans cet exemple est `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
+`EncodedAEMEndpoint` est l’URL de point d’entrée [!DNL Experience Manager] configurée de l’application. La valeur est une version codée de l’URL de ciblage du serveur [!DNL Experience Manager]. Par exemple, si l’application cible est `http://localhost:4502`, le nom du répertoire est `http%3A%2F%2Flocalhost%3A4502`. Le chemin d’accès Windows au répertoire du cache dans cet exemple est `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez son fichier de configuration.
 
 1. Accédez au répertoire d’installation de l’application. L’emplacement par défaut sous Windows est `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
 
-1. Modifiez la variable `Adobe Experience Manager Desktop.exe.config` avec un éditeur de texte.
+1. Modifiez le fichier `Adobe Experience Manager Desktop.exe.config` avec un éditeur de texte.
 
    Des privilèges d’administrateur sont nécessaires pour enregistrer les modifications apportées à ce fichier.
 
@@ -127,6 +127,6 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
 >[!MORELIKETHIS]
 >
-* Regarder [Introduction à [!DNL Experience Manager] application de bureau](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
+* Regardez une [introduction à l’ [!DNL Experience Manager] appli de bureau](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
 * [Utilisation de l’appli de bureau [!DNL Experience Manager] .](use-app-v1.md)
 * [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] .](troubleshoot-app-v1.md)
