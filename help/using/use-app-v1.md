@@ -23,7 +23,7 @@ Les tâches clés que vous effectuez à l’aide de l’appli de bureau [!DNL Ex
 1. [Modification et extraction de ressources à partir de l’appli de bureau](#workonassets)
 1. [Chargement en masse de ressources et de dossiers](#bulkupload)
 
-Pour les pratiques recommandées, consultez les [bonnes pratiques pour utiliser l’appli de bureau](best-practices-for-v1.md). Si vous rencontrez des problèmes lors de l’utilisation de l’application, consultez la page [résolution des problèmes de l’appli de bureau  [!DNL Experience Manager] 2}.](troubleshoot-app-v1.md)
+Pour les pratiques recommandées, consultez les [bonnes pratiques pour utiliser l’appli de bureau](best-practices-for-v1.md). Si vous rencontrez des problèmes lors de l’utilisation de l’application, consultez la page [résolution des problèmes de l’appli de bureau  [!DNL Experience Manager] 2&rbrace;.](troubleshoot-app-v1.md)
 
 >[!NOTE]
 >

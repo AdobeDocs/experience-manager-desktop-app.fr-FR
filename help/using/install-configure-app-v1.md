@@ -127,6 +127,6 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
 >[!MORELIKETHIS]
 >
-* Regardez une [introduction à l’ [!DNL Experience Manager] appli de bureau](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
-* [Utilisation de l’appli de bureau [!DNL Experience Manager] .](use-app-v1.md)
-* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] .](troubleshoot-app-v1.md)
+>* Regardez une [introduction à l’ [!DNL Experience Manager] appli de bureau](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
+>* [Utilisation de l’appli de bureau [!DNL Experience Manager] .](use-app-v1.md)
+>* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] .](troubleshoot-app-v1.md)
