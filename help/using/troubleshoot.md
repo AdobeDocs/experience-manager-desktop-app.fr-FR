@@ -21,7 +21,7 @@ Observez les bonnes pratiques suivantes pour éviter certains problèmes courant
 
 * **Comprendre le fonctionnement de l’appli de bureau** : avant de commencer à utiliser l’application, consacrez quelques minutes à en découvrir le fonctionnement. Découvrez comment fonctionne la liaison entre l’interface web [!DNL Experience Manager] et le bureau, le mappage de référentiel, la mise en cache de ressources, l’enregistrement en local et le chargement en arrière-plan. Voir [Fonctionnement](release-notes.md#how-app-works).
 
-* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Les caractères non pris en charge dans le nom du dossier peuvent avoir une incidence sur certains cas d’utilisation de [!DNL Experience Manager].
+* **Éviter les caractères non pris en charge dans les noms de dossier** : n’utilisez pas d’espaces ni de caractères non valides lors de la création ou du chargement de dossiers. Consultez la liste des caractères dans [Création de dossiers dans [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Les caractères non pris en charge dans le nom du dossier peuvent avoir une incidence sur certains cas d’utilisation de [!DNL Experience Manager].
 
 * **Bonnes pratiques pour éviter les conflits** : pour éviter les conflits potentiels lors de la collaboration sur plusieurs ressources, accédez à [éviter les conflits de modification](using.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -301,8 +301,8 @@ Dans les deux méthodes, l’application démarre au dossier DAM racine.
 
 Lors de l’exploration de ressources à partir de l’interface utilisateur de [!DNL Experience Manager], les ressources expirées ne s’affichent pas. Les administrateurs peuvent configurer des paramètres pour empêcher l’affichage, la recherche et la récupération des ressources expirées lors de l’accès à partir de l’appli de bureau et Asset Link. Cela permet de s’assurer que les ressources expirées ne sont pas accessibles pendant ces opérations. La configuration fonctionne pour tous les utilisateurs, quel que soit le privilège d’administrateur.
 
-* [Configuration dans Experience Manager 6.5 pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
-* [Configuration dans Experience Manager as a Cloud Service pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
+* [Configuration dans Experience Manager 6.5 pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [Configuration dans Experience Manager as a Cloud Service pour masquer les ressources parvenues à expiration](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

@@ -61,9 +61,9 @@ Les méthodes copy et move de l’API Assets nécessitent que les en-têtes supp
 * X-Depth
 * X-Overwrite
 
-L’appli de bureau [!DNL Experience Manager] se connecte à [!DNL Experience Manager] à l’aide d’une URL qui contient le port par défaut. Par conséquent, le paramètre `virtualhosts` de la configuration Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
+L’appli de bureau [!DNL Experience Manager] se connecte à [!DNL Experience Manager] à l’aide d’une URL qui contient le port par défaut. Par conséquent, le paramètre `virtualhosts` de la configuration Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/fr/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-Pour plus d’informations sur la configuration de Dispatcher pour transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Pour plus d’informations sur la configuration de Dispatcher pour transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/fr/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Prise en charge des proxys {#proxy-support}
 
@@ -127,6 +127,6 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
 >[!MORELIKETHIS]
 >
->* Regardez une [introduction à l’ [!DNL Experience Manager] appli de bureau](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
+>* Regardez une [introduction à l’ [!DNL Experience Manager] appli de bureau](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
 >* [Utilisation de l’appli de bureau [!DNL Experience Manager] .](use-app-v1.md)
 >* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] .](troubleshoot-app-v1.md)

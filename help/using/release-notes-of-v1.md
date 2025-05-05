@@ -417,7 +417,7 @@ Comme le dossier `/Volumes` ne nécessite plus de droits d’administration, cet
 
 ## Ressources utiles {#helpful-resources}
 
-* [Documentation AEM](https://experienceleague.adobe.com/en/docs)
+* [Documentation AEM](https://experienceleague.adobe.com/fr/docs)
 * [Utilisation de l’appli de bureau AEM v1.x](use-app-v1.md)
 * [Bonnes pratiques relatives à l’appli de bureau AEM v1.x](best-practices-for-v1.md)
 

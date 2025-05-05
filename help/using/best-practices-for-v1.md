@@ -63,7 +63,7 @@ Les fonctionnalités clés de l’appli de bureau AEM incluent :
 
 * N’utilisez pas les lecteurs réseau de l’appli de bureau AEM pour enregistrer fréquemment les ressources. Toutes les opérations de sauvegarde sont transmises à AEM Assets. Par conséquent, il n’est pas pratique d’effectuer des opérations de modification intensives directement dans le référentiel AEM Assets monté. La modification d’une ressource directement dans le référentiel monté encombre la chronologie de la ressource avec des versions non pertinentes et impose des surcharges supplémentaires sur le serveur.
 
-* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) pour planifier et exécuter des migrations de ressources. En revanche, l’appli de bureau [ prend en charge le chargement en masse ](use-app-v1.md#bulkupload) d’un grand nombre de ressources pour la première fois dans [!DNL Adobe Experience Manager].
+* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/assets-migration-guide) pour planifier et exécuter des migrations de ressources. En revanche, l’appli de bureau [ prend en charge le chargement en masse ](use-app-v1.md#bulkupload) d’un grand nombre de ressources pour la première fois dans [!DNL Adobe Experience Manager].
 
 ## Recommandations pour des cas d’utilisation spécifiques {#recommendations-for-selected-use-cases}
 
@@ -119,7 +119,7 @@ Une bonne expérience utilisateur avec l’appli de bureau AEM repose sur une co
 
 ### Remarques relatives au réseau {#network-considerations}
 
-Pour comprendre les bonnes pratiques relatives à la configuration réseau d’AEM Assets, consultez le document [Comment migrer en masse des ressources](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) . Voici quelques aspects importants qui permettent d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
+Pour comprendre les bonnes pratiques relatives à la configuration réseau d’AEM Assets, consultez le document [Comment migrer en masse des ressources](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/assets-migration-guide) . Voici quelques aspects importants qui permettent d’optimiser l’expérience de l’appli de bureau AEM pour les utilisateurs :
 
 * **Utilisez un Dispatcher correctement configuré**. Utilisez AEM Dispatcher pour plus de sécurité et assurez-vous qu’il est configuré pour la connexion de l’appli de bureau [AEM à l’instance d’exécution d’un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
@@ -131,8 +131,8 @@ Pour comprendre les bonnes pratiques relatives à la configuration réseau d’A
 
 ### Optimisation des performances du serveur {#optimizing-server-performance}
 
-Pour comprendre comment le serveur AEM Assets doit être optimisé pour les performances, consultez le [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
+Pour comprendre comment le serveur AEM Assets doit être optimisé pour les performances, consultez le [Guide d’optimisation des performances d’AEM Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Certains aspects importants relatifs aux performances du serveur pour l’appli de bureau AEM concernent l’optimisation de la configuration des workflows afin d’assurer un bon fonctionnement en vue du chargement des ressources :
 
-* **Chargement de ressources plus performant**. Configurez le modèle de workflow de mise à jour des ressources [AEM pour qu’il soit transitoire](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
+* **Chargement de ressources plus performant**. Configurez le modèle de workflow de mise à jour des ressources [AEM pour qu’il soit transitoire](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines).
 
 * **Limiter le processeur du serveur pour les chargements**. Assurez-vous que le nombre maximal de tâches de workflow parallèles est défini correctement, de sorte que les chargements ne consomment pas toutes les capacités du processeur.
