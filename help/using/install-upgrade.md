@@ -92,7 +92,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
    *Figure : L’application affiche le contenu de la gestion des actifs numériques (DAM) après la connexion*
 
-1. ([!DNL Experience Manager] 6.5.1 ou une version ultérieure) Si vous utilisez l’application de bureau avec [!DNL Experience Manager] 6.5.1 ou une version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou une version ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 ou une version ultérieure) Si vous utilisez l’application de bureau avec [!DNL Experience Manager] 6.5.1 ou une version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou une version ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez le Service clientèle d’Adobe.
 

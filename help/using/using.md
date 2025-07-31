@@ -157,7 +157,7 @@ Utilisez **[!UICONTROL Toggle Check-out]** pour verrouiller la ressource afin d�
 * Vous avez commencé à modifier une ressource sans d’abord l’extraire (vous l’avez simplement ouverte).
 * Vous vous préparez à modifier une ressource et ne souhaitez pas que d’autres personnes le fassent.
 
-Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. Grâce à l’interface web d’[!DNL Assets], vous pouvez afficher l’historique des ressources dans la vue [Chronologie](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
+Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. Grâce à l’interface web d’[!DNL Assets], vous pouvez afficher l’historique des ressources dans la vue [Chronologie](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Option de chargement des modifications dans l’appli](assets/upload_changes_single1_da2.png "Option de chargement des modifications dans l’appli")
 
@@ -297,7 +297,7 @@ Après le chargement, si les modifications attendues ne sont pas répercutées d
 
 >[!NOTE]
 >
->N’utilisez pas la fonctionnalité de chargement pour la migration des ressources sur deux déploiements [!DNL Experience Manager]. Consultez plutôt le [guide de migration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>N’utilisez pas la fonctionnalité de chargement pour la migration des ressources sur deux déploiements [!DNL Experience Manager]. Consultez plutôt le [guide de migration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Liste des ressources transférées {#list-of-transferred-assets}
 
