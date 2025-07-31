@@ -8,20 +8,27 @@ user-guide-description: Découvrez comment utiliser l’application de bureau Ex
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 95%
+source-wordcount: '85'
+ht-degree: 70%
 
 ---
 
 
-# Guide de l’appli de bureau Adobe {#using}
+# Guide de l’application de bureau Adobe Experience Manager {#get-started}
 
 + [Présentation](introduction.md)
 + [Notes de mise à jour](release-notes.md)
 + [Installation ou mise à niveau](install-upgrade.md)
-+ [Utilisation de l’application](using.md)
++ [Prise en main de l’application de bureau AEM](get-started.md)
++ [Interface utilisateur](user-interface.md)
++ [Recherche](search.md)
++ [Utilisation de l’appli de bureau](using-desktop-app.md)
++ [Gestion d’Assets](assets-management-tasks.md)
++ [Télécharger des ressources](download-assets.md)
++ [Chargement de ressources](upload-assets.md)
++ [Utilisation de plusieurs ressources](working-with-multiple-assets.md)
 + [Résolution des problèmes](troubleshoot.md)
 + Aide de la version précédente {#archive}
    + [Notes de mise à jour v1](release-notes-of-v1.md)

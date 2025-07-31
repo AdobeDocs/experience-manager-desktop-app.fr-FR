@@ -4,14 +4,14 @@ description: Utilisez l’application de bureau [!DNL Adobe Experience Manager] 
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: fb11b41020a4c2b2c40e8adcde822c65a7fe8985
+source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
 workflow-type: tm+mt
-source-wordcount: '4734'
-ht-degree: 58%
+source-wordcount: '4060'
+ht-degree: 68%
 
 ---
 
-# Utilisation de l’appli de bureau [!DNL Adobe Experience Manager] {#use-aem-desktop-app-v2}
+# Utilisation de l’appli de bureau [!DNL Adobe Experience Manager]  {#use-aem-desktop-app-v2}
 
 Utilisez l’application de bureau [!DNL Adobe Experience Manager] pour accéder aux ressources numériques stockées dans un référentiel de gestion des ressources numériques [!DNL Adobe Experience Manager] sur votre bureau local. Vous pouvez ensuite utiliser ces ressources dans n’importe quelle application de bureau. Vous pouvez ouvrir et modifier les ressources localement dans les applications de bureau. Après avoir apporté des modifications, chargez-les à nouveau dans [!DNL Experience Manager] avec le contrôle de version pour partager les mises à jour avec d’autres utilisateurs. Vous pouvez également charger de nouveaux fichiers et des hiérarchies de dossiers vers [!DNL Experience Manager], créer des dossiers et supprimer des ressources ou des dossiers dans le DAM d’[!DNL Experience Manager].
 
@@ -23,7 +23,7 @@ L’application de bureau [!DNL Adobe Experience Manager] vous permet d’effect
 
 ![Workflows et tâches pouvant être effectués avec les workflows de l’application de bureau [!DNL Experience Manager]](assets/aem_desktop_app_usecases_v2.png "Workflows et tâches pouvant être effectués avec l’appli de bureau  [!DNL Adobe Experience Manager] ")
 
-<!--Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.-->
+Télécharger [ce](assets/aem_desktop_app_usecases_print.pdf) fichier PDF prêt à imprimer.
 
 ## Fonctionnement de l’appli de bureau {#how-app-works2}
 
@@ -47,15 +47,13 @@ Avant de commencer à utiliser l’application, vous devez comprendre [son fonct
 
 * Action **[!UICONTROL Open]** : ouvrez simplement la ressource pour la prévisualiser dans l’application native. Adobe vous recommande d’éviter de modifier la ressource à l’aide de cette action. La raison en est qu’il n’extrait pas la ressource. Pendant ce temps, d’autres utilisateurs peuvent apporter des modifications entraînant des conflits de modification.
 
-* **[!UICONTROL Open with]** action : la fonctionnalité « Ouvrir avec » permet d’ouvrir un fichier avec une application spécifique autre que celle par défaut. Cela s’avère utile pour choisir un programme préféré, accéder à des fichiers dans différents formats, résoudre des problèmes liés à l’application par défaut ou utiliser plusieurs programmes. Il offre une certaine flexibilité en vous permettant de remplacer temporairement l’application par défaut sans modifier définitivement les paramètres.
-
-* Action **[!UICONTROL Open In Web]** : pour afficher la ressource dans l’interface web [!DNL Experience Manager], ouvrez-la dans le Web. Vous pouvez lancer d’autres workflows à partir de l’interface [!DNL Experience Manager], comme la mise à jour des métadonnées ou la découverte de ressources.
-
 * Action **[!UICONTROL Edit]** : utilisez l’action pour modifier l’image. Un clic sur [!UICONTROL Edit] extrait la ressource et ajoute une icône de verrou à la ressource. Après avoir cliqué sur Edit (Modifier), si vous ne souhaitez pas modifier la ressource, cliquez sur [!UICONTROL Toggle check-in]. Pour supprimer, renommer ou déplacer des ressources dans la hiérarchie de dossiers de la gestion des ressources numériques [!DNL Experience Manager], utilisez les actions de l’interface web [!DNL Experience Manager] et non l’action de modification.
 
 * Action **[!UICONTROL Download]** : téléchargez la ressource sur votre ordinateur local. Vous pouvez télécharger les ressources maintenant et les modifier ultérieurement et travailler hors ligne et charger les modifications ultérieurement. Les fichiers sont téléchargés dans un dossier de cache sur votre système de fichiers.
 
 * Action **[!UICONTROL Reveal File]** ou **[!UICONTROL Reveal Folder]** : lorsque les ressources sont téléchargées dans un dossier de cache local, l’application imite un lecteur réseau local. Il fournit un chemin d’accès local pour chaque ressource. Pour découvrir ce chemin d’accès, utilisez l’option d’affichage appropriée dans l’application. Une action d’affichage est requise pour placer des ressources dans l’application Creative Cloud. Voir [Placement de ressources](using.md#place-assets-in-native-documents).
+
+* Action **[!UICONTROL Open In Web]** : pour afficher la ressource dans l’interface web [!DNL Experience Manager], ouvrez-la dans le Web. Vous pouvez lancer d’autres workflows à partir de l’interface [!DNL Experience Manager], comme la mise à jour des métadonnées ou la découverte de ressources.
 
 * Action **[!UICONTROL Delete]** : supprimez la ressource du référentiel DAM d’[!DNL Experience Manager]. L’action supprime la copie d’origine de la ressource sur le serveur Experience Manager. Si vous souhaitez uniquement ignorer les modifications apportées à la ressource locale, voir [ignorer les modifications](using.md#edit-assets-upload-updated-assets).
 
@@ -73,28 +71,6 @@ Avant de commencer à utiliser l’application, vous devez comprendre [son fonct
    ![Sélectionnez Afficher les actions de bureau pour Assets afin d’activer les actions de bureau](assets/enable_desktop_actions.png)
 
    *Image : sélectionnez [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau.*
-
-## Afficher les ressources {#view-assets}
-
-L’application de bureau AEM vous permet d’afficher des ressources dans quatre vues différentes :
-
-* **[!UICONTROL Show Assets]:** permet d’afficher toutes les ressources.
-* **[!UICONTROL Show Collections]:** permet d’afficher toutes les collections créées dans l’application AEM native. En savoir plus [collections](#collections-desktop-app).
-* **[!UICONTROL Edited Locally]:** permet d’afficher toutes les ressources modifiées localement. Dans cette vue, vous pouvez ajouter et charger plusieurs ressources.
-* **[!UICONTROL Asset transfers]:** vous permet d’afficher toutes les ressources transférées de l’application native vers l’application locale ou vice versa.
-* **[!UICONTROL Pinned items]:** vous permet d’afficher tous les éléments épinglés.
-
-Pour choisir parmi différentes vues de ressources dans l’application AEM Desktop, procédez comme suit :
-
-1. Ouvrez l’application de bureau AEM.
-
-1. Accédez à la liste déroulante Affichage dans le coin supérieur droit. Choisissez-en une parmi les vues disponibles.
-
-   ![épingler ou détacher un dossier](assets/view-pinned-assets.png)
-
-### Afficher les dossiers et fichiers nouvellement ajoutés {#view-newly-added-files-folders}
-
-Vous pouvez charger les ressources nouvellement créées à partir de votre ordinateur local vers AEM, où le référentiel central est stocké. Pour afficher localement ces ressources nouvellement créées, accédez au menu déroulant **[!UICONTROL View]** et sélectionnez **[!UICONTROL Show Assets]** pour afficher toutes les mises à jour avec leur journal et leur titre, ou sélectionnez **[!UICONTROL Edited Locally]**. Les deux options affichent explicitement les ressources modifiées localement.
 
 ## Parcourir, rechercher et prévisualiser des ressources {#browse-search-preview-assets}
 
@@ -119,59 +95,11 @@ Vous pouvez parcourir, rechercher et prévisualiser les ressources disponibles d
 >
 >L’application affiche les ressources en faisant correspondre les critères de recherche de plusieurs champs de métadonnées et pas uniquement le titre ou le nom de fichier de la ressource.
 
-## Gestion des ressources {#assets-management}
-
-La gestion des ressources implique l’organisation, la maintenance et l’optimisation des ressources numériques afin de rationaliser les workflows. Cela inclut des tâches telles que la duplication et le changement de nom de fichiers, l’épinglage ou le détachement de dossiers pour un accès rapide, ainsi que l’affichage de ressources dans différentes dispositions. Cela permet d’améliorer l’efficacité, de simplifier le suivi des ressources et d’assurer une récupération et une organisation faciles des ressources numériques sur plusieurs plateformes.
-
-### Dupliquer les fichiers {#duplicate-files}
-
-Lorsque vous souhaitez conserver un fichier d’origine et apporter des modifications au fichier similaire, vous pouvez dupliquer des fichiers à différents emplacements (local et cloud) simultanément. Cela peut être effectué au moyen de fichiers en double sur plusieurs ressources.
-
-Pour dupliquer des fichiers dans l’application de bureau AEM, procédez comme suit :
-
-1. Accédez à un dossier et sélectionnez la ressource à dupliquer.
-
-   ![Fichiers en double](assets/more-options.png)
-
-1. Cliquez sur **[!UICONTROL More actions]** ![icône Autres actions](assets/do-not-localize/more2_da2.png) et sélectionnez ![icône de duplication](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]** action.
-
-1. Le fichier en double est créé avec un nom de fichier et un contenu identiques.
-
-### Renommer le titre d’une ressource {#rename-asset-title}
-
-Pour renommer le titre d’une ressource, procédez comme suit :
-
-1. Parcourez la ressource à renommer.
-
-1. Cliquez sur **[!UICONTROL More actions]** ![icône Autres actions](assets/do-not-localize/more2_da2.png) et sélectionnez **[!UICONTROL Rename]** pour ajouter le titre de votre choix à une ressource.
-
-<!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
-
-1. Go to asset details. Under [!UICONTROL Basic] tab, go to title and enter the text.-->
-
-### Épingler ou désépingler un dossier {#pin-unpin-folder}
-
-Pour l’accès rapide, vous pouvez épingler ou désépingler un dossier en procédant comme suit :
-
-1. Parcourez la ressource que vous souhaitez épingler ou désépingler.
-
-1. Cliquez sur **[!UICONTROL More actions]** ![icône Autres actions](assets/do-not-localize/more2_da2.png) et sélectionnez [!UICONTROL pin] pour épingler la ressource ou le dossier. Vous pouvez également cliquer sur [!UICONTROL unpin] pour le désépingler.
-
-   ![épingler ou détacher un dossier](assets/pin-unpin.png)
-
-### Actualisation automatique {#auto-refresh}
-
-La fonction d’actualisation automatique met automatiquement à jour le contenu en temps réel, ce qui vous permet de toujours voir les informations les plus récentes sans recharger manuellement la page. Exécutez les étapes ci-dessous pour actualiser automatiquement les ressources afin d’obtenir la liste des ressources mises à jour :
-
-1. Ouvrez l’application de bureau AEM.
-
-1. Cliquez sur ![icône d’actualisation](assets/do-not-localize/refresh.png) dans la barre de menus pour obtenir les mises à jour.
-
 ## Téléchargement de ressources {#download-assets}
 
 Vous pouvez télécharger les ressources sur votre système de fichiers local. L’application récupère les ressources à partir du serveur [!DNL Experience Manager] et enregistre la même copie sur votre système de fichiers local.
 
-Cliquez sur **[!UICONTROL More actions]** ![icône Plus d’options](assets/do-not-localize/more2_da2.png) pour afficher les options, puis sur ![icône Télécharger](assets/do-not-localize/download_cloud_da2.png) pour les télécharger.
+Cliquez sur ![Icône More options](assets/do-not-localize/more2_da2.png) pour afficher les options, puis sur ![Icône Download](assets/do-not-localize/download_cloud_da2.png) pour télécharger.
 
 ![Option de téléchargement pour une ressource](assets/download_option_da2.png "Option de téléchargement pour une ressource")
 
@@ -199,42 +127,6 @@ Cliquez sur **[!UICONTROL Open]** dans le menu de ressource. La ressource est t�
 >Si les modifications attendues ne sont pas reflétées dans l’application, cliquez sur l’icône Actualiser ![Icône Actualiser](assets/do-not-localize/refresh.png) ou cliquez avec le bouton droit de la souris sur l’interface de l’application, puis cliquez sur **[!UICONTROL Refresh]**. Les actions ne sont pas disponibles lorsque des téléchargements ou des chargements plus volumineux sont en cours.
 
 Pour ouvrir le dossier de téléchargement local d’une ressource, cliquez sur ![Icône More actions](assets/do-not-localize/more2_da2.png), puis sur l’action ![Icône Afficher](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
-
-## Collections {#collections-desktop-app}
-
-L’application de bureau AEM vous permet d’[afficher](#view-collections-desktop-app), [télécharger](#download-collections-desktop-app) et de parcourir les collections créées sur [!DNL Adobe Experience Manager Assets] application.
-
-### Affichage des collections {#view-collections-desktop-app}
-
-Pour afficher les collections dans l’application Desktop, procédez comme suit :
-
-1. Ouvrez l’application de bureau AEM et accédez à [Affichage des ressources](#view-assets).
-
-1. Sélectionnez **[!UICONTROL Show Collections]**. Les collections disponibles dans l’application native s’affichent.
-
-   ![Application de bureau Collections](assets/collections-desktop-app.png)
-
-### Télécharger des collections {#download-collections-desktop-app}
-
-Exécutez les étapes suivantes pour télécharger des collections dans l’application de bureau :
-
-1. Suivez les étapes 1 et 2 comme indiqué dans [Affichage des collections](#view-collections-desktop-app).
-
-1. Accédez à Autres actions ![icône Autres actions](assets/do-not-localize/more2_da2.png) sur la collection à télécharger.
-
-1. Cliquez sur **[!UICONTROL Download]** pour télécharger la collection en question.
-
-## Créer un dossier avec le schéma de métadonnées {#create-folder-with-metadata-schema}
-
-L’application de bureau AEM vous permet d’attribuer des métadonnées lors de la création d’un dossier. Pour cela, procédez comme suit :
-
-1. Accédez à l’icône Créer un répertoire ![icône Ajouter un dossier](assets/do-not-localize/add-folder.svg). **[!UICONTROL Create Directory]** écran s’affiche.
-
-1. Ajoutez les détails suivants :
-   * **[!UICONTROL Name]** du dossier.
-   * **[!UICONTROL Folder Metadata Schema]** de choisir la hiérarchie des métadonnées du dossier ou choisissez **[!UICONTROL none]** si vous ne souhaitez pas y lier des métadonnées.
-
-1. Cliquez sur **[!UICONTROL OK]** pour continuer.
 
 ## Utiliser ou placer des ressources dans des documents natifs {#place-assets-in-native-documents}
 
@@ -265,7 +157,7 @@ Utilisez **[!UICONTROL Toggle Check-out]** pour verrouiller la ressource afin d�
 * Vous avez commencé à modifier une ressource sans d’abord l’extraire (vous l’avez simplement ouverte).
 * Vous vous préparez à modifier une ressource et ne souhaitez pas que d’autres personnes le fassent.
 
-Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. Grâce à l’interface web d’[!DNL Assets], vous pouvez afficher l’historique des ressources dans la vue [Chronologie](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/using/activity-stream).
+Une fois les modifications effectuées, l’application affiche le statut **[!UICONTROL Edited Locally]** pour les ressources modifiées. Toutes les modifications enregistrées dans les ressources sont en local uniquement jusqu’à ce que vous les chargiez dans [!DNL Experience Manager]. Pour charger une ressource spécifique ou quelques ressources une par une, cliquez sur **[!UICONTROL Upload Changes]** dans les options d’une ressource. Une version de la ressource est alors créée dans [!DNL Experience Manager]. Grâce à l’interface web d’[!DNL Assets], vous pouvez afficher l’historique des ressources dans la vue [Chronologie](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream).
 
 ![Option de chargement des modifications dans l’appli](assets/upload_changes_single1_da2.png "Option de chargement des modifications dans l’appli")
 
@@ -299,9 +191,6 @@ Vous pouvez contrôler la simultanéité du chargement (accélération) dans **[
 >[!NOTE]
 >
 >La liste de transfert n’est pas persistante et n’est pas disponible si vous quittez l’application et la rouvrez.
-
-<!--### Upload local file to AEM {#upload-local-file-to-aem}-->
-
 
 ### Gestion des caractères spéciaux dans les noms de ressources {#special-characters-in-filename}
 
@@ -408,7 +297,7 @@ Après le chargement, si les modifications attendues ne sont pas répercutées d
 
 >[!NOTE]
 >
->N’utilisez pas la fonctionnalité de chargement pour la migration des ressources sur deux déploiements [!DNL Experience Manager]. Consultez plutôt le [guide de migration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>N’utilisez pas la fonctionnalité de chargement pour la migration des ressources sur deux déploiements [!DNL Experience Manager]. Consultez plutôt le [guide de migration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Liste des ressources transférées {#list-of-transferred-assets}
 
