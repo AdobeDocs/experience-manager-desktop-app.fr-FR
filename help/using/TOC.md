@@ -8,7 +8,7 @@ user-guide-description: Découvrez comment utiliser l’application de bureau Ex
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
+source-git-commit: cde31207ddb0da1057db15f3fcbeec4dd3d0cd8c
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 70%
@@ -16,7 +16,7 @@ ht-degree: 70%
 ---
 
 
-# Guide de l’application de bureau Adobe Experience Manager {#get-started}
+# Guide de l’application de bureau Adobe Experience Manager {#using}
 
 + [Présentation](introduction.md)
 + [Notes de mise à jour](release-notes.md)
