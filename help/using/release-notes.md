@@ -4,10 +4,10 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
 workflow-type: tm+mt
-source-wordcount: '2470'
-ht-degree: 52%
+source-wordcount: '2502'
+ht-degree: 51%
 
 ---
 
@@ -15,25 +15,55 @@ ht-degree: 52%
 
 Les informations de mise à jour de la dernière version de l’application de bureau 3.0.0 sont les suivantes. La date de publication est le vendredi 31 juillet 2025.
 
-La dernière version de l’application de bureau contient les améliorations et correctifs suivants :
+Cette version offre plusieurs améliorations des collections, des chargements, de l’enregistrement et de l’extraction, de la gestion des métadonnées et de la convivialité globale. Ces mises à jour améliorent l’efficacité, rationalisent la gestion des ressources et offrent une expérience plus intuitive en temps réel dans l’application de bureau AEM.
+
+![Interface utilisateur de l’application de bureau](assets/dekktop-app-user-interface.png)
+
+**Collections**
+
+* Vous pouvez désormais afficher, télécharger et parcourir les collections.
+
+* Ajout de la prise en charge du téléchargement de dossiers disponibles dans les collections.
+
+* La fonction de synchronisation automatique permet désormais aux ressources téléchargées dans les collections de synchroniser régulièrement la gestion des ressources AEM avec le système de fichiers local.
+
+* Lorsque vous mettez à jour une ressource faisant partie d’une collection, le système la met automatiquement à jour dans le dossier de cache temporaire et dans l’interface utilisateur de l’application de bureau.
+
+**Chargements**
 
 * Vous pouvez charger des ressources nouvellement créées à partir de votre ordinateur local vers AEM, où le référentiel central est stocké, et les afficher dans votre application de bureau.
-* La fonction d’actualisation automatique met automatiquement à jour le contenu en temps réel, ce qui vous permet de toujours voir les informations les plus récentes sans recharger manuellement la page et obtenir la liste des ressources mises à jour.
-* La fonction Épingler ou désépingler les dossiers vous permet de garder les dossiers importants facilement accessibles en les épinglant ou en désencombrant votre vue en les détachant lorsqu’ils ne sont plus nécessaires.
-* La fonction Renommer le titre vous permet de mettre à jour ou de modifier facilement le titre d’une ressource, ce qui vous permet de conserver des noms précis et organisés à mesure que votre contenu évolue.
-* Vous pouvez conserver le fichier d’origine et apporter des modifications à un fichier similaire en dupliquant les fichiers sur les emplacements locaux et cloud à l’aide de l’opération de duplication de fichiers.
-* La fonctionnalité d&#39;archivage et d&#39;extraction vous permet de gérer l&#39;accès aux fichiers en verrouillant un fichier pour le modifier (extraire) et en enregistrant vos modifications tout en le rendant disponible pour d&#39;autres utilisateurs (archiver).
-* Vous pouvez afficher, télécharger et parcourir les collections.
-* Vous pouvez attribuer des métadonnées lors de la création d’un dossier.
-* L’application de bureau Experience Manager vous permet désormais de déplacer des ressources ou des dossiers vers un nouvel emplacement tout en préservant leurs métadonnées, ce qui contribue à organiser et à rationaliser votre système de fichiers.
-* Ajout de la prise en charge du téléchargement de dossiers disponibles dans les collections.
-* L’option d’exportation permet désormais de télécharger les fichiers et dossiers sélectionnés depuis l’application Desktop vers leur emplacement cible spécifique dans une structure plate.
+
 * L’application de bureau identifie désormais automatiquement les nouveaux fichiers créés sous un dossier déjà téléchargé sur votre système de fichiers local et les charge vers AEM. L’application de bureau doit être maintenue ouverte pour identifier les nouveaux fichiers sur votre système de fichiers local.
-* La fonction de synchronisation automatique permet désormais aux ressources téléchargées dans les collections de synchroniser régulièrement la gestion des ressources AEM avec le système de fichiers local.
-* L’application de bureau AEM vous permet désormais d’afficher les propriétés du dossier, telles que la miniature du dossier, la taille, le chemin d’accès, la date de création, les balises, les métadonnées, etc.
-* Vous pouvez désormais accéder aux ressources en mode Carte, Grille ou Arborescence pour obtenir une disposition des ressources propre, organisée et visuellement attrayante.
+
+**Enregistrement et extraction**
+
+* La fonctionnalité d&#39;archivage et d&#39;extraction vous permet de gérer l&#39;accès aux fichiers en verrouillant un fichier pour le modifier (extraire) et en enregistrant vos modifications tout en le rendant disponible pour d&#39;autres utilisateurs (archiver).
+
 * Possibilité de faire glisser une ressource de l’application de bureau vers l’application Creative Cloud cible. L’application de bureau extrait automatiquement les ressources et les télécharge sur le système de fichiers local.
-* Lorsque vous mettez à jour une ressource faisant partie d’une collection, le système la met automatiquement à jour dans le dossier de cache temporaire et dans l’interface utilisateur de l’application de bureau.
+
+**Métadonnées**
+
+* Vous pouvez attribuer des métadonnées lors de la création d’un dossier.
+
+* L’application de bureau Experience Manager vous permet désormais de déplacer des ressources ou des dossiers vers un nouvel emplacement tout en préservant leurs métadonnées, ce qui contribue à organiser et à rationaliser votre système de fichiers.
+
+* L’application de bureau AEM vous permet désormais d’afficher les propriétés du dossier, telles que la miniature du dossier, la taille, le chemin d’accès, la date de création, les balises, les métadonnées, etc.
+
+**Améliorations de la convivialité**
+
+
+* La fonction d’actualisation automatique met automatiquement à jour le contenu en temps réel, ce qui vous permet de toujours voir les informations les plus récentes sans recharger manuellement la page et obtenir la liste des ressources mises à jour.
+
+* La fonction Épingler ou désépingler les dossiers vous permet de garder les dossiers importants facilement accessibles en les épinglant ou en désencombrant votre vue en les détachant lorsqu’ils ne sont plus nécessaires.
+
+* La fonction Renommer le titre vous permet de mettre à jour ou de modifier facilement le titre d’une ressource, ce qui vous permet de conserver des noms précis et organisés à mesure que votre contenu évolue.
+
+* Vous pouvez conserver le fichier d’origine et apporter des modifications à un fichier similaire en dupliquant les fichiers sur les emplacements locaux et cloud à l’aide de l’opération de duplication de fichiers.
+
+* L’option d’exportation permet désormais de télécharger les fichiers et dossiers sélectionnés depuis l’application Desktop vers leur emplacement cible spécifique dans une structure plate.
+
+* Vous pouvez désormais accéder aux ressources en mode Carte, Grille ou Arborescence pour obtenir une disposition des ressources propre, organisée et visuellement attrayante.
+
 * Divers libellés pour différentes options sont mis à jour dans l’interface utilisateur afin de rendre l’application plus intuitive.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
