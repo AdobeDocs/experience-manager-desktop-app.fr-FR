@@ -29,7 +29,7 @@ Pour plus d’informations, voir les [[!DNL Experience Manager] Notes de mise à
 
 ## Installer et connecter l’appli au serveur [!DNL Experience Manager] {#install-and-connect-aem-desktop-app-to-aem-server}
 
-Pour plus d’informations, voir [Installation et connexion de l’appli de bureau [!DNL Experience Manager] au serveur [!DNL Experience Manager] ](use-app-v1.md#installandconnect).
+Pour plus d’informations, voir [Installation et connexion de l’appli de bureau [!DNL Experience Manager] au serveur [!DNL Experience Manager] &#x200B;](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >

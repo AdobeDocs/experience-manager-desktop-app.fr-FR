@@ -30,8 +30,8 @@ La documentation de l’appli de bureau contient des informations sur les rôles
 | Vous voulez connaître les conditions préalables et les spécifications techniques ? Vous souhaitez des liens de téléchargement ? | [Notes de mise à jour](release-notes.md) |
 | Vous connaissez l’appli de bureau ? Vous procédez à une mise à niveau et souhaitez opérer une transition en douceur ? | [Mise à niveau depuis la version précédente](install-upgrade.md#upgrade-from-previous-version) |
 | Soyez opérationnel. Vous souhaitez modifier les préférences par défaut ? | [Installation et configuration de l’application](install-upgrade.md) |
-| Apprenez à naviguer, découvrir, modifier, charger, résoudre les conflits, effectuer des opérations massives, etc. | [Utilisation de l’appli de bureau [!DNL Experience Manager] ](using-desktop-app.md) |
-| Rencontrez-vous un problème ? | [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] ](troubleshoot.md) |
+| Apprenez à naviguer, découvrir, modifier, charger, résoudre les conflits, effectuer des opérations massives, etc. | [Utilisation de l’appli de bureau [!DNL Experience Manager] &#x200B;](using-desktop-app.md) |
+| Rencontrez-vous un problème ? | [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] &#x200B;](troubleshoot.md) |
 
 ## Nouveautés de l’appli {#whats-new-v2}
 

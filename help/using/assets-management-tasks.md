@@ -171,4 +171,4 @@ Pour tester ce processus avec une ressource d’image et InDesign, procédez com
 >[!MORELIKETHIS]
 >
 >* [Comprendre l’interface utilisateur](/help/using/user-interface.md).
->* [ Guide de prise en main ](/help/using/get-started.md).
+>* [&#x200B; Guide de prise en main &#x200B;](/help/using/get-started.md).

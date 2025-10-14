@@ -18,7 +18,7 @@ Cette intégration permet une gestion centralisée des ressources et un accès �
 
 Les tâches clés que vous effectuez à l’aide de l’appli de bureau [!DNL Experience Manager] v1 sont les suivantes :
 
-1. [Connexion avec un serveur [!DNL Experience Manager] ](#installandconnect)
+1. [Connexion avec un serveur [!DNL Experience Manager] &#x200B;](#installandconnect)
 1. [Ouverture directe de ressources sur l’appli de bureau](#openondesktop)
 1. [Modification et extraction de ressources à partir de l’appli de bureau](#workonassets)
 1. [Chargement en masse de ressources et de dossiers](#bulkupload)
@@ -43,7 +43,7 @@ Pour pouvoir commencer à créer ou modifier les ressources de création, connec
 
 1. [Installez l’application](#installapp).
 1. [Définissez vos préférences](#inapppref) et vos informations de connexion.
-1. [Connectez-vous à un serveur [!DNL Experience Manager] ](#connect)et montez le référentiel de ressources comme lecteur local.
+1. [Connectez-vous à un serveur [!DNL Experience Manager] &#x200B;](#connect)et montez le référentiel de ressources comme lecteur local.
 1. [Activez les actions de bureau](#desktopactions) sur le serveur [!DNL Experience Manager].
 
 L’appli de bureau [!DNL Experience Manager] utilise une connexion HTTPS au serveur [!DNL Experience Manager] pour transférer vos ressources de manière sécurisée.
@@ -56,7 +56,7 @@ L’appli de bureau [!DNL Experience Manager] utilise une connexion HTTPS au ser
 
 Assurez-vous que l’application prend en charge votre version du serveur Experience Manager pour utiliser l’appli de bureau Experience Manager. Téléchargez le fichier d’installation approprié (binaire) pour votre système d’exploitation (Mac ou Windows) et installez ensuite l’application.
 
-Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau [!DNL Experience Manager] ](install-configure-app-v1.md).
+Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau [!DNL Experience Manager] &#x200B;](install-configure-app-v1.md).
 
 1. Rendez-vous sur la page de téléchargement de l’appli de bureau [[!DNL Experience Manager] v1.10](/help/using/release-notes-of-v1.md) et téléchargez le fichier binaire approprié pour votre système d’exploitation.
 1. Exécutez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
@@ -220,7 +220,7 @@ L’application vous permet d’extraire des fichiers de ressources pour empêch
 
 Une fois la modification des ressources effectuée, enregistrez ces dernières dans votre application de bureau. Dans le menu contextuel, sélectionnez **More Assets Info** (Autres infos sur les ressources) et cliquez ensuite sur Check-in (Archiver).
 
-Les ressources sont chargées sur le serveur [!DNL Experience Manager]. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Vous pouvez également archiver une ressource à partir de l’interface web d’[!DNL Experience Manager]. Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![ icône d’archivage ](assets/do-not-localize/aemassets_icon_checkin.png).
+Les ressources sont chargées sur le serveur [!DNL Experience Manager]. Vous pouvez vérifier le statut du chargement en sélectionnant **View Asset Status** (Afficher le statut des ressources) à partir de l’icône de la barre d’état. Vous pouvez également archiver une ressource à partir de l’interface web d’[!DNL Experience Manager]. Cliquez sur les ressources extraites ou sélectionnez-les. Dans la barre d’outils, cliquez sur l’icône d’archivage ![&#x200B; icône d’archivage &#x200B;](assets/do-not-localize/aemassets_icon_checkin.png).
 
 Une ressource est automatiquement chargée dans [!DNL Experience Manager] après l’enregistrement local de toutes les modifications. L’archivage rend la ressource disponible pour modification par d’autres utilisateurs d’[!DNL Experience Manager].
 
@@ -248,4 +248,4 @@ Vous pouvez également sélectionner des fichiers/dossiers dans le Finder ou l�
 
 >[!MORELIKETHIS]
 >
->* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] ](troubleshoot-app-v1.md)
+>* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] &#x200B;](troubleshoot-app-v1.md)
