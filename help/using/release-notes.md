@@ -323,6 +323,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service)
 >* Documentation [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
->* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using-desktop-app.md)
+>* [Comment utiliser l’appli de bureau [!DNL Experience Manager] &#x200B;](using-desktop-app.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
