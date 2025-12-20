@@ -4,7 +4,7 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 43%
@@ -13,7 +13,7 @@ ht-degree: 43%
 
 # Notes de mise à jour de l’application de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-La date de publication de l’appli de bureau version 3.0.1 est le 18 décembre 2025.  Cette version comprend les améliorations suivantes :
+La date de publication de l’appli de bureau version 3.0.1 est le 20 décembre 2025.  Cette version comprend les améliorations suivantes :
 
 **Workflows plus fluides et plus fiables**
 
@@ -323,6 +323,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service)
 >* Documentation [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
->* [Comment utiliser l’appli de bureau [!DNL Experience Manager] &#x200B;](using-desktop-app.md)
+>* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using-desktop-app.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
