@@ -1,70 +1,35 @@
 ---
 title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager]
-description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’application de bureau  [!DNL Adobe Experience Manager] .
+description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’application  [!DNL Adobe Experience Manager]  bureau .
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 51%
+source-wordcount: '2662'
+ht-degree: 43%
 
 ---
 
-# Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
+# Notes de mise à jour de l’application de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Les informations de mise à jour de la dernière version de l’application de bureau 3.0.0 sont les suivantes. La date de publication est le vendredi 31 juillet 2025.
+La date de publication de l’appli de bureau version 3.0.1 est le 18 décembre 2025.  Cette version comprend les améliorations suivantes :
 
-Cette version offre plusieurs améliorations des collections, des chargements, de l’enregistrement et de l’extraction, de la gestion des métadonnées et de la convivialité globale. Ces mises à jour améliorent l’efficacité, rationalisent la gestion des ressources et offrent une expérience plus intuitive en temps réel dans l’application de bureau AEM.
+**Workflows plus fluides et plus fiables**
 
-![Interface utilisateur de l’application de bureau](assets/dekktop-app-user-interface.png)
+* Attribution d’un nom cohérent aux dossiers en résolvant les problèmes de synchronisation entre l’application de bureau AEM et l’auteur AEM.
+* Activation de workflows ininterrompus en autorisant des fonctionnalités d’application complètes pendant les opérations de transfert actives
+* Amélioration de la fiabilité de la page des propriétés du dossier, permettant un accès cohérent aux métadonnées et aux paramètres du dossier.
 
-**Collections**
+**Expérience utilisateur plus rapide et plus réactive**
 
-* Vous pouvez désormais afficher, télécharger et parcourir les collections.
+* Amélioration de la réactivité de l’interface utilisateur en remplaçant les E/S bloquantes par un traitement asynchrone, ce qui offre une expérience plus fluide lors des opérations à forte charge.
+* Amélioration des transferts de fichiers volumineux en introduisant la pagination dans les flux de chargement et de téléchargement, ce qui permet une gestion efficace des jeux de données volumineux.
 
-* Ajout de la prise en charge du téléchargement de dossiers disponibles dans les collections.
+**Stabilité et fiabilité renforcées**
 
-* La fonction de synchronisation automatique permet désormais aux ressources téléchargées dans les collections de synchroniser régulièrement la gestion des ressources AEM avec le système de fichiers local.
-
-* Lorsque vous mettez à jour une ressource faisant partie d’une collection, le système la met automatiquement à jour dans le dossier de cache temporaire et dans l’interface utilisateur de l’application de bureau.
-
-**Chargements**
-
-* Vous pouvez charger des ressources nouvellement créées à partir de votre ordinateur local vers AEM, où le référentiel central est stocké, et les afficher dans votre application de bureau.
-
-* L’application de bureau identifie désormais automatiquement les nouveaux fichiers créés sous un dossier déjà téléchargé sur votre système de fichiers local et les charge vers AEM. L’application de bureau doit être maintenue ouverte pour identifier les nouveaux fichiers sur votre système de fichiers local.
-
-**Enregistrement et extraction**
-
-* La fonctionnalité d&#39;archivage et d&#39;extraction vous permet de gérer l&#39;accès aux fichiers en verrouillant un fichier pour le modifier (extraire) et en enregistrant vos modifications tout en le rendant disponible pour d&#39;autres utilisateurs (archiver).
-
-* Possibilité de faire glisser une ressource de l’application de bureau vers l’application Creative Cloud cible. L’application de bureau extrait automatiquement les ressources et les télécharge sur le système de fichiers local.
-
-**Métadonnées**
-
-* Vous pouvez attribuer des métadonnées lors de la création d’un dossier.
-
-* L’application de bureau Experience Manager vous permet désormais de déplacer des ressources ou des dossiers vers un nouvel emplacement tout en préservant leurs métadonnées, ce qui contribue à organiser et à rationaliser votre système de fichiers.
-
-* L’application de bureau AEM vous permet désormais d’afficher les propriétés du dossier, telles que la miniature du dossier, la taille, le chemin d’accès, la date de création, les balises, les métadonnées, etc.
-
-**Améliorations de la convivialité**
-
-
-* La fonction d’actualisation automatique met automatiquement à jour le contenu en temps réel, ce qui vous permet de toujours voir les informations les plus récentes sans recharger manuellement la page et obtenir la liste des ressources mises à jour.
-
-* La fonction Épingler ou désépingler les dossiers vous permet de garder les dossiers importants facilement accessibles en les épinglant ou en désencombrant votre vue en les détachant lorsqu’ils ne sont plus nécessaires.
-
-* La fonction Renommer le titre vous permet de mettre à jour ou de modifier facilement le titre d’une ressource, ce qui vous permet de conserver des noms précis et organisés à mesure que votre contenu évolue.
-
-* Vous pouvez conserver le fichier d’origine et apporter des modifications à un fichier similaire en dupliquant les fichiers sur les emplacements locaux et cloud à l’aide de l’opération de duplication de fichiers.
-
-* L’option d’exportation permet désormais de télécharger les fichiers et dossiers sélectionnés depuis l’application Desktop vers leur emplacement cible spécifique dans une structure plate.
-
-* Vous pouvez désormais accéder aux ressources en mode Carte, Grille ou Arborescence pour obtenir une disposition des ressources propre, organisée et visuellement attrayante.
-
-* Divers libellés pour différentes options sont mis à jour dans l’interface utilisateur afin de rendre l’application plus intuitive.
+* Résolution du redémarrage du serveur de création déclenché par les interactions de l’application de bureau, ce qui améliore considérablement la stabilité du système.
+* L’application gérée plante lors du téléchargement ou du chargement d’un dossier volumineux (des milliers de fichiers).
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -82,6 +47,10 @@ Les **URL de téléchargement** pour les systèmes d’exploitation pris en char
 
 | Système d’exploitation | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows 64 bits (v3.0.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows 64 bits Entreprise (v3.0.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS (v3.0.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | macOS Apple Silicon (M1) (v3.0.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows 64 bits (v3.0.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ Cette fonctionnalité est prise en charge avec les versions 2018 d’[!DNL Adob
 
 ## Nouvelles fonctionnalités, améliorations et corrections de bogues {#what-is-new}
 
-Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#whats-new-v2).
+Pour en savoir plus, voir [Nouveautés de la version 3.0.1](introduction.md#whats-new-v2).
 
-**Mises à jour dans la version v2.3.1 de l’application**
+### Mises à jour dans la version 3.0.0 de l’application {#app-version-3.0.0}
+
+Cette version offre plusieurs améliorations des fonctions Collections, Chargements, Archivage/Extraction, Gestion des métadonnées et convivialité globale. Ces mises à jour améliorent l’efficacité, rationalisent la gestion des ressources et offrent une expérience plus intuitive en temps réel dans l’application de bureau AEM.
+
+![Interface utilisateur de l’application de bureau](assets/dekktop-app-user-interface.png)
+
+**Collections**
+
+* Vous pouvez désormais afficher, télécharger et parcourir les collections.
+
+* Ajout de la prise en charge du téléchargement de dossiers disponibles dans les collections.
+
+* La fonction de synchronisation automatique permet désormais aux ressources téléchargées dans les collections de synchroniser régulièrement la gestion des ressources AEM avec le système de fichiers local.
+
+* Lorsque vous mettez à jour une ressource faisant partie d’une collection, le système la met automatiquement à jour dans le dossier de cache temporaire et dans l’interface utilisateur de l’application de bureau.
+
+**Chargements**
+
+* Vous pouvez charger des ressources nouvellement créées à partir de votre ordinateur local vers AEM, où le référentiel central est stocké, et les afficher dans votre application de bureau.
+
+* L’application de bureau identifie désormais automatiquement les nouveaux fichiers créés sous un dossier déjà téléchargé sur votre système de fichiers local et les charge vers AEM. L’application de bureau doit être maintenue ouverte pour identifier les nouveaux fichiers sur votre système de fichiers local.
+
+**Enregistrement et extraction**
+
+* La fonctionnalité d&#39;archivage et d&#39;extraction vous permet de gérer l&#39;accès aux fichiers en verrouillant un fichier pour le modifier (extraire) et en enregistrant vos modifications tout en le rendant disponible pour d&#39;autres utilisateurs (archiver).
+
+* Possibilité de faire glisser une ressource de l’application de bureau vers l’application Creative Cloud cible. L’application de bureau extrait automatiquement les ressources et les télécharge sur le système de fichiers local.
+
+**Métadonnées**
+
+* Vous pouvez attribuer des métadonnées lors de la création d’un dossier.
+
+* L’application de bureau Experience Manager vous permet désormais de déplacer des ressources ou des dossiers vers un nouvel emplacement tout en préservant leurs métadonnées, ce qui contribue à organiser et à rationaliser votre système de fichiers.
+
+* L’application de bureau AEM vous permet désormais d’afficher les propriétés du dossier, telles que la miniature du dossier, la taille, le chemin d’accès, la date de création, les balises, les métadonnées, etc.
+
+**Améliorations de la convivialité**
+
+* La fonction d’actualisation automatique met automatiquement à jour le contenu en temps réel, ce qui vous permet de toujours voir les informations les plus récentes sans recharger manuellement la page et obtenir la liste des ressources mises à jour.
+
+* La fonction Épingler ou désépingler les dossiers vous permet de garder les dossiers importants facilement accessibles en les épinglant ou en désencombrant votre vue en les détachant lorsqu’ils ne sont plus nécessaires.
+
+* La fonction Renommer le titre vous permet de mettre à jour ou de modifier facilement le titre d’une ressource, ce qui vous permet de conserver des noms précis et organisés à mesure que votre contenu évolue.
+
+* Vous pouvez conserver le fichier d’origine et apporter des modifications à un fichier similaire en dupliquant les fichiers sur les emplacements locaux et cloud à l’aide de l’opération de duplication de fichiers.
+
+* L’option d’exportation permet désormais de télécharger les fichiers et dossiers sélectionnés depuis l’application Desktop vers leur emplacement cible spécifique dans une structure plate.
+
+* Vous pouvez désormais accéder aux ressources en mode Carte, Grille ou Arborescence pour obtenir une disposition des ressources propre, organisée et visuellement attrayante.
+
+* Divers libellés pour différentes options sont mis à jour dans l’interface utilisateur afin de rendre l’application plus intuitive.
+
+### Mises à jour dans la version v2.3.1 de l’application {#app-version-2.3.1}
 
 * Le nouveau programme d&#39;installation d&#39;Enterprise Windows installe l&#39;application sous Program Files.
 * Prise en charge de l’**authentification de base** lors des connexions AEM et SSO.
 * Nombre configurable de ressources autorisées pendant l’opération de chargement
 
-**Mises à jour dans la version v2.3.0 de l’application**
+### Mises à jour dans la version v2.3.0 de l’application {#app-version-2.3.0}
 
 * Ajout de la prise en charge de la connexion IMS. L’intégration IMS permet à l’application de bureau d’effectuer automatiquement l’actualisation du jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum.
 
 * Amélioration de la prise en charge des proxies d’entreprise et du filtrage web.
 
-**Mises à jour dans la version v2.2.2 de l’application**
+### Mises à jour dans la version v2.2.2 de l’application {#app-version-2.2.2}
 
 * (Windows uniquement) L’application de bureau affiche un écran vide après l’installation des versions 2.2.0 et 2.2.1.
 
-**Mises à jour dans la version v2.2.1 de l’application**
+### Mises à jour dans la version v2.2.1 de l’application {#app-version-2.2.1}
 
 * L’application de bureau affiche un message d’erreur de temporisation de session lorsque vous cliquez sur **[!UICONTROL Sign In]**.
 
@@ -164,41 +185,41 @@ Pour en savoir plus, voir [Nouveautés de la version v2.0](introduction.md#what
 
 * L’application de bureau affiche un message d’erreur lorsque vous triez des ressources en cliquant sur **[!UICONTROL Edited Locally]**.
 
-**Mises à jour dans la version v2.2.0 de l’application**
+### Mises à jour dans la version v2.2.0 de l’application {#app-version-2.2.0}
 
 * Prise en charge de la puce Apple (M1).
 
 * Possibilité de mémoriser la chaîne de connexion lors de la connexion à l’application de bureau.
 
-**Mises à jour dans la version v2.1.5.0 de l’application**
+### Mises à jour dans la version v2.1.5.0 de l’application {#app-version-2.1.5.0}
 
 * L’application de bureau ne répond plus lorsque vous téléchargez des fichiers dans un dossier contenant des caractères chinois (ASSETS-9237).
 
 * L’application de bureau remplace les points par des tirets dans les noms de fichier (ASSETS-10955).
 
-**Mises à jour dans la version v2.1.4.0 de l’application**
+### Mises à jour dans la version v2.1.4.0 de l’application {#app-version-2.1.4.0}
 
 La nouvelle version de l’application inclut des correctifs de bugs.
 
-**Mises à jour dans la version v2.1.3.4 de l’application**
+### Mises à jour dans la version v2.1.3.4 de l’application {#app-version-2.1.3.4}
 
 La nouvelle version de l’application inclut un correctif de bogue.
 
-**Mises à jour dans la version v2.1.3.3 de l’application**
+### Mises à jour dans la version v2.1.3.3 de l’application {#app-version-2.1.3.3}
 
 La nouvelle version de l’application inclut un correctif de bogue.
 
-**Mises à jour dans la version v2.1.3.2 de l’application**
+### Mises à jour dans la version v2.1.3.2 de l’application {#app-version-2.1.3.2}
 
 Cette version de l’application inclut un correctif de bogue.
 
-**Mises à jour dans la version v2.1.3.1 de l’application**
+### Mises à jour dans la version v2.1.3.1 de l’application {#app-version-2.1.3.1}
 
 Le bogue corrigé dans cette version est le suivant :
 
 * Les vitesses de chargement et de téléchargement des ressources ont été améliorées, même pour les ressources volumineuses. Cette version a corrigé un problème en raison duquel les chargements de ressources avec le [!DNL desktop app] échouaient parfois lorsque des fichiers très volumineux étaient chargés.
 
-**Mise à jour dans la version v2.1.2.0 de l’application**
+### Mises à jour dans la version v2.1.2.0 de l’application {#app-version-2.1.2.0}
 
 * Une nouvelle option pour [!UICONTROL Clear Cookies] est ajoutée au menu principal de l’application. Cela permet de résoudre les problèmes d’ouverture de session potentiels, par exemple lors du changement d’une connexion d’un serveur à un autre. Voir la section [Effacer les cookies avant de se connecter](/help/using/troubleshoot.md#cannot-login-cookies-issue).
 
@@ -206,21 +227,21 @@ Le bogue corrigé dans cette version est le suivant :
 
   Ce comportement est similaire au comportement par défaut dans la version 1 de l’application de bureau. En revanche, dans la version actuelle, si cette option n’est pas activée, les espaces et les caractères `% ; # , + ? ^ { } "` dans les noms de dossier sont remplacés par des tirets dans les chemins de dossier. En outre, les caractères majuscules sont convertis en minuscules dans les chemins d’accès aux dossiers. Toutefois, dans les noms de fichier, les caractères `# % { } ? &` sont remplacés par un tiret, mais les espaces et la casse sont conservés. Pour plus d’informations, consultez les [Préférences de l’application](/help/using/install-upgrade.md#set-preferences) et [Chargement et ajout de nouvelles ressources](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem).
 
-**Mise à jour dans la version v2.1.1.0 de l’application**
+### Mises à jour dans la version v2.1.1.0 de l’application {#app-version-2.1.1.0}
 
 * Un des paramètres avancés permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Dans la version 2.1, le comportement par défaut reste inchangé : plusieurs espaces dans les noms de dossier sont remplacés par des tirets dans le nom du nœud du référentiel et les noms de nœud sont convertis en minuscules. Consultez [les préférences de l’application](/help/using/install-upgrade.md#set-preferences).
 
-**Mise à jour dans la version v2.1.0.0 de l’application**
+### Mises à jour dans la version v2.1.0.0 de l’application {#app-version-2.1.0.0}
 
 * Pour charger des ressources, les utilisateurs peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Ce processus fonctionne en plus de l’option de chargement disponible dans l’application. Consultez [Chargement de ressources](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**Mise à jour dans la version v2.0.3 de l’application**
+### Mises à jour dans la version v2.0.3 de l’application {#app-version-2.0.3}
 
 Le bogue corrigé dans cette version est le suivant :
 
 * Correction d’un problème de connexion pour les utilisateurs de l’application sous Windows qui tentaient d’accéder au référentiel de gestion des ressources numériques sur [!DNL Adobe Experience Manager] 6.5.5.0.
 
-**Mises à jour dans la version v2.0.2 de l’application**
+### Mises à jour dans la version v2.0.2 de l’application {#app-version-2.0.2}
 
 Les correctifs de bogues et mises à jour sont les suivants :
 
@@ -234,7 +255,7 @@ Les correctifs de bogues et mises à jour sont les suivants :
 
 * (Windows) Correction d’un rare problème d’interface d’application inutilisable sur certains ordinateurs Windows. Les utilisateurs ne peuvent pas cliquer sur l&#39;interface de l&#39;application car elle semble déformée avec la zone de clic des éléments d&#39;interface « décalée » sur le côté. <!-- CQ-4280785 -->
 
-**Mises à jour dans la version v2.0.1 de l’application**
+### Mises à jour dans la version v2.0.1 de l’application {#app-version-2.0.1}
 
 Les correctifs de bogues et mises à jour sont les suivants :
 
@@ -302,6 +323,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service)
 >* Documentation [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
->* [Comment utiliser l’appli de bureau [!DNL Experience Manager] &#x200B;](using-desktop-app.md)
+>* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using-desktop-app.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
