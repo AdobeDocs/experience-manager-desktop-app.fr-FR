@@ -3,7 +3,7 @@ title: Prise en main  [!DNL Experience Manager]  l’appli de bureau
 description: Découvrez comment l’appli  [!DNL Experience Manager]  bureau améliore la création et la publication de contenu grâce à des workflows rationalisés et à des fonctionnalités de productivité.
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-source-git-commit: a579ab861aa0af8c8415a0f38126de7f33c7a7b3
+source-git-commit: 2bf5ee7454846c288cc1c976d8f69c6bfed8eabf
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 42%
@@ -18,7 +18,7 @@ L’intégration permet à divers rôles de l’organisation de gérer les resso
 
 Lorsque vous ouvrez l’application après vous être déconnecté ou lorsque vous vous connectez pour la première fois, fournissez l’URL de votre serveur [!DNL Experience Manager] au format `https://[aem-server-url]:[port]/`. Sélectionnez ensuite l’option [!UICONTROL Connect]. Indiquez vos informations d’identification pour connecter l’application au serveur.
 
->[!VIDEO](https://video.tv.adobe.com/v/32779?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
 
 L’application de bureau [!DNL Adobe Experience Manager] vous permet d’effectuer les tâches clés suivantes :
 
@@ -100,7 +100,7 @@ Au contraire, vous pouvez ouvrir la ressource dans l’interface web à partir d
 
 ## Étapes suivantes {#next-steps}
 
-* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Faites des commentaires sur la documentation en utilisant [!UICONTROL Edit this page] ![modifier la page](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![créer un problème GitHub](assets/do-not-localize/github-issue.png) disponible dans la barre latérale droite.
 
