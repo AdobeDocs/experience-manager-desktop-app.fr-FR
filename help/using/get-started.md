@@ -18,7 +18,7 @@ L’intégration permet à divers rôles de l’organisation de gérer les resso
 
 Lorsque vous ouvrez l’application après vous être déconnecté ou lorsque vous vous connectez pour la première fois, fournissez l’URL de votre serveur [!DNL Experience Manager] au format `https://[aem-server-url]:[port]/`. Sélectionnez ensuite l’option [!UICONTROL Connect]. Indiquez vos informations d’identification pour connecter l’application au serveur.
 
->[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/32779?captions=fre_fr&quality=12&learn=on){transcript=true}
 
 L’application de bureau [!DNL Adobe Experience Manager] vous permet d’effectuer les tâches clés suivantes :
 
