@@ -4,32 +4,16 @@ description: Détails des mises à jour, améliorations, nouvelles fonctionnalit
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
+source-git-commit: 826e667f11792797629e0edad5db62aea6f61774
 workflow-type: tm+mt
-source-wordcount: '2662'
-ht-degree: 43%
+source-wordcount: '5259'
+ht-degree: 34%
 
 ---
 
 # Notes de mise à jour de l’application de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-La date de publication de l’appli de bureau version 3.0.1 est le 20 décembre 2025.  Cette version comprend les améliorations suivantes :
-
-**Workflows plus fluides et plus fiables**
-
-* Attribution d’un nom cohérent aux dossiers en résolvant les problèmes de synchronisation entre l’application de bureau AEM et l’auteur AEM.
-* Activation de workflows ininterrompus en autorisant des fonctionnalités d’application complètes pendant les opérations de transfert actives
-* Amélioration de la fiabilité de la page des propriétés du dossier, permettant un accès cohérent aux métadonnées et aux paramètres du dossier.
-
-**Expérience utilisateur plus rapide et plus réactive**
-
-* Amélioration de la réactivité de l’interface utilisateur en remplaçant les E/S bloquantes par un traitement asynchrone, ce qui offre une expérience plus fluide lors des opérations à forte charge.
-* Amélioration des transferts de fichiers volumineux en introduisant la pagination dans les flux de chargement et de téléchargement, ce qui permet une gestion efficace des jeux de données volumineux.
-
-**Stabilité et fiabilité renforcées**
-
-* Résolution du redémarrage du serveur de création déclenché par les interactions de l’application de bureau, ce qui améliore considérablement la stabilité du système.
-* L’application gérée plante lors du téléchargement ou du chargement d’un dossier volumineux (des milliers de fichiers).
+Cette version de l’appli de bureau version 3.0.2 comprend des correctifs pour améliorer la stabilité globale et les performances de l’application.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -47,6 +31,10 @@ Les **URL de téléchargement** pour les systèmes d’exploitation pris en char
 
 | Système d’exploitation | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.2) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
+| macOS Apple Silicon (M1) (v3.0.2) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
+| Windows 64 bits (v3.0.2) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
+| Windows 64 bits Entreprise (v3.0.2) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) |
 | macOS (v3.0.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
 | macOS Apple Silicon (M1) (v3.0.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
 | Windows 64 bits (v3.0.1) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
@@ -107,7 +95,27 @@ Cette fonctionnalité est prise en charge avec les versions 2018 d’[!DNL Adob
 
 ## Nouvelles fonctionnalités, améliorations et corrections de bogues {#what-is-new}
 
-Pour en savoir plus, voir [Nouveautés de la version 3.0.1](introduction.md#whats-new-v2).
+Pour en savoir plus, voir [Nouveautés de la version 3.0.2](introduction.md#whats-new-v2).
+
+### Mises à jour dans la version 3.0.1 de l’application {#app-version-3.0.1}
+
+La version 3.0.1 de l’appli de bureau comprend les améliorations suivantes :
+
+**Workflows plus fluides et plus fiables**
+
+* Attribution d’un nom cohérent aux dossiers en résolvant les problèmes de synchronisation entre l’application de bureau AEM et l’auteur AEM.
+* Activation de workflows ininterrompus en autorisant des fonctionnalités d’application complètes pendant les opérations de transfert actives
+* Amélioration de la fiabilité de la page des propriétés du dossier, permettant un accès cohérent aux métadonnées et aux paramètres du dossier.
+
+**Expérience utilisateur plus rapide et plus réactive**
+
+* Amélioration de la réactivité de l’interface utilisateur en remplaçant les E/S bloquantes par un traitement asynchrone, ce qui offre une expérience plus fluide lors des opérations à forte charge.
+* Amélioration des transferts de fichiers volumineux en introduisant la pagination dans les flux de chargement et de téléchargement, ce qui permet une gestion efficace des jeux de données volumineux.
+
+**Stabilité et fiabilité renforcées**
+
+* Résolution du redémarrage du serveur de création déclenché par les interactions de l’application de bureau, ce qui améliore considérablement la stabilité du système.
+* L’application gérée plante lors du téléchargement ou du chargement d’un dossier volumineux (des milliers de fichiers).
 
 ### Mises à jour dans la version 3.0.0 de l’application {#app-version-3.0.0}
 
@@ -287,7 +295,7 @@ Il est important de comprendre ce qui suit à propos de l’application et de so
 
 * Si l’application n’affiche pas les résultats attendus, cliquez sur l’icône d’actualisation dans la barre supérieure.
 
-* Le partage réseau local, qui apparaît lorsque vous utilisez l’action [!UICONTROL Reveal File], n’affiche que les fichiers (et les dossiers) disponibles localement. Les actions [!UICONTROL Reveal File] et [!UICONTROL Reveal Folder] pré-téléchargent les ressources pour afficher les ressources appropriées dans le partage réseau local.
+* Le partage réseau local, affiché lorsque vous utilisez [!UICONTROL Reveal File] action, affiche uniquement les fichiers (et dossiers) disponibles localement. [!UICONTROL Reveal File] et [!UICONTROL Reveal Folder] prétélécharge les ressources pour obtenir les ressources appropriées qui s’affichent dans le partage réseau local.
 
 * Le partage réseau local SMB (Mac)/WebDAV (Windows) est utilisé lorsqu’une application Adobe Creative Cloud lit les fichiers de ressources liés ou placés dans un fichier natif de l’application Creative Cloud.
 
@@ -311,7 +319,7 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 **Problèmes CRUD (Create, Read, Update et Delete) :**
 
-* Lors du chargement de modifications avec commentaires d’une ressource, les commentaires sont stockés avec la ressource dans [!DNL Experience Manager], mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans les versions 6.4.5 d’[!DNL Experience Manager] et 6.5.1 d’[!DNL Experience Manager]. Adobe recommande vivement d’installer les derniers Service Packs. <!-- CQ-4268990 -->
+* Lors du chargement de modifications avec commentaires d’une ressource, les commentaires sont stockés avec la ressource dans [!DNL Experience Manager], mais ne sont pas visibles en tant que commentaires de contrôle de version. Ce problème est résolu dans [!DNL Experience Manager] 6.4.5 et [!DNL Experience Manager] 6.5.1. Adobe recommande d’installer les derniers pack de services. <!-- CQ-4268990 -->
 
 * Un utilisateur ne peut pas annuler les transferts de ressources. Si vous avez déclenché involontairement un transfert volumineux, quittez l’application et redémarrez-la. <!-- CQ-4278940 -->
 
@@ -323,6 +331,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service)
 >* Documentation [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
->* [Comment utiliser l’appli de bureau [!DNL Experience Manager] &#x200B;](using-desktop-app.md)
+>* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using-desktop-app.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
