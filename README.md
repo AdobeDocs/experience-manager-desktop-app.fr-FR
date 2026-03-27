@@ -17,8 +17,8 @@ Ce projet a adopté le [Code de conduite d’Adobe Open Source](code-of-conduct.
 
 **Modifications mineures** : cliquez sur Modifier dans la marge de droite d’un article pour commencer à apporter des corrections mineures ou des clarifications, puis soumettez-les. Vous pouvez également créer un problème dans ce référentiel décrivant les modifications. Ces contributions mineures sont couvertes par les conditions d’utilisation d’Adobe.
 
-**Modifications majeures** : cliquez sur Modifier dans un article, contribuez et envoyez une demande d’extraction ou créez un problème. Dans les deux cas, prévoyez qu’un membre de l’équipe de documentation interagisse avec vous pour collecter davantage d’informations. Signez le contrat de licence du contributeur d’Adobe une fois avant de contribuer à un document Adobe, et ce, pour un nombre illimité de fois. Consultez l’article [ Comment contribuer ](contributing.md) .
+**Modifications majeures** : cliquez sur Modifier dans un article, contribuez et envoyez une demande d’extraction ou créez un problème. Dans les deux cas, prévoyez qu’un membre de l’équipe de documentation interagisse avec vous pour collecter davantage d’informations. Signez le contrat de licence du contributeur d’Adobe une fois avant de contribuer à un document Adobe, et ce, pour un nombre illimité de fois. Consultez l’article [&#x200B; Comment contribuer &#x200B;](contributing.md) .
 
 **Pour les employés d’Adobe** : si vous êtes un employé d’Adobe, utilisez le Git de l’entreprise pour contribuer. Voir [contribution.md](contributing.md). Pour contribuer à des mises à jour majeures, ouvrez un problème. Prévoyez qu’un membre de l’équipe de documentation vous contacte au sujet du problème.
 
-Pour connaître les normes de comportement attendues d’Adobe lorsque vous contribuez, consultez le [ Code de conduite ](code-of-conduct.md).
+Pour connaître les normes de comportement attendues d’Adobe lorsque vous contribuez, consultez le [&#x200B; Code de conduite &#x200B;](code-of-conduct.md).
