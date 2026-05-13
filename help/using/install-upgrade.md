@@ -3,10 +3,15 @@ title: Installation et configuration de l’appli de bureau
 description: Installez et configurez l’application de bureau  [!DNL Adobe Experience Manager] pour travailler avec les serveurs  [!DNL Adobe Experience Manager Assets] , et téléchargez les ressources sur votre système de fichiers local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 64%
+source-wordcount: 1530
+ht-degree: 63%
 
 ---
 
@@ -92,13 +97,13 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
    *Figure : L’application affiche le contenu de la gestion des actifs numériques (DAM) après la connexion*
 
-1. ([!DNL Experience Manager] 6.5.1 ou une version ultérieure) Si vous utilisez l’application de bureau avec [!DNL Experience Manager] 6.5.1 ou une version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou une version ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 ou une version ultérieure) Si vous utilisez l’application de bureau avec [!DNL Experience Manager] 6.5.1 ou une version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou une version ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez le Service clientèle d’Adobe.
 
 ## Définition des préférences {#set-preferences}
 
-Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]** ![&#x200B; Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre **[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
+Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]** ![ Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre **[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
 
 * [!UICONTROL Launch the application on logon].
 
