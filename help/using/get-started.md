@@ -3,9 +3,18 @@ title: Prise en main  [!DNL Experience Manager]  l’appli de bureau
 description: Découvrez comment l’appli  [!DNL Experience Manager]  bureau améliore la création et la publication de contenu grâce à des workflows rationalisés et à des fonctionnalités de productivité.
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-source-git-commit: 2bf5ee7454846c288cc1c976d8f69c6bfed8eabf
+TQID: https://experienceleague.adobe.com/ngwHq5OPXgoOFDGUhUjg3V4494eFgJNmb1oxSDy0fzI
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: 1231
 ht-degree: 42%
 
 ---
@@ -100,11 +109,11 @@ Au contraire, vous pouvez ouvrir la ressource dans l’interface web à partir d
 
 ## Étapes suivantes {#next-steps}
 
-* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager .](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Faites des commentaires sur la documentation en utilisant [!UICONTROL Edit this page] ![modifier la page](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![créer un problème GitHub](assets/do-not-localize/github-issue.png) disponible dans la barre latérale droite.
 
-* Contacter l’[assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=General#support)
+* Contactez l’[assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=General#support).
 
 >[!MORELIKETHIS]
 >

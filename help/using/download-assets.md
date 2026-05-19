@@ -2,13 +2,20 @@
 title: Téléchargement de ressources à l’aide de l [!DNL Experience Manager] appli de bureau
 description: Téléchargement de ressources à l’aide  [!DNL Adobe Experience Manager]  l’appli de bureau .
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
+TQID: https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 57%
+source-wordcount: 436
+ht-degree: 56%
 
 ---
-
 
 # Téléchargement local de ressources {#download-assets-locally}
 
@@ -40,15 +47,14 @@ Si des dossiers sont sélectionnés et téléchargés, l’application télécha
 
 ## Étapes suivantes {#next-steps}
 
-* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager .](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Faites des commentaires sur la documentation en utilisant [!UICONTROL Edit this page] ![modifier la page](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![créer un problème GitHub](assets/do-not-localize/github-issue.png) disponible dans la barre latérale droite.
 
-* Contacter l’[assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=General#support)
+* Contactez l’[assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=General#support).
 
 >[!MORELIKETHIS]
 >
 >* [Chargement des ressources](/help/using/upload-assets.md)
 >* [Comprendre l’interface utilisateur](/help/using/user-interface.md)
 >* [Recherche](/help/using/search.md)
-
