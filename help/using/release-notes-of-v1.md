@@ -36,7 +36,7 @@ Pour la version 1.x de l’appli de bureau, voici les liens de téléchargement
 | Version | 1.10 (1.10.0.6 sous Mac et 1.10.0.3 sous Windows) |
 | Type | Version mineure |
 | Date | 1.10.0.6 (Mac) : 15 avril 2020 ; 1.10.0.3 (Win) : 31 août 2018 |
-| URL de téléchargement | [macOS X 64 bits](1.10.0.6.dmg) ; [Windows 32 bits](1.10.0.3.exe) ; [Windows 64 bits](1.10.0.3.exe) |
+| URL de téléchargement | [macOS X 64 bits] (1.10.0.6.dmg) ; [Windows 32 bits] (1.10.0.3.exe) ; [Windows 64 bits] (1.10.0.3.exe) |
 | Compatibilité | AEM 6.5.x ; AEM 6.4.x ; AEM 6.3 SP2 ; AEM 6.2 SP1 CFP2+ ; AEM 6.1 SP2 CFP7+ |
 
 >[!NOTE]
