@@ -3,20 +3,11 @@ title: Bonnes pratiques relatives à l’appli de bureau v1.10
 description: Fonctionnalités essentielles et utilisation recommandée de l’appli de bureau [!DNL Adobe Experience Manager] version 1.10.
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 TQID: https://experienceleague.adobe.com/5r3NDLi2KQXMNH1s4hxfLlBzqmEisKTynSUFTVANwkU
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 1721
@@ -78,7 +69,7 @@ Les fonctionnalités clés de l’application de bureau AEM sont les suivantes :
 
 * N’utilisez pas les lecteurs réseau de l’appli de bureau AEM pour enregistrer fréquemment les ressources. Toutes les opérations de sauvegarde sont transmises à AEM Assets. Par conséquent, il n’est pas pratique d’effectuer des opérations de modification intensives directement dans le référentiel AEM Assets monté. La modification d’une ressource directement dans le référentiel monté encombre la chronologie de la ressource avec des versions non pertinentes et impose des surcharges supplémentaires sur le serveur.
 
-* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/assets-migration-guide) pour planifier et exécuter des migrations de ressources. En revanche, l’application de bureau [prend en charge le chargement en masse](use-app-v1.md#bulkupload) un grand nombre de ressources pour la première fois en [!DNL Adobe Experience Manager].
+* N’utilisez pas l’appli de bureau AEM pour faire migrer de grandes quantités de données d’une instance AEM vers une autre. Voir le [Guide de migration](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) pour planifier et exécuter des migrations de ressources. En revanche, l’application de bureau [prend en charge le chargement en masse](use-app-v1.md#bulkupload) un grand nombre de ressources pour la première fois en [!DNL Adobe Experience Manager].
 
 ## Recommandations pour des cas d’utilisation spécifiques {#recommendations-for-selected-use-cases}
 
@@ -134,7 +125,7 @@ Une bonne expérience utilisateur de l’application de bureau AEM repose sur un
 
 ### Remarques relatives au réseau {#network-considerations}
 
-Pour connaître les bonnes pratiques relatives à la configuration réseau d’AEM Assets, consultez le document [Comment migrer des ressources en bloc](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/administer/assets-migration-guide) . Voici quelques-uns des aspects importants permettant d’optimiser l’expérience de l’application de bureau AEM pour les utilisateurs et utilisatrices :
+Pour connaître les bonnes pratiques relatives à la configuration réseau d’AEM Assets, consultez le document [Comment migrer des ressources en bloc](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) . Voici quelques-uns des aspects importants permettant d’optimiser l’expérience de l’application de bureau AEM pour les utilisateurs et utilisatrices :
 
 * **Utilisez un Dispatcher correctement configuré**. Utilisez le Dispatcher AEM pour plus de sécurité et assurez-vous qu’il est configuré pour la [connexion de l’application de bureau AEM à AEM derrière un Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
