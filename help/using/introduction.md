@@ -4,13 +4,8 @@ description: Découvrez comment utiliser l’application de bureau [!DNL Adobe E
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 TQID: https://experienceleague.adobe.com/HLUPg-NqgUOo8vWLxYeeU-BF3cJuF5DQDQNuvzufxDQ
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 623
@@ -24,7 +19,7 @@ Adobe propose des workflows connectés dans ses différentes solutions afin de p
 
 Grâce à l’appli, les ressources d’[!DNL Experience Manager Assets] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Vous pouvez ouvrir et modifier les ressources dans les applications de bureau de votre choix. Les modifications locales ne sont enregistrées en tant que nouvelle version dans [!DNL Experience Manager] que lorsque vous chargez les modifications, ce qui permet d’effectuer efficacement les modifications en cours sur le bureau. L’application prend en charge le chargement de ressources et de dossiers imbriqués vers [!DNL Experience Manager], ce qui simplifie l’ajout de nouveau contenu au référentiel.
 
-Une telle intégration permet à différents rôles de l’organisation de gérer les ressources de manière centralisée dans [!DNL Experience Manager Assets]. Les spécialistes marketing et les utilisateurs professionnels peuvent garantir la conformité aux différentes normes, y compris les marques et les licences. Les utilisateurs de Creative disposant d’un outil [Adobe Asset Link](https://business.adobe.com/fr/products/experience-manager/assets/adobe-asset-link.html) dédié peuvent accéder aux ressources d’Adobe Photoshop, d’Illustrator et d’InDesign, ainsi qu’aux ressources du bureau de Creative Cloud et d’autres applications natives.
+Une telle intégration permet à différents rôles de l’organisation de gérer les ressources de manière centralisée dans [!DNL Experience Manager Assets]. Les spécialistes marketing et les utilisateurs professionnels peuvent garantir la conformité aux différentes normes, y compris les marques et les licences. Les utilisateurs de Creative disposant d’un outil [Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html) dédié peuvent accéder aux ressources d’Adobe Photoshop, d’Illustrator et d’InDesign, ainsi qu’aux ressources du bureau de Creative Cloud et d’autres applications natives.
 
 >[!NOTE]
 >
@@ -38,8 +33,8 @@ La documentation de l’appli de bureau contient des informations sur les rôles
 | Vous voulez connaître les conditions préalables et les spécifications techniques ? Vous souhaitez des liens de téléchargement ? | [Notes de mise à jour](release-notes.md) |
 | Vous connaissez l’appli de bureau ? Vous procédez à une mise à niveau et souhaitez opérer une transition en douceur ? | [Mise à niveau depuis la version précédente](install-upgrade.md#upgrade-from-previous-version) |
 | Soyez opérationnel. Vous souhaitez modifier les préférences par défaut ? | [Installation et configuration de l’application](install-upgrade.md) |
-| Apprenez à naviguer, découvrir, modifier, charger, résoudre les conflits, effectuer des opérations massives, etc. | [Utilisation de l’appli de bureau [!DNL Experience Manager] &#x200B;](using-desktop-app.md) |
-| Rencontrez-vous un problème ? | [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] &#x200B;](troubleshoot.md) |
+| Apprenez à naviguer, découvrir, modifier, charger, résoudre les conflits, effectuer des opérations massives, etc. | [Utilisation de l’appli de bureau [!DNL Experience Manager] ](using-desktop-app.md) |
+| Rencontrez-vous un problème ? | [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] ](troubleshoot.md) |
 
 ## Nouveautés de l’appli {#whats-new-v2}
 
