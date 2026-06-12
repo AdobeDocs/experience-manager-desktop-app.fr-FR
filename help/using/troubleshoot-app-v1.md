@@ -20,8 +20,8 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: 3358
-ht-degree: 68%
+source-wordcount: 3356
+ht-degree: 67%
 
 ---
 
@@ -233,7 +233,7 @@ Pour remédier à ce problème, la méthode la plus simple consiste à ouvrir le
 
 L’effacement du cache de l’appli de bureau AEM est une tâche de dépannage préliminaire qui permet de résoudre plusieurs problèmes liés à l’application.
 
-Vous pouvez effacer le cache en supprimant le répertoire de cache de l’application aux emplacements suivants.
+Vous pouvez vider le cache en supprimant le répertoire de cache de l’application aux emplacements suivants.
 Sous Windows, `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
 Sous Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
