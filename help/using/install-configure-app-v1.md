@@ -3,19 +3,11 @@ title: Installation et configuration de l’appli de bureau v1.10
 description: Installez et configurez l’application de bureau [!DNL Experience Manager] version 1.10 pour qu’elle fonctionne avec les serveurs [!DNL Assets] et mappez les ressources à monter en tant que lecteur sur votre bureau.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
-  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 928
@@ -43,7 +35,7 @@ Pour plus d’informations, voir les [[!DNL Experience Manager] Notes de mise à
 
 ## Installer et connecter l’appli au serveur [!DNL Experience Manager] {#install-and-connect-aem-desktop-app-to-aem-server}
 
-Pour plus d’informations, voir [Installation et connexion de l’appli de bureau [!DNL Experience Manager] au serveur [!DNL Experience Manager] &#x200B;](use-app-v1.md#installandconnect).
+Pour plus d’informations, voir [Installation et connexion de l’appli de bureau [!DNL Experience Manager] au serveur [!DNL Experience Manager] ](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
@@ -75,9 +67,9 @@ Les méthodes copy et move de l’API Assets nécessitent que les en-têtes supp
 * X-Depth
 * X-Overwrite
 
-L’appli de bureau [!DNL Experience Manager] se connecte à [!DNL Experience Manager] à l’aide d’une URL qui contient le port par défaut. Par conséquent, le paramètre `virtualhosts` de la configuration Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/fr/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
+L’appli de bureau [!DNL Experience Manager] se connecte à [!DNL Experience Manager] à l’aide d’une URL qui contient le port par défaut. Par conséquent, le paramètre `virtualhosts` de la configuration Dispatcher doit inclure le numéro de port par défaut. Pour plus d’informations sur la configuration de `virtualhosts`, voir [Identification des hôtes virtuels](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-Pour plus d’informations sur la configuration du Dispatcher pour transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/fr/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Pour plus d’informations sur la configuration du Dispatcher pour transmettre ces en-têtes supplémentaires, voir [Spécification des en-têtes HTTP](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Prise en charge des proxys {#proxy-support}
 
@@ -109,7 +101,7 @@ Sous macOS X, un répertoire similaire se trouve sous `~/Library/Group Container
 
 ### Option in-app pour gérer le cache {#in-app-option-to-manage-cache}
 
-Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les valeurs par défaut en fonction de vos besoins. Vous pouvez également vider le cache pour récupérer à nouveau toutes les ressources. Pour définir les options souhaitées, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. **&#x200B;**
+Vous pouvez contrôler la quantité d’espace disque disponible pour la mise en cache locale. Les artefacts du serveur Assets sont mis en cache localement pour garantir une expérience plus fluide. Vous pouvez modifier les valeurs par défaut en fonction de vos besoins. Vous pouvez également vider le cache pour récupérer à nouveau toutes les ressources. Pour définir les options souhaitées, cliquez sur l’icône de l’application, puis sur **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -141,6 +133,6 @@ Pour faire pointer l’application vers un autre dossier ou lecteur, modifiez so
 
 >[!MORELIKETHIS]
 >
->* Regardez une [Introduction à l [!DNL Experience Manager] appli de bureau](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
+>* Regardez une [Introduction à l [!DNL Experience Manager] appli de bureau](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minutes, 43 secondes).
 >* [Utilisation de l’appli de bureau [!DNL Experience Manager] .](use-app-v1.md)
 >* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] .](troubleshoot-app-v1.md)
