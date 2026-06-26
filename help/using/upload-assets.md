@@ -86,7 +86,7 @@ Après le chargement, si les modifications attendues ne sont pas répercutées d
 
 * Faites des commentaires sur la documentation en utilisant [!UICONTROL Edit this page] ![modifier la page](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![créer un problème GitHub](assets/do-not-localize/github-issue.png) disponible dans la barre latérale droite.
 
-* Contactez l’[assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=General#support).
+* Contacter l’[assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
