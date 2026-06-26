@@ -75,15 +75,15 @@ Les **URL de téléchargement** pour les systèmes d’exploitation pris en char
 | macOS (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
 | macOS avec puce Apple (M1) (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
 | Windows 64 bits (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
-| macOS (v2.1.5.0) | [Lien de téléchargement](2.1.5.0.dmg) | [Lien de téléchargement](2.1.5.0.dmg) |
-| Windows 64 bits (v2.1.5.0) | [Lien de téléchargement](2.1.5.0.exe) | [Lien de téléchargement](2.1.5.0.exe) |
-| Windows 32 bits (v2.1.5.0) | [Lien de téléchargement](2.1.5.0.exe) | [Lien de téléchargement](2.1.5.0.exe) |
-| macOS (v2.1.4.0) | [Lien de téléchargement](2.1.4.0.dmg) | [Lien de téléchargement](2.1.4.0.dmg) |
-| Windows 64 bits (v2.1.4.0) | [Lien de téléchargement](2.1.4.0.exe) | [Lien de téléchargement](2.1.4.0.exe) |
-| Windows 32 bits (v2.1.4.0) | [Lien de téléchargement](2.1.4.0.exe) | [Lien de téléchargement](2.1.4.0.exe) |
-| macOS (v2.1.3.4) | [Lien de téléchargement](2.1.3.4.dmg) | [Lien de téléchargement](2.1.3.4.dmg) |
-| Windows 64 bits (v2.1.3.4) | [Lien de téléchargement](2.1.3.4.exe) | [Lien de téléchargement](2.1.3.4.exe) |
-| Windows 32 bits (v2.1.3.1) | [Lien de téléchargement](2.1.3.1.exe) | [Lien de téléchargement](2.1.3.1.exe) |
+| macOS (v2.1.5.0) | [Lien de téléchargement] (2.1.5.0.dmg) | [Lien de téléchargement] (2.1.5.0.dmg) |
+| Windows 64 bits (v2.1.5.0) | [Lien de téléchargement] (2.1.5.0.exe) | [Lien de téléchargement] (2.1.5.0.exe) |
+| Windows 32 bits (v2.1.5.0) | [Lien de téléchargement] (2.1.5.0.exe) | [Lien de téléchargement] (2.1.5.0.exe) |
+| macOS (v2.1.4.0) | [Lien de téléchargement] (2.1.4.0.dmg) | [Lien de téléchargement] (2.1.4.0.dmg) |
+| Windows 64 bits (v2.1.4.0) | [Lien de téléchargement] (2.1.4.0.exe) | [Lien de téléchargement] (2.1.4.0.exe) |
+| Windows 32 bits (v2.1.4.0) | [Lien de téléchargement] (2.1.4.0.exe) | [Lien de téléchargement] (2.1.4.0.exe) |
+| macOS (v2.1.3.4) | [Lien de téléchargement] (2.1.3.4.dmg) | [Lien de téléchargement] (2.1.3.4.dmg) |
+| Windows 64 bits (v2.1.3.4) | [Lien de téléchargement] (2.1.3.4.exe) | [Lien de téléchargement] (2.1.3.4.exe) |
+| Windows 32 bits (v2.1.3.1) | [Lien de téléchargement] (2.1.3.1.exe) | [Lien de téléchargement] (2.1.3.1.exe) |
 
 ## Prise en charge de différents types de ressources et de fichiers {#support-for-file-types}
 
