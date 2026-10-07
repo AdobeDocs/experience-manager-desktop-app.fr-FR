@@ -1,31 +1,42 @@
 ---
 title: Notes de mise à jour de l’appli de bureau [!DNL Adobe Experience Manager]
-description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’application  [!DNL Adobe Experience Manager]  bureau .
+description: Détails des mises à jour, améliorations, nouvelles fonctionnalités, compatibilité et liens de téléchargement pour l’application de bureau [!DNL Adobe Experience Manager].
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Data management
+source-git-commit: d5e89df1c3930b5206efedadef064a2bf0838564
 workflow-type: tm+mt
-source-wordcount: 5259
-ht-degree: 35%
-
+source-wordcount: '5588'
+ht-degree: 33%
 ---
-
 # Notes de mise à jour de l’application de bureau [!DNL Adobe Experience Manager] {#release-notes-v2}
 
-Cette version de l’appli de bureau version 3.0.2 comprend des correctifs pour améliorer la stabilité globale et les performances de l’application.
+Cette version de l’appli de bureau version 3.0.3 comprend les améliorations et correctifs suivants.
+
+**Stabilité et performances améliorées**
+* Amélioration de la gestion des demandes pour éviter les demandes excessives à [!DNL Experience Manager].
+* Amélioration de la fiabilité lors du téléchargement de ressources très volumineuses.
+* Correction d’un problème en raison duquel l’application de bureau se bloquait ou ne répondait plus sur macOS lors de l’utilisation de fichiers volumineux.
 
 Les **versions de [!DNL Experience Manager] prises en charge** sont les suivantes :
 
@@ -43,6 +54,10 @@ Les **URL de téléchargement** pour les systèmes d’exploitation pris en char
 
 | Système d’exploitation | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.3) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.3) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) |
+| Windows 64 bits (v3.0.3) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) |
+| Windows 64 bits Entreprise (v3.0.3) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) |
 | macOS (v3.0.2) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
 | macOS Apple Silicon (M1) (v3.0.2) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
 | Windows 64 bits (v3.0.2) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
@@ -75,19 +90,19 @@ Les **URL de téléchargement** pour les systèmes d’exploitation pris en char
 | macOS (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
 | macOS avec puce Apple (M1) (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
 | Windows 64 bits (v2.2.0) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [Lien de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
-| macOS (v2.1.5.0) | [Lien de téléchargement] (2.1.5.0.dmg) | [Lien de téléchargement] (2.1.5.0.dmg) |
-| Windows 64 bits (v2.1.5.0) | [Lien de téléchargement] (2.1.5.0.exe) | [Lien de téléchargement] (2.1.5.0.exe) |
-| Windows 32 bits (v2.1.5.0) | [Lien de téléchargement] (2.1.5.0.exe) | [Lien de téléchargement] (2.1.5.0.exe) |
-| macOS (v2.1.4.0) | [Lien de téléchargement] (2.1.4.0.dmg) | [Lien de téléchargement] (2.1.4.0.dmg) |
-| Windows 64 bits (v2.1.4.0) | [Lien de téléchargement] (2.1.4.0.exe) | [Lien de téléchargement] (2.1.4.0.exe) |
-| Windows 32 bits (v2.1.4.0) | [Lien de téléchargement] (2.1.4.0.exe) | [Lien de téléchargement] (2.1.4.0.exe) |
-| macOS (v2.1.3.4) | [Lien de téléchargement] (2.1.3.4.dmg) | [Lien de téléchargement] (2.1.3.4.dmg) |
-| Windows 64 bits (v2.1.3.4) | [Lien de téléchargement] (2.1.3.4.exe) | [Lien de téléchargement] (2.1.3.4.exe) |
-| Windows 32 bits (v2.1.3.1) | [Lien de téléchargement] (2.1.3.1.exe) | [Lien de téléchargement] (2.1.3.1.exe) |
+| macOS (v2.1.5.0) | [Lien de téléchargement](2.1.5.0.dmg) | [Lien de téléchargement](2.1.5.0.dmg) |
+| Windows 64 bits (v2.1.5.0) | [Lien de téléchargement](2.1.5.0.exe) | [Lien de téléchargement](2.1.5.0.exe) |
+| Windows 32 bits (v2.1.5.0) | [Lien de téléchargement](2.1.5.0.exe) | [Lien de téléchargement](2.1.5.0.exe) |
+| macOS (v2.1.4.0) | [Lien de téléchargement](2.1.4.0.dmg) | [Lien de téléchargement](2.1.4.0.dmg) |
+| Windows 64 bits (v2.1.4.0) | [Lien de téléchargement](2.1.4.0.exe) | [Lien de téléchargement](2.1.4.0.exe) |
+| Windows 32 bits (v2.1.4.0) | [Lien de téléchargement](2.1.4.0.exe) | [Lien de téléchargement](2.1.4.0.exe) |
+| macOS (v2.1.3.4) | [Lien de téléchargement](2.1.3.4.dmg) | [Lien de téléchargement](2.1.3.4.dmg) |
+| Windows 64 bits (v2.1.3.4) | [Lien de téléchargement](2.1.3.4.exe) | [Lien de téléchargement](2.1.3.4.exe) |
+| Windows 32 bits (v2.1.3.1) | [Lien de téléchargement](2.1.3.1.exe) | [Lien de téléchargement](2.1.3.1.exe) |
 
 ## Prise en charge de différents types de ressources et de fichiers {#support-for-file-types}
 
-L’application prend en charge les ressources stockées dans [!DNL Experience Manager] qui représentent un fichier binaire pour ses opérations de base. L’ouverture de fichiers dans l’application de bureau native dépend de l’association du système d’exploitation des types de fichiers spécifiques (par exemple, PNG ou JPG) à des applications spécifiques (par exemple, Mac Preview ou Adobe Photoshop).
+L’application prend en charge les ressources stockées dans [!DNL Experience Manager] qui représentent un fichier binaire pour ses opérations de base. L’ouverture de fichiers dans l’application pour postes de travail native dépend de l’association du système d’exploitation des types de fichiers spécifiques (par exemple, PNG ou JPG) à des applications spécifiques (par exemple, Aperçu sur Mac ou Adobe Photoshop).
 
 Certains types de fichiers prennent en charge le placement de ressources liées dans le fichier binaire. L’application pré-télécharge les ressources liées si la ressource est présente dans le référentiel [!DNL Experience Manager] lorsque ces fichiers binaires sont ouverts à l’aide de l’appli de bureau. Les types de fichiers actuellement pris en charge sont les suivants :
 
@@ -105,9 +120,11 @@ Cette fonctionnalité est prise en charge avec les versions 2018 d’[!DNL Adob
 
 * Les chemins d’accès peuvent être associés aux ressources dans [!DNL Experience Manager]. En d’autres termes, les fichiers placés se trouvent également dans [!DNL Experience Manager] sous un chemin d’accès correspondant.
 
-## Nouvelles fonctionnalités, améliorations et corrections de bogues {#what-is-new}
+## Nouvelles fonctionnalités, améliorations et corrections de bugs {#what-is-new}
 
-Pour en savoir plus, voir [Nouveautés de la version 3.0.2](introduction.md#whats-new-v2).
+### Mises à jour dans la version 3.0.2 de l’application {#app-version-3.0.2}
+
+Cette version de l’appli de bureau version 3.0.2 comprend des correctifs pour améliorer la stabilité globale et les performances de l’application.
 
 ### Mises à jour dans la version 3.0.1 de l’application {#app-version-3.0.1}
 
@@ -189,7 +206,7 @@ Cette version offre plusieurs améliorations des fonctions Collections, Chargeme
 
 ### Mises à jour dans la version v2.3.0 de l’application {#app-version-2.3.0}
 
-* Ajout de la prise en charge de la connexion IMS. L’intégration IMS permet à l’application de bureau d’effectuer automatiquement l’actualisation du jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum.
+* Ajout de la prise en charge de l’authentification IMS. L’intégration IMS permet à l’application de bureau d’effectuer automatiquement l’actualisation du jeton d’accès, ce qui permet à l’utilisateur de rester connecté pendant 14 jours au maximum.
 
 * Amélioration de la prise en charge des proxies d’entreprise et du filtrage web.
 
@@ -219,23 +236,23 @@ Cette version offre plusieurs améliorations des fonctions Collections, Chargeme
 
 ### Mises à jour dans la version v2.1.4.0 de l’application {#app-version-2.1.4.0}
 
-La nouvelle version de l’application inclut des correctifs de bugs.
+La nouvelle version de l’application inclut des correctifs de bug.
 
 ### Mises à jour dans la version v2.1.3.4 de l’application {#app-version-2.1.3.4}
 
-La nouvelle version de l’application inclut un correctif de bogue.
+La nouvelle version de l’application inclut un correctif de bug.
 
 ### Mises à jour dans la version v2.1.3.3 de l’application {#app-version-2.1.3.3}
 
-La nouvelle version de l’application inclut un correctif de bogue.
+La nouvelle version de l’application inclut un correctif de bug.
 
 ### Mises à jour dans la version v2.1.3.2 de l’application {#app-version-2.1.3.2}
 
-Cette version de l’application inclut un correctif de bogue.
+Cette version de l’application inclut un correctif de bug.
 
 ### Mises à jour dans la version v2.1.3.1 de l’application {#app-version-2.1.3.1}
 
-Le bogue corrigé dans cette version est le suivant :
+Le bug corrigé dans cette version est :
 
 * Les vitesses de chargement et de téléchargement des ressources ont été améliorées, même pour les ressources volumineuses. Cette version a corrigé un problème en raison duquel les chargements de ressources avec le [!DNL desktop app] échouaient parfois lorsque des fichiers très volumineux étaient chargés.
 
@@ -253,19 +270,19 @@ Le bogue corrigé dans cette version est le suivant :
 
 ### Mises à jour dans la version v2.1.0.0 de l’application {#app-version-2.1.0.0}
 
-* Pour charger des ressources, les utilisateurs peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Ce processus fonctionne en plus de l’option de chargement disponible dans l’application. Consultez [Chargement de ressources](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* Pour charger des ressources, les utilisateurs et utilisatrices peuvent désormais faire glisser les fichiers ou les dossiers sur l’interface de l’application, directement depuis l’Explorateur Windows ou le Finder Mac. Ce processus fonctionne en plus de l’option de chargement disponible dans l’application. Consultez [Chargement de ressources](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 ### Mises à jour dans la version v2.0.3 de l’application {#app-version-2.0.3}
 
-Le bogue corrigé dans cette version est le suivant :
+Le bug corrigé dans cette version est :
 
 * Correction d’un problème de connexion pour les utilisateurs de l’application sous Windows qui tentaient d’accéder au référentiel de gestion des ressources numériques sur [!DNL Adobe Experience Manager] 6.5.5.0.
 
 ### Mises à jour dans la version v2.0.2 de l’application {#app-version-2.0.2}
 
-Les correctifs de bogues et mises à jour sont les suivants :
+Les correctifs de bug et les mises à jour sont les suivants :
 
-* Le paramètre d’accélération des chargements est désormais disponible pour améliorer les performances de chargement. Lorsque ce paramètre est activé, l’application charge plus rapidement en utilisant davantage de threads de CPU locaux et de ressources.
+* Le paramètre d’accélération des chargements est désormais disponible pour améliorer les performances de chargement. Lorsque ce paramètre est activé, l’application télécharge les données plus rapidement en utilisant davantage de threads de CPU locaux, ce qui la rend plus gourmande en ressources.
 
 * Le chargement de ressources dont les noms de fichier ou les chemins d’accès contiennent certains caractères GB18030 a été résolu. <!-- CQ-4283494 -->
 
@@ -277,7 +294,7 @@ Les correctifs de bogues et mises à jour sont les suivants :
 
 ### Mises à jour dans la version v2.0.1 de l’application {#app-version-2.0.1}
 
-Les correctifs de bogues et mises à jour sont les suivants :
+Les correctifs de bug et les mises à jour sont les suivants :
 
 * Option permettant de configurer le répertoire `%Temp%` de façon à ce qu’il corresponde au chemin d’accès à `%APPDATA%`. <!-- CQ-4282665 -->
 
@@ -295,13 +312,13 @@ Il est important de comprendre ce qui suit à propos de l’application et de so
 
 * L’application offre un contrôle total sur les opérations qui nécessitent un transfert complet des fichiers binaires des ressources depuis et vers [!DNL Experience Manager] (**Ouverture**, **Modification**, **Chargement des modifications** et **Chargement d’Assets**).
 
-   * Si vous souhaitez utiliser la ressource figurant sur le bureau, vous devez explicitement ouvrir, modifier ou télécharger sur votre bureau, que ce soit individuellement, dans un dossier ou par sélection multiple.
+  * Si vous souhaitez travailler avec la ressource sur le bureau, vous devez explicitement l’ouvrir, la modifier ou la télécharger sur votre bureau, que ce soit individuellement, dans un dossier ou par sélection multiple.
 
-   * Si vous souhaitez que les modifications locales apportées aux ressources soient chargées dans [!DNL Experience Manager], vous devez sélectionner [!UICONTROL Upload Changes], individuellement ou par sélection multiple.
+  * Si vous souhaitez que les modifications locales apportées aux ressources soient chargées dans [!DNL Experience Manager], vous devez sélectionner [!UICONTROL Upload Changes], individuellement ou par sélection multiple.
 
-   * L’application n’est pas un client de synchronisation qui synchronise les ressources sur le bureau et [!DNL Experience Manager].
+  * L’application n’est pas un client de synchronisation qui synchronise les ressources sur le bureau et [!DNL Experience Manager].
 
-   * L’application ne fournit pas de partage réseau qui mappe le référentiel [!DNL Experience Manager] en tant que structure de dossiers virtuelle.
+  * L’application ne fournit pas de partage réseau qui mappe le référentiel [!DNL Experience Manager] en tant que structure de dossiers virtuelle.
 
 * La liste des ressources affichées par l’application est basée sur le statut du référentiel Assets. Les fichiers téléchargés localement puis renommés dans les fichiers locaux ou le dossier de cache ne sont pas affichés ni gérés avec l’application.
 
@@ -311,7 +328,7 @@ Il est important de comprendre ce qui suit à propos de l’application et de so
 
 * Le partage réseau local SMB (Mac)/WebDAV (Windows) est utilisé lorsqu’une application Adobe Creative Cloud lit les fichiers de ressources liés ou placés dans un fichier natif de l’application Creative Cloud.
 
-Le diagramme suivant illustre le flux de ressources et de fichiers allant du cloud au système de fichiers local et vice versa, tel qu’il est initié par les actions de l’utilisateur.
+Le diagramme suivant illustre le flux de ressources et de fichiers allant du cloud au système de fichiers local et vice versa, tel qu’il est initié par les actions de l’utilisateur ou de l’utilisatrice.
 
 ![Flux de ressources allant du serveur [!DNL Experience Manager] aux applications de bureau natives via l’appli de bureau](assets/da20_flow_diagram.png)
 
@@ -319,7 +336,7 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 
 **Problèmes liés à l’interface utilisateur :**
 
-* Parfois, l’interface de l’appli de bureau peut devenir vide. Cliquez avec le bouton droit, puis cliquez sur [!UICONTROL Refresh] pour recharger l’application. Après une telle actualisation, vous démarrez à la racine du référentiel DAM. Les mises à jour ou les états de vos ressources sont conservés. <!-- CQ-4270267 -->
+* Parfois, l’interface de l’application de bureau peut devenir vide. Cliquez avec le bouton droit, puis cliquez sur [!UICONTROL Refresh] pour recharger l’application. Après une telle actualisation, vous démarrez à la racine du référentiel DAM. Les mises à jour ou les états de vos ressources sont conservés. <!-- CQ-4270267 -->
 
 * Difficulté à parcourir les dossiers / résultats de recherche sans pavé de navigation ou pointeur de souris. La barre de défilement n’apparaît pas avec les souris sans molette. <!-- CQ-4269947 -->
 
@@ -343,6 +360,6 @@ Le diagramme suivant illustre le flux de ressources et de fichiers allant du clo
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service)
 >* Documentation [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets]](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/overview)
->* [Comment utiliser l’appli de bureau [!DNL Experience Manager] &#x200B;](using-desktop-app.md)
+>* [Comment utiliser l’appli de bureau [!DNL Experience Manager] ](using-desktop-app.md)
 >* [Installation et mise à niveau d’une appli de bureau](install-upgrade.md)
 >* [Bonnes pratiques et résolution des problèmes](troubleshoot.md)
