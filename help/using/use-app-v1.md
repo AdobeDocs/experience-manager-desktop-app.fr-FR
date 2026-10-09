@@ -1,26 +1,32 @@
 ---
-title: Utilisation de l’appli de bureau [!DNL Experience Manager] version 1.10.
-description: Découvrez comment utiliser l’appli de bureau Adobe Experience Manager version 1.10 et optimiser votre utilisation des ressources du bureau.
+title: Utilisez l’appli de bureau [!DNL Experience Manager] version 1.10.
+description: Découvrez comment utiliser l’application de bureau Adobe Experience Manager version 1.10 et optimiser votre travail avec les ressources sur ordinateur.
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+TQID: 'https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: '2359'
 ht-degree: 69%
-
 ---
-
 # Utilisation de l’appli de bureau [!DNL Experience Manager] v1.10 {#use-aem-desktop-app-v1x}
 
 Grâce à l’appli, les ressources d’[!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Les ressources sont aisément affichées dans le Finder de Mac ou l’Explorateur Windows, ouvertes dans des applications de bureau et modifiées localement ; les modifications sont réenregistrées dans [!DNL Experience Manager] avec une nouvelle version créée dans le référentiel.
@@ -29,7 +35,7 @@ Cette intégration permet une gestion et un accès centralisés aux ressources d
 
 L’appli de bureau [!DNL Experience Manager] v1 vous permet d’effectuer les tâches clés suivantes :
 
-1. [Connexion avec un serveur [!DNL Experience Manager] &#x200B;](#installandconnect)
+1. [Connexion avec un serveur [!DNL Experience Manager] ](#installandconnect)
 1. [Ouvrir des ressources directement sur l’application de bureau](#openondesktop)
 1. [Modification et extraction de ressources à partir de l’application de bureau](#workonassets)
 1. [Chargement en masse de ressources et de dossiers](#bulkupload)
@@ -54,7 +60,7 @@ Pour pouvoir commencer à créer ou modifier les ressources de création, connec
 
 1. [Installez l’application](#installapp).
 1. [Définissez vos préférences](#inapppref) et vos informations de connexion.
-1. [Connectez-vous à un serveur [!DNL Experience Manager] &#x200B;](#connect)et montez le référentiel de ressources comme lecteur local.
+1. [Connectez-vous à un serveur [!DNL Experience Manager] ](#connect)et montez le référentiel de ressources comme lecteur local.
 1. [Activer les actions de bureau](#desktopactions) sur le serveur [!DNL Experience Manager].
 
 L’application de bureau [!DNL Experience Manager] utilise une connexion HTTPS pour se connecter au serveur [!DNL Experience Manager] afin de transférer vos ressources de manière robuste et sécurisée.
@@ -67,10 +73,10 @@ L’application de bureau [!DNL Experience Manager] utilise une connexion HTTPS 
 
 Assurez-vous que l’application prend en charge votre version du serveur Experience Manager pour utiliser l’application de bureau Experience Manager. Téléchargez le fichier d’installation approprié (binaire) pour votre système d’exploitation (Mac ou Windows) et installez ensuite l’application.
 
-Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau [!DNL Experience Manager] &#x200B;](install-configure-app-v1.md).
+Une configuration détaillée peut s’avérer nécessaire en fonction des préférences de votre système et de votre réseau. Pour plus d’informations, voir [Installation et configuration de l’appli de bureau [!DNL Experience Manager] ](install-configure-app-v1.md).
 
 1. Rendez-vous sur la page de téléchargement de l’appli de bureau [[!DNL Experience Manager] v1.10](/help/using/release-notes-of-v1.md) et téléchargez le fichier binaire approprié pour votre système d’exploitation.
-1. Exécutez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
+1. Ouvrez le fichier d’installation téléchargé et suivez les instructions affichées à l’écran pour installer l’application.
 
    >[!NOTE]
    >
@@ -78,7 +84,7 @@ Une configuration détaillée peut s’avérer nécessaire en fonction des préf
 
 ### Présentation des options et des préférences dans l’application {#inapppref}
 
-L’application autorise les paramètres de connexion et de déconnexion des serveurs [!DNL Experience Manager], d’affichage de l’état des chargements, de gestion du cache local, etc. Les paramètres par défaut sont opérationnels pour un utilisateur ordinaire de l’application. Vous pouvez ajuster les paramètres pour tirer le meilleur parti de l’application. Tirez également le meilleur parti de l’intégration au serveur [!DNL Experience Manager]. Les différents paramètres sont les suivants :
+L’application autorise les paramètres de connexion et de déconnexion des serveurs [!DNL Experience Manager], d’affichage de l’état des chargements, de gestion du cache local, etc. Les paramètres par défaut conviennent à un utilisateur ou une utilisatrice ordinaire de l’application. Vous pouvez ajuster les paramètres pour tirer le meilleur parti de l’application. Tirez également le meilleur parti de l’intégration au serveur [!DNL Experience Manager]. Les différents paramètres sont les suivants :
 
 **Explore Assets (Explorer les ressources)** Ouvrez le lecteur local sur lequel est monté le référentiel [!DNL Assets]. En d’autres termes, explorez les ressources qui sont désormais disponibles sur votre ordinateur local.
 
@@ -106,7 +112,7 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
 ### Activation des actions de bureau dans l’interface Web d’[!DNL Experience Manager] {#desktopactions}
 
-À partir de l’interface utilisateur Assets, vous pouvez explorer l’emplacement des ressources ou extraire une ressource et l’ouvrir afin de la modifier dans votre appli de bureau. Ces options, appelées actions de bureau, ne sont pas activées par défaut. Procédez comme suit pour les activer.
+À partir de l’interface utilisateur Assets, vous pouvez explorer l’emplacement des ressources ou extraire une ressource et l’ouvrir afin de la modifier dans votre appli de bureau. Ces options, appelées actions de bureau, ne sont pas activées par défaut. Procédez comme suit pour l’activer.
 
 1. Dans l’interface Assets, cliquez/appuyez sur l’icône Utilisateur dans le coin supérieur droit de la barre d’outils.
 1. Cliquez sur **[!UICONTROL My Preferences]** pour afficher la boîte de dialogue **[!UICONTROL Preferences]**.
@@ -119,9 +125,9 @@ L’application prend en charge la configuration du proxy sous Mac et Windows. L
 
    *Figure : cochez la case [!UICONTROL Show Desktop Actions For Assets] pour activer les actions de bureau.*
 
-## Accès aux ressources et ouverture de ces éléments sur votre bureau {#openondesktop}
+## Accéder aux ressources et les ouvrir sur votre bureau {#openondesktop}
 
-Lorsque vous cliquez sur **Ouvrir** pour ouvrir une ressource sur votre ordinateur local, l’application télécharge la ressource dans son cache interne. L’application lance l’appli de bureau native associée au type de fichier de la ressource téléchargée.
+Lorsque vous cliquez sur **Ouvrir** pour ouvrir une ressource sur votre ordinateur local, l’application télécharge la ressource dans son cache interne. L’application lance l’application pour postes de travail native associée au type de fichier de la ressource téléchargée.
 
 Sur Mac, sélectionnez **Ouvrir** dans le menu contextuel pour ouvrir une ressource via l’application de bureau [!DNL Experience Manager]. Sous Windows, sélectionnez Ouvrir sur le web dans le menu contextuel pour ouvrir la ressource. Dans la fenêtre Asset Status (Statut de la ressource), cliquez/appuyez sur ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png) pour ouvrir la ressource.
 
@@ -153,27 +159,27 @@ Après avoir mappé le référentiel [!DNL Assets] sur votre lecteur local, vous
 
 Pour localiser la ressource sur votre système de fichiers local, cliquez sur l’action rapide **Afficher** ![icône Afficher](assets/do-not-localize/aemassets_reveal_icon.png). Vous pouvez également sélectionner **Afficher** dans le menu **Actions sur le Bureau** de la barre d’outils.
 
-## Explication des états des ressources {#understand-the-asset-statuses}
+## Comprendre les états des ressources {#understand-the-asset-statuses}
 
 | ![Icône de l’appli par défaut Windows](assets/do-not-localize/win_default.png) | L’application est connectée au serveur et toutes les ressources sont synchronisées. |
 | --- |--- |
 | ![Icône de l’appli Windows désactivée](assets/do-not-localize/win_disabled.png) | L’application est lancée, mais n’est pas connectée au serveur. Certaines ressources peuvent être en attente de synchronisation. |
-| ![Icône de synchronisation des fichiers Windows](assets/do-not-localize/win_sync.png) | Les ressources sont en cours de synchronisation. Les fichiers sont en cours de chargement ou téléchargés. Vous pouvez afficher les statuts précis et suspendre les transferts dans la fenêtre Asset Status (Statut de la ressource). |
+| ![Icône de synchronisation des fichiers Windows](assets/do-not-localize/win_sync.png) | Les ressources sont en cours de synchronisation. Les fichiers sont en cours de chargement ou de téléchargement. Vous pouvez afficher les statuts précis et suspendre les transferts dans la fenêtre Statut de la ressource. |
 | ![Icône de reconnexion Windows](assets/do-not-localize/win_refresh.png) | L’application effectue une tentative de reconnexion. Les problèmes réseau peuvent entraîner sa déconnexion. |
 
-## Utilisation de vos ressources {#workonassets}
+## Travailler sur vos ressources {#workonassets}
 
 ### Extraction de ressources à partir de l’interface web d’[!DNL Experience Manager] {#check-out-assets-from-the-aem-web-interface}
 
 [!DNL Experience Manager Assets] permet d’extraire des ressources pour les modifier et de les archiver à nouveau après y avoir apporté des modifications. Une fois la ressource extraite, vous êtes la seule personne à pouvoir la modifier, l’annoter, la publier, la déplacer ou la supprimer. Le fait d’extraire une ressource entraîne son verrouillage et empêche les autres utilisateurs d’effectuer l’une de ces opérations. Vous avez besoin d’un accès en écriture à ces ressources pour être en mesure de les extraire ou de les archiver.
 
-Pour extraire des ressources à partir de l’interface web d’[!DNL Experience Manager], deux méthodes sont possibles. Pour plus d’informations sur la première méthode, reportez-vous à la section [Archivage et extraction de fichiers à partir de l’interface utilisateur d’Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Pour les deuxièmes méthodes d’extraction et d’ouverture de la ressource lors de l’installation de l’application de bureau [!DNL Experience Manager], procédez comme suit.
+Pour extraire des ressources à partir de l’interface web d’[!DNL Experience Manager], deux méthodes sont possibles. Pour plus d’informations sur la première méthode, reportez-vous à la section [Archivage et extraction de fichiers à partir de l’interface utilisateur d’Assets](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Pour les deuxièmes méthodes d’extraction et d’ouverture de la ressource lors de l’installation de l’application de bureau [!DNL Experience Manager], procédez comme suit.
 
 1. Ouvrez l’interface d’[!DNL Assets] et placez le pointeur sur un dossier ou une ressource afin d’afficher les actions de bureau sous la forme d’actions rapides dans le mode Carte.
 
    ![Option des propriétés dans le mode Carte](assets/desktop_actions_in_card_view.png)
 
-   Ces actions de bureau sont également disponibles lorsque vous cliquez/appuyez sur l’icône Desktop Actions (Actions sur le Bureau) dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
+   Ces actions de bureau sont également disponibles lorsque vous cliquez/appuyez sur l’icône Actions sur le Bureau dans la barre d’outils après la sélection de la ressource ou dans la barre d’outils de la page de la ressource.
 
 1. Pour ouvrir la ressource, cliquez/appuyez sur l’action rapide Open on desktop (Ouvrir sur le Bureau) ![Icône Open on Desktop](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
@@ -185,10 +191,10 @@ Pour extraire des ressources à partir de l’interface web d’[!DNL Experience
 
 1. Pour ouvrir une ressource à modifier dans une application Adobe Creative Cloud, cliquez sur ![icône Modifier le bureau](assets/do-not-localize/aemassets_icon_editdesktop.png). Cette option extrait également la ressource pour modification. Après avoir procédé aux modifications, archivez la ressource pour mettre à jour les modifications dans [!DNL Assets].
 
-   Vous pouvez également sélectionner Edit (Modifier) dans le menu Desktop Actions (Actions sur le Bureau) de la barre d’outils.
+   Vous pouvez également sélectionner Modifier dans le menu Actions sur le Bureau de la barre d’outils.
 
 1. Sélectionnez l’option de menu Open (Ouvrir). Les ressources sélectionnées sont ouvertes en mode d’aperçu.
-1. Pour modifier les ressources, sélectionnez l’option Edit (Modifier). Les ressources sont ouvertes en mode d’édition.
+1. Pour modifier les ressources, sélectionnez l’option Modifier. Les ressources sont ouvertes en mode d’édition.
 
 ### Extraction de ressources à partir de l’outil de recherche sur macOS {#check-out-assets-on-mac}
 
@@ -202,7 +208,7 @@ L’application vous permet d’extraire des fichiers de ressource pour empêche
 
 1. Accédez à la ressource à extraire.
 1. Cliquez avec le bouton droit sur la ressource, puis choisissez More Assets Info (Plus d’infos sur la ressource) dans le menu contextuel.
-1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Checkout (Extraire) pour extraire la ressource. L’icône Checkout (Extraire) se change en icône Check-in (Archiver) une fois que vous cliquez/appuyez dessus.
+1. Dans la boîte de dialogue Asset Info (Informations sur les ressources), cliquez/appuyez sur l’icône Checkout (Extraire) pour extraire la ressource. L’icône Checkout (Extraire) devient l’icône Check-in (Archiver) après que vous avez cliqué/appuyé dessus.
 
    ![Accès à la ressource pour l’extraire](assets/browse_assets_to_checkout.png)
 
@@ -212,7 +218,7 @@ L’application vous permet d’extraire des fichiers de ressource pour empêche
 
 L’application vous permet d’extraire des fichiers de ressource pour empêcher d’autres utilisateurs de modifier les fichiers sur lesquels vous travaillez.
 
-1. Dans le menu contextuel, sélectionnez Explorer les ressources pour ouvrir l’Explorateur.
+1. Dans le menu contextuel, sélectionnez l’option Explorer les ressources pour ouvrir l’Explorateur.
 1. Dans l’Explorateur, accédez à l’emplacement de la ressource à extraire.
 1. Cliquez avec le bouton droit de la souris sur la ressource et sélectionnez Ouvrir sur le Web dans le menu contextuel.
 1. Dans la boîte de dialogue Informations sur les ressources, cliquez sur l’icône Extraire . L’icône Extraire passe en icône d’archivage.
@@ -259,4 +265,4 @@ Vous pouvez également sélectionner des fichiers/dossiers dans le Finder ou l�
 
 >[!MORELIKETHIS]
 >
->* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] &#x200B;](troubleshoot-app-v1.md)
+>* [Résolution des problèmes liés à l’appli de bureau [!DNL Experience Manager] ](troubleshoot-app-v1.md)

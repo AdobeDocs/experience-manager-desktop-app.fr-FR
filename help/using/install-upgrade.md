@@ -1,26 +1,34 @@
 ---
 title: Installation et configuration de l’appli de bureau
-description: Installez et configurez l’application de bureau  [!DNL Adobe Experience Manager] pour travailler avec les serveurs  [!DNL Adobe Experience Manager Assets] , et téléchargez les ressources sur votre système de fichiers local.
+description: Installez et configurez [!DNL Adobe Experience Manager]’application de bureau pour qu’elle fonctionne avec les serveurs [!DNL Adobe Experience Manager Assets] et téléchargez les ressources sur votre système de fichiers local.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+TQID: 'https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
+  - id: c21ccc2b-e0c8-4853-bf41-f12259ed93f8
+    internal-label: Release information
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1546'
 ht-degree: 63%
-
 ---
-
 # Installation de l’appli de bureau [!DNL Adobe Experience Manager] {#install-app-v2}
 
 Grâce à l’appli de bureau [!DNL Adobe Experience Manager], les ressources dans [!DNL Experience Manager] sont facilement accessibles sur votre ordinateur local et peuvent être utilisées dans n’importe quelle application de bureau. Vous pouvez prévisualiser et ouvrir Assets dans les applications de bureau. Ils peuvent être affichés dans le Finder ou l’Explorateur pour être utilisés dans les documents et modifiés localement. Les modifications sont réenregistrées dans [!DNL Experience Manager], créant une nouvelle version lors du chargement.
@@ -63,7 +71,7 @@ Pour effectuer une mise à niveau à partir d’une version antérieure de l’a
 
 ## Installer {#install-v2}
 
-Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute version de l’appli de bureau [!DNL Experience Manager] Adobe v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
+Pour installer l’application de bureau, procédez comme suit. Désinstallez toute version de l’appli de bureau [!DNL Experience Manager] Adobe v1.x avant d’installer la dernière application. Pour plus d’informations, voir ci-dessus.
 
 1. Téléchargez la dernière version du programme d’installation à partir de la page des [notes de mise à jour](release-notes.md).
 
@@ -77,7 +85,7 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
 1. Sous Windows, il se peut que le programme d’installation vous invite à installer `Visual Studio C++ Redistributable 2015`. Suivez les instructions à l’écran pour l’installer. Si l’installation échoue, installez-la manuellement. [Téléchargez le programme d’installation](https://www.microsoft.com/fr-fr/download/details.aspx?id=52685) et installez les fichiers `vc_redist.x64.exe` et `vc_redist.x86.exe`. Réexécutez le programme d’installation de l’appli de bureau [!DNL Experience Manager].
 
-1. Redémarrez l&#39;ordinateur à l&#39;invite. Lancez et configurez l’application de bureau.
+1. Redémarrez l&#39;ordinateur à l&#39;invite. Ouvrez et configurez l’application de bureau.
 
 1. Pour connecter l’application à un référentiel [!DNL Experience Manager], cliquez sur l’icône de l’application dans la barre d’état pour la lancer. Indiquez l’adresse du serveur [!DNL Experience Manager] au format `https://[aem_server]:[port]/`.
 
@@ -103,13 +111,13 @@ Pour installer l’appli de bureau, procédez comme suit. Désinstallez toute ve
 
    *Figure : L’application affiche le contenu de la gestion des actifs numériques (DAM) après la connexion*
 
-1. ([!DNL Experience Manager] 6.5.1 ou une version ultérieure) Si vous utilisez l’application de bureau avec [!DNL Experience Manager] 6.5.1 ou une version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou une version ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/fr/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 ou une version ultérieure) Si vous utilisez l’application de bureau avec [!DNL Experience Manager] 6.5.1 ou une version ultérieure, mettez à niveau S3 ou le connecteur Azure vers la version 1.10.4 ou une version ultérieure. Voir [Connecteur Azure](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) ou [Connecteur S3](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Si vous êtes un client d’Adobe Managed Services (AMS), contactez le Service clientèle d’Adobe.
 
 ## Définition des préférences {#set-preferences}
 
-Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]** ![&#x200B; Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre **[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
+Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-not-localize/more_options_da2.png) puis sur **[!UICONTROL Preference]** ![ Icône Préférences](assets/do-not-localize/preferences_icon_da2.png). Dans la fenêtre **[!UICONTROL Preferences]**, ajustez les valeurs des éléments suivants :
 
 * [!UICONTROL Launch the application on logon].
 
@@ -127,7 +135,7 @@ Pour modifier les préférences, cliquez sur ![Icône Autres options](assets/do-
 
 * **[!UICONTROL Maximum number of downloads]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Lorsque vous téléchargez des ressources pour la première fois (via les options Reveal (Afficher), Open (Ouvrir), Edit (Modifier), Download (Télécharger) ou une autre option similaire), celles-ci ne sont téléchargées que si le lot contient moins de ressources que le nombre indiqué par cette valeur. La valeur par défaut est 50. Ne changez pas cette valeur si vous n’êtes pas sûr de vous. L’augmentation de la valeur peut entraîner des temps d’attente plus longs, tandis que la réduction peut vous empêcher de télécharger toutes les ressources ou tous les dossiers nécessaires en une seule tentative.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces dans les noms de dossier sont convertis en tirets. Par exemple, le chargement de `New Folder` ou de `new   folder` crée le même nœud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans l’application v2.1 est conservé. Si cette option est sélectionnée, différents nœuds sont créés dans le référentiel pour les deux dossiers ci-dessus et elle correspond au comportement de l’application v1.10.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]** : ![icône d’avertissement](assets/do-not-localize/caution-icon.png) procédez à tout changement avec précaution. Ce paramètre permet à l’application d’émuler le comportement de l’application v1.10 lors du chargement de dossiers. Dans la version 1.10, les noms de nœud créés dans le référentiel respectent les espaces et la casse des noms de dossier fournis par l’utilisateur. Cependant, dans la version 2.1 de l’application, les espaces supplémentaires dans les noms de dossier sont convertis en tirets. Par exemple, le chargement de `New Folder` ou de `new   folder` crée le même nœud dans le référentiel si l’option n’est pas sélectionnée et si le comportement par défaut dans l’application v2.1 est conservé. Si cette option est sélectionnée, différents nœuds sont créés dans le référentiel pour les deux dossiers ci-dessus et elle correspond au comportement de l’application v1.10.
 
   Le comportement par défaut de la version v2.1 reste inchangé : il remplace plusieurs espaces dans les noms de dossier par des tirets dans le nom du nœud de référentiel et convertit les noms de nœud en minuscules.
 
@@ -143,7 +151,7 @@ Pour mettre à jour les préférences non disponibles, déconnectez-vous du serv
 
 L’application de bureau [!DNL Experience Manager] utilise le proxy prédéfini du système pour se connecter à Internet via HTTPS. L’application ne peut se connecter qu’à l’aide d’un proxy réseau ne nécessitant pas d’authentification supplémentaire.
 
-Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez l’appli de bureau [!DNL Experience Manager] afin que les modifications soient prises en compte. La configuration du proxy s’applique lorsque vous lancez l’appli de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
+Si vous configurez ou modifiez les paramètres du serveur proxy pour Windows (Options Internet > Paramètres réseau), redémarrez l’appli de bureau [!DNL Experience Manager] afin que les modifications soient prises en compte. La configuration du proxy s’applique lorsque vous lancez l’application de bureau. Fermez et relancez l’application pour que les modifications prennent effet.
 
 Si votre proxy nécessite une authentification, l’équipe informatique peut autoriser l’URL d’[!DNL Experience Manager Assets] dans les paramètres du serveur proxy afin d’autoriser le trafic de l’application.
 
