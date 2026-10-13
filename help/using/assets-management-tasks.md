@@ -1,24 +1,35 @@
 ---
-title: 'Utilisation de l’appli de bureau [!DNL Experience Manager] '
-description: Utilisez l’application de bureau [!DNL Adobe Experience Manager] pour travailler avec des ressources DAM [!DNL Adobe Experience Manager] directement depuis votre bureau Windows ou Mac et les utiliser dans d’autres applications.
+title: Utilisation de l’appli de bureau [!DNL Experience Manager]
+description: Utilisez [!DNL Adobe Experience Manager]’application de bureau pour travailler avec des ressources de gestion des ressources numériques [!DNL Adobe Experience Manager] directement depuis votre bureau Windows ou Mac et les utiliser dans d’autres applications.
 feature: Desktop App,Asset Management
 exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
-TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+TQID: 'https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1438
-ht-degree: 40%
-
+source-wordcount: '1441'
+ht-degree: 39%
 ---
-
 # Tâches de gestion Assets dans [!DNL AEM Desktop App] {#assets-management-tasks}
 
 La gestion des ressources implique l’organisation, la maintenance et l’optimisation des ressources numériques afin de rationaliser les workflows. Cela inclut des tâches telles que la duplication et le changement de nom de fichiers, l’épinglage ou le détachement de dossiers pour un accès rapide, ainsi que l’affichage de ressources dans différentes dispositions. Cela permet d’améliorer l’efficacité, de simplifier le suivi des ressources et d’assurer une récupération et une organisation faciles des ressources numériques sur plusieurs plateformes.
@@ -134,7 +145,7 @@ Dans les environnements collaboratifs, plusieurs utilisateurs et utilisatrices p
 * Pour modifier une ressource, cliquez toujours sur [!UICONTROL Edit]. Cela ouvre la ressource dans l’application native et lui ajoute une icône de verrouillage pour indiquer aux autres utilisateurs que la ressource est en cours de modification.
 * Cliquez sur [!UICONTROL Toggle Check-in] si vous avez accidentellement commencé à effectuer des modifications sans cliquer sur [!UICONTROL Edit]. Cette fonctionnalité ajoute une icône de verrou à la ressource. Si vous prévoyez de modifier une ressource ultérieurement et que vous souhaitez éviter que d’autres utilisateurs la modifient, cliquez sur [!UICONTROL Toggle Check-in] pour la verrouiller.
 * Avant de modifier une ressource, vérifiez qu’elle n’est pas en train d’être modifiée par d’autres utilisateurs. Recherchez l’icône de verrouillage sur la ressource.
-* Une fois les modifications terminées, téléchargez-les toutes, puis archivez la ressource.
+* Une fois les modifications terminées, chargez-les toutes, puis archivez la ressource.
 
 ![Statuts de la modification des conflits](assets/edits_conflicts_status_da2.png "Statuts de la modification des conflits")
 
@@ -150,11 +161,11 @@ Si une ressource que vous modifiez localement est également mise à jour sur le
 
 Lorsque vous utilisez l’application de bureau [!DNL Experience Manager] pour ouvrir des fichiers avec des ressources liées, les ressources sont prétéléchargées et apparaissent placées dans les applications natives. Pour que ce processus fonctionne, votre application native doit prendre en charge le placement de liens dans des ressources locales et [!DNL Experience Manager] doit prendre en charge la résolution de ces liens dans les fichiers binaires vers des références côté serveur.
 
-L’appli de bureau [!DNL Experience Manager] prend en charge ce processus avec quelques applications de bureau et formats de fichier Adobe Creative Cloud (Adobe InDesign, Adobe Illustrator et Adobe Photoshop). Le processus vous permet d’utiliser efficacement les fichiers Creative Cloud pris en charge. Si l’utilisateur A ajoute des ressources à un fichier InDesign et les consigne dans [!DNL Experience Manager], l’utilisateur B peut voir les ressources du fichier même si elles ne font pas partie de celui-ci. Les ressources sont téléchargées localement sur l’ordinateur de l’utilisateur B.
+L’appli de bureau [!DNL Experience Manager] prend en charge ce processus avec quelques applications de bureau et formats de fichier Adobe Creative Cloud (Adobe InDesign, Adobe Illustrator et Adobe Photoshop). Le workflow vous permet d’utiliser efficacement les fichiers Creative Cloud pris en charge. Si l’utilisateur A ajoute des ressources à un fichier InDesign et les consigne dans [!DNL Experience Manager], l’utilisateur B peut voir les ressources du fichier même si elles ne font pas partie de celui-ci. Les ressources sont téléchargées localement sur l’ordinateur de l’utilisateur B.
 
 >[!NOTE]
 >
->L’appli de bureau peut mapper sur n’importe quel lecteur sous Windows. Toutefois, pour un fonctionnement harmonieux, ne changez pas la lettre de lecteur par défaut. Si les utilisateurs d’une même organisation utilisent des lettres de lecteur différentes, ils ne peuvent pas voir les ressources placées par d’autres utilisateurs. Les ressources placées ne sont pas récupérées lorsque le chemin d’accès change. Les ressources placées demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées.
+>L’application de bureau peut mapper sur n’importe quel lecteur sous Windows. Toutefois, pour un fonctionnement harmonieux, ne changez pas la lettre de lecteur par défaut. Si les utilisateurs d’une même organisation utilisent des lettres de lecteur différentes, ils ne peuvent pas voir les ressources placées par d’autres utilisateurs. Les ressources placées ne sont pas récupérées lorsque le chemin d’accès change. Les ressources placées demeurent placées dans le fichier binaire (par exemple, INDD) et ne sont pas supprimées.
 
 Pour connaître les limites de ce processus, voir la [configuration requise et les versions prises en charge](release-notes.md).
 
@@ -169,7 +180,7 @@ Pour tester ce processus avec une ressource d’image et InDesign, procédez com
 
 ## Étapes suivantes {#next-steps}
 
-* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager .](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Regardez une vidéo pour commencer à utiliser l’application de bureau Adobe Experience Manager .](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * Faites des commentaires sur la documentation en utilisant [!UICONTROL Edit this page] ![modifier la page](assets/do-not-localize/edit-page.png) ou [!UICONTROL Log an issue] ![créer un problème GitHub](assets/do-not-localize/github-issue.png) disponible dans la barre latérale droite.
 
